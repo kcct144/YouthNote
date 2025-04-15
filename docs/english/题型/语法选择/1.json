@@ -1,0 +1,7 @@
+[{
+    index: '1', 
+    options: ['A.Nice', 'B.Nicely', 'C.Nicer'],
+    answer: 'A',
+    point: '形容词',explanation: 'Nice“好的”,形容词；Nicely“好地”,副词；Nicer“更好的”,形容词比较级。 Nice to meet you.是固定口语用法，故选A。'
+},
+]
