@@ -14,7 +14,7 @@
         {{ index + 1 }}
       </div>
     </div>
-    <Transition name="fade">
+    <Transition name="fade" mode="out-in">
       <div :key="curIndex" class="question-content">
         <!-- 题干 -->
         <div class="stem">

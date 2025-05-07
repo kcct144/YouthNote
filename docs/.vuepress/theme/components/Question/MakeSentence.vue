@@ -15,7 +15,7 @@
       </div>
     </div>
 
-    <Transition name="fade" mode="out-in">
+    <Transition name="fade">
       <div :key="curIndex" class="question-content">
         <!-- 题干 -->
         <div class="stem">
@@ -79,7 +79,8 @@ import { ref, computed, reactive, nextTick } from "vue"
 
 interface FillInBlankQuestion {
   stem: string | string[] // 题干，可能包含 {{1}}, {{2}} 这样的占位符
-  answer: string[] // 正确答案数组，对应每个空格
+  options: string[] //可选词
+  answer: string // 正确句子
   explanation: string // 解析
   isFinish?: boolean // 是否已完成
   isCorrect?: boolean // 是否正确
