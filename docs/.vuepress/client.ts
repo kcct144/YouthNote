@@ -7,9 +7,6 @@ import { defineClientConfig } from "vuepress/client";
 // import CustomComponent from './theme/components/Custom.vue'
 import ControlButtons from "./theme/components/Question/ControlButtons.vue";
 import QuestionContainer from "./theme/components/Question/QuestionContainer.vue";
-import GrammarSelection from "./theme/components/GrammarSelection.vue";
-import PassageBlank from "./theme/components/PassageBlank.vue";
-import KeyWords from "./theme/components/KeyWords.vue";
 import ElementPlus from "element-plus";
 import "element-plus/dist/index.css";
 import "./theme/styles/custom.css";
@@ -27,9 +24,6 @@ export default defineClientConfig({
     // app.component('CustomComponent', CustomComponent)
     app.component("ControlButtons", ControlButtons);
     app.component("QuestionContainer", QuestionContainer);
-    app.component("GrammarSelection", GrammarSelection);
-    app.component("PassageBlank", PassageBlank);
-    app.component("KeyWords", KeyWords);
     app.component("MultipleChoice", MultipleChoice);
     app.component("FillIn", FillIn);
     app.use(ElementPlus);
