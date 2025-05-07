@@ -15,19 +15,13 @@
       </div>
     </div>
     <Transition name="fade">
-      <div
-        :key="curIndex"
-        class="question-content"
-      >
+      <div :key="curIndex" class="question-content">
         <!-- 题干 -->
         <div class="stem">
           <!-- <div class="number">{{ curIndex + 1 }}.</div> -->
           <div class="content">
             <template v-if="Array.isArray(curQuestion.stem)">
-              <div
-                v-for="(line, idx) in curQuestion.stem"
-                :key="idx"
-              >
+              <div v-for="(line, idx) in curQuestion.stem" :key="idx">
                 {{ line }}
               </div>
             </template>
@@ -53,7 +47,7 @@
                   curQuestion.answer !== option,
               },
             ]"
-            @click="selectOption(option)"
+            @click="isOptionSelectable ? selectOption(option) : null"
           >
             {{ toLetter(index) }}. {{ option }}
           </div>
@@ -64,23 +58,15 @@
     <!-- 控制按钮 -->
     <div class="control">
       <el-button @click="prev">上一题</el-button>
-      <el-button @click="next">下一题</el-button>
-      <el-button
-        type="primary"
-        @click="submit"
-        >提交</el-button
+      <el-button @click="next" :disabled="!curQuestion.isFinish"
+        >下一题</el-button
       >
+      <el-button type="primary" @click="submit">提交</el-button>
     </div>
     <Transition name="slide">
-      <div
-        v-show="curQuestion.isFinish"
-        class="explain"
-      >
+      <div v-show="curQuestion.isFinish" class="explain">
         <!-- 解析区域 -->
-        <div
-          v-if="curQuestion.isFinish"
-          class="explain"
-        >
+        <div v-if="curQuestion.isFinish" class="explain">
           <div class="content">{{ curQuestion.explanation }}</div>
         </div>
       </div>
@@ -89,21 +75,21 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, reactive } from "vue";
+import { ref, computed, reactive } from "vue"
 
 interface MultipleChoiceQuestion {
-  stem: string | string[];
-  options: string[];
-  answer: string;
-  explanation: string;
-  isFinish?: boolean;
-  isCorrect?: boolean;
-  userAnswer: string | null;
+  stem: string | string[]
+  options: string[]
+  answer: string
+  explanation: string
+  isFinish?: boolean
+  isCorrect?: boolean
+  userAnswer: string | null
 }
 
 const props = defineProps<{
-  questions: MultipleChoiceQuestion[];
-}>();
+  questions: MultipleChoiceQuestion[]
+}>()
 
 // 响应式存储每道题的数据
 const initializedQuestions = reactive(
@@ -113,46 +99,46 @@ const initializedQuestions = reactive(
     isCorrect: q.isCorrect ?? false,
     userAnswer: q.userAnswer ?? null,
   }))
-);
+)
 
-const curIndex = ref(0);
-const curQuestion = computed(() => initializedQuestions[curIndex.value]);
-
+const curIndex = ref(0)
+const curQuestion = computed(() => initializedQuestions[curIndex.value])
+const isOptionSelectable = computed(() => !curQuestion.value.isFinish)
 // 导航点击
 const handleNavClick = (index: number) => {
-  curIndex.value = index;
-};
+  curIndex.value = index
+}
 
 // 选择答案
 const selectOption = (option: string) => {
-  curQuestion.value.userAnswer = option;
-};
+  curQuestion.value.userAnswer = option
+}
 
 // 上一题
 const prev = () => {
-  if (curIndex.value > 0) curIndex.value--;
-};
+  if (curIndex.value > 0) curIndex.value--
+}
 
 // 下一题
 const next = () => {
-  if (curIndex.value < initializedQuestions.length - 1) curIndex.value++;
-};
+  if (curIndex.value < initializedQuestions.length - 1) curIndex.value++
+}
 
 // 提交答案
 const submit = () => {
-  const q = curQuestion.value;
-  q.isFinish = true;
-  q.isCorrect = q.userAnswer === q.answer;
-};
+  const q = curQuestion.value
+  q.isFinish = true
+  q.isCorrect = q.userAnswer === q.answer
+}
 
 // 生成索引数组用于导航
 const indexArr = computed(() => {
-  return Array.from({ length: initializedQuestions.length }, (_, i) => i);
-});
+  return Array.from({ length: initializedQuestions.length }, (_, i) => i)
+})
 // 转换索引为字母
 const toLetter = (index: number): string => {
-  return String.fromCharCode(65 + index); // ASCII 'A' 是 65
-};
+  return String.fromCharCode(65 + index) // ASCII 'A' 是 65
+}
 </script>
 
 <style scoped>

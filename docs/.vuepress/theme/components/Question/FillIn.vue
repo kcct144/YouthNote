@@ -45,6 +45,7 @@
                         curQuestion.answer[part.index],
                   }"
                   v-model="curQuestion.userAnswer[part.index]"
+                  :disabled="curQuestion.isFinish"
                   ref="inputRefs"
                 />
               </span>
@@ -57,7 +58,7 @@
     <!-- 控制按钮 -->
     <div class="control">
       <el-button @click="prev">上一题</el-button>
-      <el-button @click="next">下一题</el-button>
+      <el-button @click="next" :disabled="!curQuestion.isFinish">下一题</el-button>
       <el-button
         type="primary"
         @click="submit"
