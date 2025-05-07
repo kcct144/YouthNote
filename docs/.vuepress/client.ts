@@ -13,6 +13,8 @@ import KeyWords from "./theme/components/KeyWords.vue";
 import ElementPlus from "element-plus";
 import "element-plus/dist/index.css";
 import "./theme/styles/custom.css";
+import MultipleChoice from "./theme/components/Question/MultipleChoice.vue";
+import FillIn from "./theme/components/Question/FillIn.vue";
 
 export default defineClientConfig({
   enhance({ app }) {
@@ -28,6 +30,8 @@ export default defineClientConfig({
     app.component("GrammarSelection", GrammarSelection);
     app.component("PassageBlank", PassageBlank);
     app.component("KeyWords", KeyWords);
+    app.component("MultipleChoice", MultipleChoice);
+    app.component("FillIn", FillIn);
     app.use(ElementPlus);
   },
 });
