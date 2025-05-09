@@ -5,13 +5,12 @@ import { defineClientConfig } from "vuepress/client";
 // import Swiper from 'vuepress-theme-plume/features/Swiper.vue'
 
 // import CustomComponent from './theme/components/Custom.vue'
-import ControlButtons from "./theme/components/Question/ControlButtons.vue";
-import QuestionContainer from "./theme/components/Question/QuestionContainer.vue";
 import ElementPlus from "element-plus";
 import "element-plus/dist/index.css";
 import "./theme/styles/custom.css";
 import MultipleChoice from "./theme/components/Question/MultipleChoice.vue";
 import FillIn from "./theme/components/Question/FillIn.vue";
+import MakeSentence from "./theme/components/Question/MakeSentence.vue";
 
 export default defineClientConfig({
   enhance({ app }) {
@@ -22,9 +21,8 @@ export default defineClientConfig({
     // app.component('Swiper', Swiper) // you should install `swiper`
     // your custom components
     // app.component('CustomComponent', CustomComponent)
-    app.component("ControlButtons", ControlButtons);
-    app.component("QuestionContainer", QuestionContainer);
     app.component("MultipleChoice", MultipleChoice);
+    app.component("MakeSentence", MakeSentence);
     app.component("FillIn", FillIn);
     app.use(ElementPlus);
   },

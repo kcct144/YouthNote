@@ -5,7 +5,7 @@
       <div
         v-for="(item, index) in indexArr"
         :key="index"
-        :class="['box', { active: curIndex === index }]"
+        :class="['nav-box', { active: curIndex === index }]"
         @click="handleNavClick(index)"
         tabindex="0"
         role="button"
@@ -14,43 +14,64 @@
         {{ index + 1 }}
       </div>
     </div>
-
-    <Transition name="fade">
-      <div :key="curIndex" class="question-content">
+    <Transition
+      name="fade"
+      mode="out-in"
+    >
+      <div
+        :key="curIndex"
+        class="question-content"
+      >
         <!-- 题干 -->
         <div class="stem">
+          <!-- <div class="number">{{ curIndex + 1 }}.</div> -->
           <div class="content">
-            <!-- 仅遍历一次每个 stem 行 -->
-            <div
-              class="line"
-              v-for="(line, idx) in curQuestion.stem"
-              :key="idx"
-            >
-              <span
-                v-for="(part, partIdx) in parseStemParts(line)"
-                :key="partIdx"
+            <template v-if="Array.isArray(curQuestion.stem)">
+              <div
+                v-for="(line, idx) in curQuestion.stem"
+                :key="idx"
               >
-                <span v-if="part.type === 'text'">{{ part.text }}</span>
-                <input
-                  v-else
-                  type="text"
-                  class="blank-input"
-                  :class="{
-                    error:
-                      curQuestion.isFinish &&
-                      curQuestion.userAnswer[part.index] !==
-                        curQuestion.answer[part.index],
-                    correct:
-                      curQuestion.isFinish &&
-                      curQuestion.userAnswer[part.index]?.trim() ===
-                        curQuestion.answer[part.index]?.trim(),
-                  }"
-                  v-model="curQuestion.userAnswer[part.index]"
-                  :disabled="curQuestion.isFinish"
-                  ref="inputRefs"
-                />
-              </span>
+                {{ line }}
+              </div>
+            </template>
+            <template v-else>
+              {{ curQuestion.stem }}
+            </template>
+          </div>
+        </div>
+
+        <!-- 选词造句 -->
+        <!-- 答题区 -->
+        <div class="sentence-area">
+          <div class="wrapper">
+            <div
+              v-for="(word, index) in currentState.selectedWords"
+              :key="index"
+              class="box"
+              :class="[
+                { correct: currentState.showRes && isWordCorrect(word, index) },
+                { wrong: currentState.showRes && !isWordCorrect(word, index) },
+                { disabled: currentState.isFinish },
+              ]"
+              @click="!currentState.isFinish && removeWord(index)"
+            >
+              {{ word }}
             </div>
+          </div>
+        </div>
+
+        <!-- 可选词区 -->
+        <div
+          class="options-area"
+          style="padding-bottom: 20px"
+        >
+          <div
+            v-for="(word, index) in currentState.remainingOptions"
+            :key="index"
+            class="box"
+            @click="!currentState.isFinish && addWord(word)"
+          >
+            {{ word }}
           </div>
         </div>
       </div>
@@ -59,123 +80,250 @@
     <!-- 控制按钮 -->
     <div class="control">
       <el-button @click="prev">上一题</el-button>
-      <el-button @click="next" :disabled="!curQuestion.isFinish"
+      <el-button
+        @click="next"
+        :disabled="!curQuestion.isFinish"
         >下一题</el-button
       >
-      <el-button type="primary" @click="submit">提交</el-button>
+      <el-button
+        type="primary"
+        @click="submit"
+        >提交</el-button
+      >
     </div>
-
-    <!-- 解析区域 -->
     <Transition name="slide">
-      <div v-show="curQuestion.isFinish" class="explain">
-        <div class="content">{{ curQuestion.explanation }}</div>
+      <div
+        v-show="curQuestion.isFinish"
+        class="explain"
+      >
+        <!-- 解析区域 -->
+        <div
+          v-if="curQuestion.isFinish"
+          class="explain"
+        >
+          <div class="content">{{ curQuestion.explanation }}</div>
+        </div>
       </div>
     </Transition>
   </el-card>
 </template>
 
 <script setup lang="ts">
-import { ref, computed, reactive, nextTick } from "vue"
+import { ref, computed, reactive, watchEffect } from "vue";
 
-interface FillInBlankQuestion {
-  stem: string | string[] // 题干，可能包含 {{1}}, {{2}} 这样的占位符
-  options: string[] //可选词
-  answer: string // 正确句子
-  explanation: string // 解析
-  isFinish?: boolean // 是否已完成
-  isCorrect?: boolean // 是否正确
-  userAnswer?: string[] // 用户填写的答案数组
+interface MakeSentenceQuestion {
+  stem: string | string[]; //题目要求
+  options: string[]; //可选词
+  answer: string | string[]; //最终句子
+  explanation: string; //解析
+  isFinish?: boolean;
+  isCorrect?: boolean;
+  userAnswer: string | null;
 }
 
 const props = defineProps<{
-  questions: FillInBlankQuestion[]
-}>()
+  questions: MakeSentenceQuestion[];
+}>();
 
-// 初始化题目数据
+// 响应式存储每道题的数据
 const initializedQuestions = reactive(
   props.questions.map((q) => ({
     ...q,
     isFinish: q.isFinish ?? false,
     isCorrect: q.isCorrect ?? false,
-    userAnswer: Array.isArray(q.userAnswer)
-      ? [
-          ...q.userAnswer,
-          ...Array(
-            Math.max(0, q.answer.length - (q.userAnswer?.length || 0))
-          ).fill(""),
-        ]
-      : Array(q.answer.length).fill(""),
+    userAnswer: q.userAnswer ?? null,
+    selectedWords: [] as string[],
+    remainingOptions: [...q.options],
+    showRes: false,
   }))
-)
-
-const curIndex = ref(0)
-const curQuestion = computed(() => initializedQuestions[curIndex.value])
+);
+// 获取当前题目的状态
+const currentState = computed(() => initializedQuestions[curIndex.value]);
+const curIndex = ref(0);
+const curQuestion = computed(() => initializedQuestions[curIndex.value]);
 
 // 导航点击
 const handleNavClick = (index: number) => {
-  curIndex.value = index
-}
-
+  curIndex.value = index;
+};
 // 上一题
 const prev = () => {
-  if (curIndex.value > 0) curIndex.value--
-}
-
+  if (curIndex.value > 0) curIndex.value--;
+};
 // 下一题
 const next = () => {
-  if (curIndex.value < initializedQuestions.length - 1) curIndex.value++
-}
+  if (curIndex.value < initializedQuestions.length - 1) curIndex.value++;
+};
 
-// 提交答案
+const addWord = (word: string) => {
+  currentState.value.selectedWords.push(word);
+  currentState.value.remainingOptions =
+    currentState.value.remainingOptions.filter((w) => w !== word);
+};
+
+const removeWord = (index: number) => {
+  const removed = currentState.value.selectedWords.splice(index, 1)[0];
+  currentState.value.remainingOptions.push(removed);
+};
+
+// 验证词语正确性
+const isWordCorrect = (word: string, index: number): boolean => {
+  const correctAnswer: string[] = Array.isArray(currentState.value.answer)
+    ? currentState.value.answer
+    : currentState.value.answer.split(" ");
+
+  // 如果是已提交状态，再做校验
+  if (currentState.value.showRes) {
+    return word === correctAnswer[index];
+  }
+
+  return false;
+};
+
 const submit = () => {
-  const q = curQuestion.value
-  q.isFinish = true
-  q.isCorrect = q.userAnswer.every((ans, i) => ans.trim() === q.answer[i])
-}
+  currentState.value.showRes = true;
+
+  // 合并所有选中的词语，用空格连接
+  const userAnswerStr = currentState.value.selectedWords.join(" ");
+  // 答案统一转成字符串格式
+  const correctAnswerStr = Array.isArray(currentState.value.answer)
+    ? currentState.value.answer.join(" ")
+    : currentState.value.answer;
+
+  currentState.value.userAnswer = userAnswerStr;
+  currentState.value.isFinish = true;
+  currentState.value.isCorrect = userAnswerStr === correctAnswerStr;
+};
 
 // 生成索引数组用于导航
 const indexArr = computed(() => {
-  return Array.from({ length: initializedQuestions.length }, (_, i) => i)
-})
-
-// 解析题干中的文本和空格
-type StemPart =
-  | { type: "text"; text: string }
-  | { type: "input"; index: number }
-
-const parseStemParts = (text: string): StemPart[] => {
-  const parts: StemPart[] = []
-  let lastIndex = 0
-
-  const regex = /{\s*{(\d+)\s*}}/g // 支持带空格的 {{1}} 格式
-  let match
-
-  while ((match = regex.exec(text)) !== null) {
-    const before = text.slice(lastIndex, match.index)
-    if (before) parts.push({ type: "text", text: before })
-
-    const inputIndex = parseInt(match[1], 10) - 1
-    if (inputIndex >= 0 && inputIndex < curQuestion.value.answer.length) {
-      parts.push({ type: "input", index: inputIndex })
-    }
-
-    lastIndex = regex.lastIndex
-  }
-
-  const after = text.slice(lastIndex)
-  if (after) parts.push({ type: "text", text: after })
-
-  return parts
-}
+  return Array.from({ length: initializedQuestions.length }, (_, i) => i);
+});
 </script>
 
 <style scoped>
+.sentence-area {
+  margin-bottom: 1rem;
+  min-height: 60px;
+  border: 2px dashed #e5e5e5;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.sentence-area .wrapper {
+  display: flex;
+  flex-wrap: wrap; /* 允许换行 */
+  gap: 8px; /* 间距调整 */
+  align-items: center;
+}
+.options-area .box {
+  background-color: #f0f4ff;
+  transition: transform 0.2s;
+  min-width: 40px; /* 最小宽度保证按钮可见 */
+  padding: 0 8px; /* 左右内边距 */
+  width: auto; /* 取消固定宽度 */
+  height: auto; /* 取消固定高度 */
+  line-height: 2; /* 调整行高适应内容 */
+  margin: 4px; /* 增加外边距 */
+  white-space: nowrap; /* 防止文字换行 */
+}
+
+.options-area .box:hover {
+  transform: translateY(-2px);
+}
+
+.box.correct {
+  border-color: #4caf50 !important;
+}
+
+.box.wrong {
+  border-color: #f44336 !important;
+}
 .list {
   display: flex;
   gap: 8px;
   margin-bottom: 16px;
 }
 .box {
+  /* 移除原有的固定宽高 */
+  min-width: 40px;
+  padding: 0 8px;
+  height: auto;
+  line-height: 2;
+  /* 保持原有其他属性 */
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: inline-flex; /* 改为行内弹性布局 */
+  justify-content: center;
+  align-items: center;
+}
+.box.active {
+  background-color: #409eff;
+  color: white;
+}
+
+.stem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.number {
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.control {
+  margin-bottom: 16px;
+}
+.explain {
+  margin-top: 16px;
+}
+.judge {
+  font-weight: bold;
+  color: green;
+}
+.judge.false {
+  color: red;
+}
+/* 淡入淡出动画 */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+/* 滑动动画 */
+.slide-enter-active {
+  transition: all 0.3s ease-out;
+  transform: translateY(0);
+}
+.slide-leave-active {
+  transition: all 0.2s cubic-bezier(1, 0.5, 0.8, 1);
+}
+.slide-enter-from {
+  opacity: 0;
+  transform: translateY(-15px);
+}
+.slide-leave-to {
+  opacity: 0;
+  transform: translateY(0px);
+}
+.option {
+  transition: background-color 0.2s, transform 0.1s;
+}
+.option:active {
+  transform: scale(0.98);
+}
+/* 添加禁用状态样式 */
+.box.disabled {
+  cursor: not-allowed;
+  pointer-events: none; /* 彻底禁用交互 */
+}
+.nav-box {
   width: 30px;
   height: 30px;
   text-align: center;
@@ -184,41 +332,8 @@ const parseStemParts = (text: string): StemPart[] => {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
-.box.active {
+.nav-box.active {
   background-color: #409eff;
   color: white;
-}
-
-.stem {
-  margin-bottom: 16px;
-}
-.line {
-  margin-bottom: 8px;
-}
-
-.blank-input {
-  width: 100px;
-  padding: 4px 6px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  outline: none;
-}
-.blank-input:focus {
-  border-color: #409eff;
-}
-.blank-input.error {
-  border-color: red;
-  background-color: #ffe6e6;
-}
-.blank-input.correct {
-  border-color: #67c23a;
-  background-color: #f0f9eb;
-}
-
-.control {
-  margin-bottom: 16px;
-}
-.explain {
-  margin-top: 16px;
 }
 </style>

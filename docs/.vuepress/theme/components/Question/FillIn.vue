@@ -15,42 +15,76 @@
       </div>
     </div>
 
-    <Transition name="fade" mode="out-in">
-      <div :key="curIndex" class="question-content">
+    <Transition
+      name="fade"
+      mode="out-in"
+    >
+      <div
+        :key="curIndex"
+        class="question-content"
+      >
         <!-- 题干 -->
         <div class="stem">
           <div class="content">
-            <!-- 仅遍历一次每个 stem 行 -->
-            <div
-              class="line"
-              v-for="(line, idx) in curQuestion.stem"
-              :key="idx"
-            >
-              <span
-                v-for="(part, partIdx) in parseStemParts(line)"
-                :key="partIdx"
+            <!-- 根据 stem 类型决定是否遍历 -->
+            <template v-if="Array.isArray(curQuestion.stem)">
+              <div
+                class="line"
+                v-for="(line, idx) in curQuestion.stem"
+                :key="idx"
               >
-                <span v-if="part.type === 'text'">{{ part.text }}</span>
-                <input
-                  v-else
-                  type="text"
-                  class="blank-input"
-                  :class="{
-                    error:
-                      curQuestion.isFinish &&
-                      curQuestion.userAnswer[part.index] !==
-                        curQuestion.answer[part.index],
-                    correct:
-                      curQuestion.isFinish &&
-                      curQuestion.userAnswer[part.index]?.trim() ===
-                        curQuestion.answer[part.index]?.trim(),
-                  }"
-                  v-model="curQuestion.userAnswer[part.index]"
-                  :disabled="curQuestion.isFinish"
-                  ref="inputRefs"
-                />
-              </span>
-            </div>
+                <span
+                  v-for="(part, partIdx) in parseStemParts(line)"
+                  :key="partIdx"
+                >
+                  <span v-if="part.type === 'text'">{{ part.text }}</span>
+                  <input
+                    v-else
+                    type="text"
+                    class="blank-input"
+                    :class="{
+                      error:
+                        curQuestion.isFinish &&
+                        curQuestion.userAnswer[part.index] !==
+                          curQuestion.answer[part.index],
+                      correct:
+                        curQuestion.isFinish &&
+                        curQuestion.userAnswer[part.index]?.trim() ===
+                          curQuestion.answer[part.index]?.trim(),
+                    }"
+                    v-model="curQuestion.userAnswer[part.index]"
+                    :disabled="curQuestion.isFinish"
+                  />
+                </span>
+              </div>
+            </template>
+            <template v-else>
+              <div class="line">
+                <span
+                  v-for="(part, partIdx) in parseStemParts(curQuestion.stem)"
+                  :key="partIdx"
+                >
+                  <span v-if="part.type === 'text'">{{ part.text }}</span>
+                  <input
+                    v-else
+                    type="text"
+                    class="blank-input"
+                    :class="{
+                      error:
+                        curQuestion.isFinish &&
+                        curQuestion.userAnswer[part.index] !==
+                          curQuestion.answer[part.index],
+                      correct:
+                        curQuestion.isFinish &&
+                        curQuestion.userAnswer[part.index]?.trim() ===
+                          curQuestion.answer[part.index]?.trim(),
+                    }"
+                    v-model="curQuestion.userAnswer[part.index]"
+                    :disabled="curQuestion.isFinish"
+                  />
+                </span>
+              </div>
+            </template>
           </div>
         </div>
       </div>
@@ -59,15 +93,24 @@
     <!-- 控制按钮 -->
     <div class="control">
       <el-button @click="prev">上一题</el-button>
-      <el-button @click="next" :disabled="!curQuestion.isFinish"
+      <el-button
+        @click="next"
+        :disabled="!curQuestion.isFinish"
         >下一题</el-button
       >
-      <el-button type="primary" @click="submit">提交</el-button>
+      <el-button
+        type="primary"
+        @click="submit"
+        >提交</el-button
+      >
     </div>
 
     <!-- 解析区域 -->
     <Transition name="slide">
-      <div v-show="curQuestion.isFinish" class="explain">
+      <div
+        v-show="curQuestion.isFinish"
+        class="explain"
+      >
         <div class="content">{{ curQuestion.explanation }}</div>
       </div>
     </Transition>
@@ -75,20 +118,20 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, reactive, nextTick } from "vue"
+import { ref, computed, reactive, nextTick } from "vue";
 
 interface FillInBlankQuestion {
-  stem: string | string[] // 题干，可能包含 {{1}}, {{2}} 这样的占位符
-  answer: string[] // 正确答案数组，对应每个空格
-  explanation: string // 解析
-  isFinish?: boolean // 是否已完成
-  isCorrect?: boolean // 是否正确
-  userAnswer?: string[] // 用户填写的答案数组
+  stem: string | string[]; // 题干，可能包含 {{1}}, {{2}} 这样的占位符
+  answer: string[]; // 正确答案数组，对应每个空格
+  explanation: string; // 解析
+  isFinish?: boolean; // 是否已完成
+  isCorrect?: boolean; // 是否正确
+  userAnswer?: string[]; // 用户填写的答案数组
 }
 
 const props = defineProps<{
-  questions: FillInBlankQuestion[]
-}>()
+  questions: FillInBlankQuestion[];
+}>();
 
 // 初始化题目数据
 const initializedQuestions = reactive(
@@ -105,67 +148,71 @@ const initializedQuestions = reactive(
         ]
       : Array(q.answer.length).fill(""),
   }))
-)
+);
 
-const curIndex = ref(0)
-const curQuestion = computed(() => initializedQuestions[curIndex.value])
+const curIndex = ref(0);
+const curQuestion = computed(() => initializedQuestions[curIndex.value]);
 
 // 导航点击
 const handleNavClick = (index: number) => {
-  curIndex.value = index
-}
+  curIndex.value = index;
+};
 
 // 上一题
 const prev = () => {
-  if (curIndex.value > 0) curIndex.value--
-}
+  if (curIndex.value > 0) curIndex.value--;
+};
 
 // 下一题
 const next = () => {
-  if (curIndex.value < initializedQuestions.length - 1) curIndex.value++
-}
+  if (curIndex.value < initializedQuestions.length - 1) curIndex.value++;
+};
 
 // 提交答案
 const submit = () => {
-  const q = curQuestion.value
-  q.isFinish = true
-  q.isCorrect = q.userAnswer.every((ans, i) => ans.trim() === q.answer[i])
-}
+  const q = curQuestion.value;
+  q.isFinish = true;
+
+  // 统一按数组处理
+  q.isCorrect = q.userAnswer.every(
+    (ans, i) => ans?.trim() === q.answer[i]?.trim()
+  );
+};
 
 // 生成索引数组用于导航
 const indexArr = computed(() => {
-  return Array.from({ length: initializedQuestions.length }, (_, i) => i)
-})
+  return Array.from({ length: initializedQuestions.length }, (_, i) => i);
+});
 
 // 解析题干中的文本和空格
 type StemPart =
   | { type: "text"; text: string }
-  | { type: "input"; index: number }
+  | { type: "input"; index: number };
 
 const parseStemParts = (text: string): StemPart[] => {
-  const parts: StemPart[] = []
-  let lastIndex = 0
+  const parts: StemPart[] = [];
+  let lastIndex = 0;
 
-  const regex = /{\s*{(\d+)\s*}}/g // 支持带空格的 {{1}} 格式
-  let match
+  const regex = /{\s*{(\d+)\s*}}/g; // 支持带空格的 {{1}} 格式
+  let match;
 
   while ((match = regex.exec(text)) !== null) {
-    const before = text.slice(lastIndex, match.index)
-    if (before) parts.push({ type: "text", text: before })
+    const before = text.slice(lastIndex, match.index);
+    if (before) parts.push({ type: "text", text: before });
 
-    const inputIndex = parseInt(match[1], 10) - 1
+    const inputIndex = parseInt(match[1], 10) - 1;
     if (inputIndex >= 0 && inputIndex < curQuestion.value.answer.length) {
-      parts.push({ type: "input", index: inputIndex })
+      parts.push({ type: "input", index: inputIndex });
     }
 
-    lastIndex = regex.lastIndex
+    lastIndex = regex.lastIndex;
   }
 
-  const after = text.slice(lastIndex)
-  if (after) parts.push({ type: "text", text: after })
+  const after = text.slice(lastIndex);
+  if (after) parts.push({ type: "text", text: after });
 
-  return parts
-}
+  return parts;
+};
 </script>
 
 <style scoped>

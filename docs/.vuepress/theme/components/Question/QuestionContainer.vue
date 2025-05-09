@@ -1,52 +1,54 @@
 <template>
-  <div class="question-container">
-    <QuestionListNav
-      :length="props.questionList.length"
-      :currentIndex
-      @handleClick="changeQuestion"
-    />
-    <!-- 题干 -->
-    <Stem
-      :index="currentIndex + 1"
-      :key="currentIndex"
-      :type="currentQuestion.type"
-      :stem="currentQuestion.stem"
-    />
-    <hr />
-    <!-- 输入 -->
-    <component
-      :key="currentIndex"
-      :is="questionComponent"
-      :answer="currentQuestion.answer"
-      :options="currentQuestion.options"
-      :curAnswer="curAnswer"
-      @handleChange="selectAnswer"
-      @submit="submitAnswer"
-    />
-    <hr />
-    <!-- 按钮 -->
-    <ControlButtons
-      :disable-prev="currentIndex === 0"
-      :disable-next="currentIndex === questionList.length - 1"
-      @submit="submitAnswer"
-      @prev="prevQuestion"
-      @next="nextQuestion"
-    />
-    <hr />
-    <!-- 检验解析 -->
-    <div v-show="showResult[currentIndex]">
-      <span
-        v-if="curAnswer !== undefined"
-        class="status-icon"
-      >
-        {{ isAnswerCorrect ? "✅" : "❌" }}
-      </span>
-      【正确答案】 {{ currentQuestion.answer }}
-      <div v-show="showSentence">【句子】{{ currentQuestion.sentence }}</div>
-      <!-- 解析 -->
-      <div>{{ currentQuestion.explanation }}</div>
+  <el-card>
+    <div class="question-container">
+      <QuestionListNav
+        :length="props.questionList.length"
+        :currentIndex
+        @handleClick="changeQuestion"
+      />
+      <!-- 题干 -->
+      <Stem
+        :index="currentIndex + 1"
+        :key="currentIndex"
+        :type="currentQuestion.type"
+        :stem="currentQuestion.stem"
+      />
+      <hr />
+      <!-- 输入 -->
+      <component
+        :key="currentIndex"
+        :is="questionComponent"
+        :answer="currentQuestion.answer"
+        :options="currentQuestion.options"
+        :curAnswer="curAnswer"
+        @handleChange="selectAnswer"
+        @submit="submitAnswer"
+      />
+      <hr />
+      <!-- 按钮 -->
+      <ControlButtons
+        :disable-prev="currentIndex === 0"
+        :disable-next="currentIndex === questionList.length - 1"
+        @submit="submitAnswer"
+        @prev="prevQuestion"
+        @next="nextQuestion"
+      />
+      <hr />
+      <!-- 检验解析 -->
+      <div v-show="showResult[currentIndex]">
+        <span
+          v-if="curAnswer !== undefined"
+          class="status-icon"
+        >
+          {{ isAnswerCorrect ? "✅" : "❌" }}
+        </span>
+        【正确答案】 {{ currentQuestion.answer }}
+        <div v-show="showSentence">【句子】{{ currentQuestion.sentence }}</div>
+        <!-- 解析 -->
+        <div>{{ currentQuestion.explanation }}</div>
+      </div>
     </div>
-  </div>
+  </el-card>
 </template>
 
 <script setup lang="ts">

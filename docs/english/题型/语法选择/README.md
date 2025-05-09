@@ -20,5 +20,5 @@ permalink: /english/题型/语法选择/
 - 代词
   - [人称代词的各种形式](/english/题型/语法选择/人称代词/)
 - 其他
-  - It
-  - be 动词
+  - [含 It 的词](/english/题型/语法选择/考点/含it的词/)
+  - [be 动词](/english/题型/语法选择/be动词/)
