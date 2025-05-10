@@ -163,27 +163,35 @@ its 可以作`形容词性物主代词`，用来==构成名词短语==，表示�
 
 ### is it
 
-由于疑问句的语序一般为“先动词，后主语”，所以 it is（或 it's） 会变为 is it。
+由于疑问句的语序一般为“先动词，后主语”。it is（或 it's） 会变为 is it。
 
 例如：
 
-- What's this? = What is this? 这是什么？
-- Is it your pen? 这是你的笔吗？
+- What time ==is it==? 几点了？
+- ==Is it== your pen? 这是你的笔吗？
 
-观察以下句子的区别：
-
-- What's this? ==It is== an apple.
-- What's this? ==It's== an apple.
-- What's this dog's name? ==Its== name is Coco.
-- How heavy ==is it==?
-
-小诀窍：
-
-- 如果空格是主语或宾语，则用 it
-- 如果句子里有 be 动词了，则不用 it's；
-- 反之，如果用了 it's，那这个句子已经有一个 be 动词了，不需要再有别的动词。
-- 如果句子中有 be 动词或其它动词，那只能用 its
-- 如果是疑问句，则将 be 动词提前，用 is it
+<MakeSentence
+:questions="[
+    {
+        stem: '它是什么颜色的？',
+        options: ['color', 'is', 'it', 'What'],
+        answer: 'What color is it',
+        explanation: 'What color is it?'
+    },
+    {
+        stem: '从家到学校有多远？',
+        options: ['far', 'from', 'school', 'is', 'How', 'home', 'it', 'to'],
+        answer: 'How far is it from home to school',
+        explanation: 'How far is it from home to school?'
+    },
+    {
+        stem: '这是你的铅笔吗？',
+        options: ['it', 'are', 'Is', 'pencil', 'It\'s', 'your'],
+        answer: 'Is it your pencil?',
+        explanation: 'The dog is shaking its head.'
+    }
+]"
+/>
 
 ## 练习
 
@@ -228,71 +236,6 @@ its 可以作`形容词性物主代词`，用来==构成名词短语==，表示�
         stem: 'The cat is eating _______ food.',
         options: ['it', 'it\'s', 'its', 'is'],
         answer: 'its',
-    },
-    {//8
-        stem: '',
-        options: ['it', 'it\'s', 'its', 'is'],
-        answer: '',
-    },
-    {//9
-        stem: '',
-        options: ['it', 'it\'s', 'its', 'is'],
-        answer: '',
-    },
-    {//10
-        stem: '',
-        options: ['it', 'it\'s', 'its', 'is'],
-        answer: '',
-    },
-    {//11
-        stem: '',
-        options: ['it', 'it\'s', 'its', 'is'],
-        answer: '',
-    },
-    {//12
-        stem: '',
-        options: ['it', 'it\'s', 'its', 'is'],
-        answer: '',
-    },
-    {//13
-        stem: '',
-        options: ['it', 'it\'s', 'its', 'is'],
-        answer: '',
-    },
-    {//14
-        stem: '',
-        options: ['it', 'it\'s', 'its', 'is'],
-        answer: '',
-    },
-    {//15
-        stem: '',
-        options: ['it', 'it\'s', 'its', 'is'],
-        answer: '',
-    },
-    {//16
-        stem: '',
-        options: ['it', 'it\'s', 'its', 'is'],
-        answer: '',
-    },
-    {//17
-        stem: '',
-        options: ['it', 'it\'s', 'its', 'is'],
-        answer: '',
-    },
-    {//18
-        stem: '',
-        options: ['it', 'it\'s', 'its', 'is'],
-        answer: '',
-    },
-    {//19
-        stem: '',
-        options: ['it', 'it\'s', 'its', 'is'],
-        answer: '',
-    },
-    {//20
-        stem: '',
-        options: ['it', 'it\'s', 'its', 'is'],
-        answer: '',
     },
 ]"
 />
