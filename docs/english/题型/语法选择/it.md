@@ -144,19 +144,19 @@ its 可以作`形容词性物主代词`，用来==构成名词短语==，表示�
         stem: '它的苹果',
         options: ['it', 'it\'s', 'its', 'apple'],
         answer: 'its apple',
-        explanation: 'its apple'
+        explanation: '答案：its apple'
     },
     {
         stem: '它的耳朵很漂亮。',
         options: ['It', 'It\'s', 'Its', 'beautiful', 'are', 'ears'],
         answer: 'Its ears are beautiful',
-        explanation: 'Its ears are beautiful.'
+        explanation: '答案：Its ears are beautiful.'
     },
     {
         stem: '这只狗在摇它的头。',
         options: ['dog', 'The', 'is', 'head', 'shaking', 'its'],
         answer: 'The dog is shaking its head',
-        explanation: 'The dog is shaking its head.'
+        explanation: '答案：The dog is shaking its head.'
     }
 ]"
 />
@@ -176,19 +176,19 @@ its 可以作`形容词性物主代词`，用来==构成名词短语==，表示�
         stem: '它是什么颜色的？',
         options: ['color', 'is', 'it', 'What'],
         answer: 'What color is it',
-        explanation: 'What color is it?'
+        explanation: '答案：What color is it?'
     },
     {
         stem: '从家到学校有多远？',
         options: ['far', 'from', 'school', 'is', 'How', 'home', 'it', 'to'],
         answer: 'How far is it from home to school',
-        explanation: 'How far is it from home to school?'
+        explanation: '答案：How far is it from home to school?'
     },
     {
         stem: '这是你的铅笔吗？',
         options: ['it', 'are', 'Is', 'pencil', 'It\'s', 'your'],
         answer: 'Is it your pencil?',
-        explanation: 'The dog is shaking its head.'
+        explanation: '答案：Is it your pencil?'
     }
 ]"
 />
@@ -199,43 +199,33 @@ its 可以作`形容词性物主代词`，用来==构成名词短语==，表示�
 :questions="[
     {//1
         stem: 'I have a cat. _______ name is Coco.',
-        options: ['It', 'It is', 'It\'s', 'Its'],
+        options: ['It', 'is', 'It\'s', 'Its'],
         answer: 'Its',
+        explanation: '句意：我有一只猫。它的名字叫Coco。“它的名字”，用形容词性物主代词，选D。'
     },
     {//2
         stem: 'The cat is eating _______ food.',
         options: ['it', 'it\'s', 'its', 'is'],
         answer: 'its',
+        explanation: '句意：这只猫正在吃它的食物。“它的食物”，用形容词性物主代词，选D。'
     },
     {//3
         stem: 'I like this dress. _______ beautiful (漂亮的).',
-        options: ['It', 'It is', 'It\'s', 'Its'],
+        options: ['It', 'Is', 'It\'s', 'Its'],
         answer: 'It\'s',
+        explanation: '句意：我喜欢这条裙子。它很漂亮。第二个句子没有主语和动词，因此选择 It + be动词的形式，缩写为 It\'s，选C。'
     },
     {//4
         stem: '_______ cold. Winter is coming (即将来临).',
-        options: ['It', 'It is', 'It\'s', 'Its'],
+        options: ['It', 'Is', 'It\'s', 'Its'],
         answer: 'It\'s',
+        explanation: '句意：天气很冷。冬天要来了。第一个句子没有主语和动词，因此选择 It + be动词的形式，缩写为 It\'s，选C。'
     },
     {//5
         stem: 'Look! _______ a red balloon (气球).',
         options: ['It', 'It is', 'It\'s', 'Its'],
         answer: 'It\'s',
-    },
-    {//6
-        stem: 'The cat is eating _______ food.',
-        options: ['it', 'it\'s', 'its', 'is'],
-        answer: 'its',
-    },
-    {//6
-        stem: 'The cat is eating _______ food.',
-        options: ['it', 'it\'s', 'its', 'is'],
-        answer: 'its',
-    },
-    {//6
-        stem: 'The cat is eating _______ food.',
-        options: ['it', 'it\'s', 'its', 'is'],
-        answer: 'its',
+        explanation: '句意：看！那是一个气球。第二个句子没有主语和动词，因此选择 It + be动词的形式，缩写为 It\'s，选C。'
     },
 ]"
 />
