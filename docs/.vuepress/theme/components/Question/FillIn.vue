@@ -101,6 +101,7 @@
       <el-button
         type="primary"
         @click="submit"
+        :disabled="curQuestion.isFinish"
         >提交</el-button
       >
     </div>
