@@ -13,4 +13,7 @@ config:
         - theme: brand
           text: 语法选择
           link: /english/题型/语法选择/
+        - theme: brand
+          text: 造句练习
+          link: /english/造句/
 ---
