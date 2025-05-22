@@ -1,7 +1,7 @@
 ---
 title: 主动结构
 createTime: 2025/05/14 23:05:40
-permalink: /english/造句/SV/
+permalink: /english/语法/SV/
 ---
 
 # 基本句型：主动结构
