@@ -11,6 +11,8 @@ import "./theme/styles/custom.css";
 import MultipleChoice from "./theme/components/Question/MultipleChoice.vue";
 import FillIn from "./theme/components/Question/FillIn.vue";
 import MakeSentence from "./theme/components/Question/MakeSentence.vue";
+import Reading from "./theme/components/Reading.vue";
+import { createPinia } from 'pinia';
 
 export default defineClientConfig({
   enhance({ app }) {
@@ -24,6 +26,8 @@ export default defineClientConfig({
     app.component("MultipleChoice", MultipleChoice);
     app.component("MakeSentence", MakeSentence);
     app.component("FillIn", FillIn);
+    app.component("Reading", Reading);
+    app.use(createPinia());
     app.use(ElementPlus);
   },
 });
