@@ -18,7 +18,7 @@ export default {
   },
   data() {
     return {
-      ossBaseUrl: 'http://120.25.178.64:3100' // 本地代理服务器地址
+      ossBaseUrl: 'http://120.25.178.64:3150' // 本地代理服务器地址
     };
   },
   computed: {
