@@ -12,6 +12,7 @@ import MultipleChoice from "./theme/components/Question/MultipleChoice.vue";
 import FillIn from "./theme/components/Question/FillIn.vue";
 import MakeSentence from "./theme/components/Question/MakeSentence.vue";
 import Reading from "./theme/components/Reading.vue";
+import Dictation from "./theme/components/Dictation.vue";
 import { createPinia } from 'pinia';
 
 export default defineClientConfig({
@@ -22,11 +23,11 @@ export default defineClientConfig({
     // app.component('NpmBadgeGroup', NpmBadgeGroup)
     // app.component('Swiper', Swiper) // you should install `swiper`
     // your custom components
-    // app.component('CustomComponent', CustomComponent)
     app.component("MultipleChoice", MultipleChoice);
     app.component("MakeSentence", MakeSentence);
     app.component("FillIn", FillIn);
     app.component("Reading", Reading);
+    app.component("Dictation", Dictation);
     app.use(createPinia());
     app.use(ElementPlus);
   },
