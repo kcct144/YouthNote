@@ -1,30 +1,41 @@
 <template>
   <div class="video-player">
-    <video :src="videoUrl" controls class="video"></video>
+    <video :src="videoUrl" controls class="video-js vjs-default-skin" :data-setup='{}'>
+      您的浏览器不支持视频播放。
+    </video>
   </div>
 </template>
 
-<script setup>
-import { defineProps } from 'vue';
-
-const props = defineProps({
-  path: {
-    type: String,
-    required: true
+<script>
+export default {
+  name: 'VideoPlayer',
+  props: {
+    // OSS 视频路径，例如: YouthNote/Animate/Journey to The West/001_Journey to the West 1_The Monkey.mp4
+    videoPath: {
+      type: String,
+      required: true
+    }
+  },
+  data() {
+    return {
+      ossBaseUrl: 'http://localhost:3100' // 本地代理服务器地址
+    };
+  },
+  computed: {
+    videoUrl() {
+      return `${this.ossBaseUrl}/${encodeURIComponent(this.videoPath)}`;
+    }
   }
-});
-
-// 构造请求路径并进行编码
-const videoPath = encodeURIComponent(props.path).replace(/%2F/g, '/');
-const videoUrl = `http://your-ecs-ip:3100/${videoPath}`;
+};
 </script>
 
 <style scoped>
 .video-player {
+  width: 100%;
   max-width: 800px;
-  margin: 20px auto;
+  margin: 0 auto;
 }
-.video {
+video {
   width: 100%;
   height: auto;
 }
