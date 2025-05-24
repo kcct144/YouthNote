@@ -1,7 +1,6 @@
 ---
 title: 测试
-createTime: 2025/05/11 06:37:58
-permalink: /test/
+permalink: /preview/test/
 ---
 <script setup>
 import VideoPlayer from '../../.vuepress/theme/components/VideoPlayer.vue'
