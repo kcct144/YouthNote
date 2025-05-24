@@ -25,8 +25,11 @@
     "vuepress-theme-plume": "1.0.0-rc.137"
   },
   "dependencies": {
+    "@alicloud/credentials": "^2.4.3",
     "@vueuse/core": "^13.0.0",
+    "ali-oss": "^6.23.0",
     "element-plus": "^2.9.7",
+    "express": "^5.1.0",
     "markmap": "^0.6.1",
     "markmap-lib": "^0.18.11",
     "markmap-toolbar": "^0.18.10",

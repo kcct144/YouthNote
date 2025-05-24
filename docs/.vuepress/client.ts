@@ -13,6 +13,7 @@ import FillIn from "./theme/components/Question/FillIn.vue";
 import MakeSentence from "./theme/components/Question/MakeSentence.vue";
 import Reading from "./theme/components/Reading.vue";
 import Dictation from "./theme/components/Dictation.vue";
+import VideoPlayer from "./theme/components/VideoPlayer.vue";
 import { createPinia } from 'pinia';
 
 export default defineClientConfig({
@@ -28,6 +29,7 @@ export default defineClientConfig({
     app.component("FillIn", FillIn);
     app.component("Reading", Reading);
     app.component("Dictation", Dictation);
+    app.component("VideoPlayer", VideoPlayer);
     app.use(createPinia());
     app.use(ElementPlus);
   },
