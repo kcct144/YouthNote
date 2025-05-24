@@ -5,4 +5,4 @@ permalink: /test/
 ---
 ## 视频播放器示例
 
-<VideoPlayer :video-path="'YouthNote/Animate/Journey to The West/001_Journey to the West 1_The Monkey.mp4'" />
+<VideoPlayer video-path="YouthNote/Animate/Milk.mp4" />
