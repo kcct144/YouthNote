@@ -16,7 +16,10 @@ config:
         - theme: brand
           text: 语法教程
           link: /english/语法/
-        - theme:: brand
+        - theme: brand
           text: 课外阅读
           link: /books/
+        - theme: brand
+          text: 学习学习
+          link: /study/
 ---
