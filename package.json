@@ -1,8 +1,8 @@
 {
-  "name": "senior-notes",
+  "name": "YouthNote",
   "type": "module",
   "version": "1.0.0",
-  "description": "初中知识笔记",
+  "description": "青春记录站",
   "packageManager": "pnpm@10.4.1",
   "license": "MIT",
   "engines": {
