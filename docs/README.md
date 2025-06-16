@@ -7,8 +7,8 @@ config:
     background: tint-plate
     hero:
       name: YouthNote
-      tagline: 题型专练
-      text: 中考英语各题型专项练习
+      tagline: 青春记录站
+      text: 欢迎来到凯凯的秘密基地
       actions:
         - theme: brand
           text: 语法选择
