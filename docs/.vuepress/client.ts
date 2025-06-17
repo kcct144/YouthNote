@@ -14,7 +14,7 @@ import MakeSentence from "./theme/components/Question/MakeSentence.vue";
 import Reading from "./theme/components/Reading.vue";
 import Dictation from "./theme/components/Dictation.vue";
 import VideoPlayer from "./theme/components/VideoPlayer.vue";
-import { createPinia } from 'pinia';
+import { createPinia } from "pinia";
 
 export default defineClientConfig({
   enhance({ app }) {

@@ -1,5 +1,5 @@
 import comp from "C:/Users/Kai/Desktop/projs/YouthNote/docs/.vuepress/.temp/pages/english/exam/1/index.html.vue"
-const data = JSON.parse("{\"path\":\"/english/exam/1/\",\"title\":\"2025 年梅州市初中学业水平考试模拟试卷\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"2025 年梅州市初中学业水平考试模拟试卷\",\"createTime\":\"2025/05/11 06:37:58\",\"permalink\":\"/english/exam/1/\",\"gitInclude\":[]},\"headers\":[],\"readingTime\":{\"minutes\":18.59,\"words\":5578},\"filePathRelative\":\"english/试卷/2025下学期市质检.md\",\"categoryList\":[{\"id\":\"ba0a6d\",\"sort\":10009,\"name\":\"english\"},{\"id\":\"687bfa\",\"sort\":10010,\"name\":\"试卷\"}],\"bulletin\":true}")
+const data = JSON.parse("{\"path\":\"/english/exam/1/\",\"title\":\"2025 年梅州市初中学业水平考试模拟试卷\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"2025 年梅州市初中学业水平考试模拟试卷\",\"createTime\":\"2025/05/11 06:37:58\",\"permalink\":\"/english/exam/1/\",\"gitInclude\":[]},\"headers\":[],\"readingTime\":{\"minutes\":18.59,\"words\":5578},\"filePathRelative\":\"english/试卷/2025下学期市质检.md\",\"categoryList\":[{\"id\":\"ba0a6d\",\"sort\":10006,\"name\":\"english\"},{\"id\":\"687bfa\",\"sort\":10010,\"name\":\"试卷\"}],\"bulletin\":true}")
 export { comp, data }
 
 if (import.meta.webpackHot) {

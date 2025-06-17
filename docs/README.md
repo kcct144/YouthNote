@@ -13,16 +13,16 @@ config:
       tagline: 青春记录站
       text: 欢迎来到凯凯的秘密基地，这里是凯凯的生活和学习笔记。
       actions:
-        - theme: sponsor
-          text: 语法选择
-          link: /english/题型/语法选择/
-        - theme: sponsor
-          text: 语法教程
-          link: /english/语法/
-        - theme: sponsor
-          text: 课外阅读
-          link: /books/
-        - theme: sponsor
+        - theme: alt
+          text: 学科笔记
+          link: /note/
+        - theme: alt
+          text: 英语语法
+          link: /grammar/
+        - theme: alt
           text: 学习学习
           link: /study/
+        - theme: alt
+          text: 其他项目
+          link: /project/
 ---
