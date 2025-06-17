@@ -1,5 +1,5 @@
-import comp from "D:/WebProjs/EnglishTutorial/YouthNote/docs/.vuepress/.temp/pages/test/index.html.vue"
-const data = JSON.parse("{\"path\":\"/test/\",\"title\":\"自定义组件\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"自定义组件\",\"tags\":[\"预览\",\"组件\"],\"createTime\":\"2025/03/12 22:50:36\",\"permalink\":\"/test/\",\"gitInclude\":[]},\"headers\":[],\"readingTime\":{\"minutes\":0.37,\"words\":110},\"filePathRelative\":\"preview/custom-component.example.md\",\"categoryList\":[{\"id\":\"5ebeb6\",\"sort\":10002,\"name\":\"preview\"}],\"bulletin\":true}")
+import comp from "C:/Users/Kai/Desktop/projs/YouthNote/docs/.vuepress/.temp/pages/test/index.html.vue"
+const data = JSON.parse("{\"path\":\"/test/\",\"title\":\"自定义组件\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"自定义组件\",\"tags\":[\"预览\",\"组件\"],\"createTime\":\"2025/03/12 22:50:36\",\"permalink\":\"/test/\",\"gitInclude\":[]},\"headers\":[],\"readingTime\":{\"minutes\":0.37,\"words\":110},\"filePathRelative\":\"preview/custom-component.example.md\",\"categoryList\":[{\"id\":\"5ebeb6\",\"sort\":10000,\"name\":\"preview\"}],\"bulletin\":true}")
 export { comp, data }
 
 if (import.meta.webpackHot) {
