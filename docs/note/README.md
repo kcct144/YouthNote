@@ -6,13 +6,13 @@ config:
   - type: features
     features:
       - title: 语文
-        icon: 🇨🇳
+        icon: 📖
         link: /note/cn/
       - title: 数学
-        icon: ∠
+        icon: 🔢
         link: /note/ma/
       - title: 英语
-        icon: 🇬🇧
+        icon: 🔤
         link: /note/en/
       - title: 物理
         icon: 🔬
