@@ -1,15 +1,15 @@
 import { defineClientConfig } from 'vuepress/client'
-import Tabs from 'C:/Users/Kai/Desktop/projs/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1._4b425b6906bb48b7f71e7d3b24a917a1/node_modules/vuepress-plugin-md-power/lib/client/components/Tabs.vue'
-import CodeTabs from 'C:/Users/Kai/Desktop/projs/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1._4b425b6906bb48b7f71e7d3b24a917a1/node_modules/vuepress-plugin-md-power/lib/client/components/CodeTabs.vue'
-import Plot from 'C:/Users/Kai/Desktop/projs/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1._4b425b6906bb48b7f71e7d3b24a917a1/node_modules/vuepress-plugin-md-power/lib/client/components/Plot.vue'
-import FileTreeItem from 'C:/Users/Kai/Desktop/projs/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1._4b425b6906bb48b7f71e7d3b24a917a1/node_modules/vuepress-plugin-md-power/lib/client/components/FileTreeItem.vue'
-import VPDemoBasic from 'C:/Users/Kai/Desktop/projs/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1._4b425b6906bb48b7f71e7d3b24a917a1/node_modules/vuepress-plugin-md-power/lib/client/components/VPDemoBasic.vue'
-import VPDemoNormal from 'C:/Users/Kai/Desktop/projs/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1._4b425b6906bb48b7f71e7d3b24a917a1/node_modules/vuepress-plugin-md-power/lib/client/components/VPDemoNormal.vue'
-import Annotation from 'C:/Users/Kai/Desktop/projs/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1._4b425b6906bb48b7f71e7d3b24a917a1/node_modules/vuepress-plugin-md-power/lib/client/components/Annotation.vue'
-import VPCollapse from 'C:/Users/Kai/Desktop/projs/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1._4b425b6906bb48b7f71e7d3b24a917a1/node_modules/vuepress-plugin-md-power/lib/client/components/VPCollapse.vue'
-import VPCollapseItem from 'C:/Users/Kai/Desktop/projs/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1._4b425b6906bb48b7f71e7d3b24a917a1/node_modules/vuepress-plugin-md-power/lib/client/components/VPCollapseItem.vue'
+import Tabs from 'D:/proj/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1._4b425b6906bb48b7f71e7d3b24a917a1/node_modules/vuepress-plugin-md-power/lib/client/components/Tabs.vue'
+import CodeTabs from 'D:/proj/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1._4b425b6906bb48b7f71e7d3b24a917a1/node_modules/vuepress-plugin-md-power/lib/client/components/CodeTabs.vue'
+import Plot from 'D:/proj/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1._4b425b6906bb48b7f71e7d3b24a917a1/node_modules/vuepress-plugin-md-power/lib/client/components/Plot.vue'
+import FileTreeItem from 'D:/proj/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1._4b425b6906bb48b7f71e7d3b24a917a1/node_modules/vuepress-plugin-md-power/lib/client/components/FileTreeItem.vue'
+import VPDemoBasic from 'D:/proj/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1._4b425b6906bb48b7f71e7d3b24a917a1/node_modules/vuepress-plugin-md-power/lib/client/components/VPDemoBasic.vue'
+import VPDemoNormal from 'D:/proj/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1._4b425b6906bb48b7f71e7d3b24a917a1/node_modules/vuepress-plugin-md-power/lib/client/components/VPDemoNormal.vue'
+import Annotation from 'D:/proj/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1._4b425b6906bb48b7f71e7d3b24a917a1/node_modules/vuepress-plugin-md-power/lib/client/components/Annotation.vue'
+import VPCollapse from 'D:/proj/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1._4b425b6906bb48b7f71e7d3b24a917a1/node_modules/vuepress-plugin-md-power/lib/client/components/VPCollapse.vue'
+import VPCollapseItem from 'D:/proj/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1._4b425b6906bb48b7f71e7d3b24a917a1/node_modules/vuepress-plugin-md-power/lib/client/components/VPCollapseItem.vue'
 
-import 'C:/Users/Kai/Desktop/projs/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1._4b425b6906bb48b7f71e7d3b24a917a1/node_modules/vuepress-plugin-md-power/lib/client/styles/index.css'
+import 'D:/proj/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1._4b425b6906bb48b7f71e7d3b24a917a1/node_modules/vuepress-plugin-md-power/lib/client/styles/index.css'
 
 export default defineClientConfig({
   enhance({ router, app }) {
