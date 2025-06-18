@@ -22,7 +22,7 @@ import {
 } from "./chunk-GQAESYNE.js";
 import "./chunk-G3PMV62Z.js";
 
-// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.8_7a1e055a448122d8dc68aa8577e6276c/node_modules/@vuepress/helper/lib/client/components/LoadingIcon.js
+// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.82_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite@2.0_qx3eckbqtltmicesfghsinmyqy/node_modules/@vuepress/helper/lib/client/components/LoadingIcon.js
 var getLength = (size) => typeof size === "number" ? `${size}px` : size;
 var LoadingIcon = ({ size = 48, stroke = 4, wrapper = true, height = 2 * size }) => {
   const icon = h("span", {
@@ -266,7 +266,7 @@ var _TransitionPresets = {
 };
 var TransitionPresets = Object.assign({}, { linear: identity }, _TransitionPresets);
 
-// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.8_7a1e055a448122d8dc68aa8577e6276c/node_modules/@vuepress/helper/lib/client/utils/data.js
+// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.82_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite@2.0_qx3eckbqtltmicesfghsinmyqy/node_modules/@vuepress/helper/lib/client/utils/data.js
 var encodeData = (data, level = 6) => {
   const buffer = strToU8(data);
   const zipped = zlibSync(buffer, { level });
@@ -278,7 +278,7 @@ var decodeData = (base64) => {
   return strFromU8(unzlibSync(strToU8(binary, true)));
 };
 
-// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.8_7a1e055a448122d8dc68aa8577e6276c/node_modules/@vuepress/helper/lib/client/utils/env.js
+// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.82_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite@2.0_qx3eckbqtltmicesfghsinmyqy/node_modules/@vuepress/helper/lib/client/utils/env.js
 var checkIsMobile = (ua) => /\b(?:Android|iPhone)/i.test(ua);
 var checkIsChromeWebView = (ua) => / wv\).+(chrome)\/([\w.]+)/i.test(ua);
 var checkIsSafariMobile = (ua) => /version\/([\w.]+) .*mobile\/\w+ (safari)/i.test(ua);
@@ -302,10 +302,10 @@ var checkIsIOS = (ua) => [
 ].some((item) => item.test(ua));
 var checkIsMacOS = (ua) => [/(mac os x) ?([\w. ]*)/i, /(macintosh|mac_powerpc\b)(?!.+haiku)/i].some((item) => item.test(ua));
 
-// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.8_7a1e055a448122d8dc68aa8577e6276c/node_modules/@vuepress/helper/lib/client/utils/getDarkMode.js
+// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.82_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite@2.0_qx3eckbqtltmicesfghsinmyqy/node_modules/@vuepress/helper/lib/client/utils/getDarkMode.js
 var getDarkMode = () => document.documentElement.getAttribute("data-theme") === "dark";
 
-// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.8_7a1e055a448122d8dc68aa8577e6276c/node_modules/@vuepress/helper/lib/client/utils/getHeaders.js
+// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.82_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite@2.0_qx3eckbqtltmicesfghsinmyqy/node_modules/@vuepress/helper/lib/client/utils/getHeaders.js
 var DEFAULT_HEADER_SELECTOR = [...new Array(6)].map((_, i) => `[vp-content] h${i + 1}`).join(",");
 var resolveHeaders = (headers, levels = 2) => {
   if (levels === false) {
@@ -354,7 +354,7 @@ var getHeadersFromDom = (selector = DEFAULT_HEADER_SELECTOR, ignore = []) => Arr
 }));
 var getHeaders = ({ selector = DEFAULT_HEADER_SELECTOR, levels = 2, ignore = [] } = {}) => resolveHeaders(getHeadersFromDom(selector, ignore), levels);
 
-// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.8_7a1e055a448122d8dc68aa8577e6276c/node_modules/@vuepress/helper/lib/client/utils/isFocusingTextControl.js
+// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.82_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite@2.0_qx3eckbqtltmicesfghsinmyqy/node_modules/@vuepress/helper/lib/client/utils/isFocusingTextControl.js
 var isFocusingTextControl = (target) => {
   if (!(target instanceof Element)) {
     return false;
@@ -362,7 +362,7 @@ var isFocusingTextControl = (target) => {
   return document.activeElement === target && (["TEXTAREA", "SELECT", "INPUT"].includes(target.tagName) || target.hasAttribute("contenteditable"));
 };
 
-// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.8_7a1e055a448122d8dc68aa8577e6276c/node_modules/@vuepress/helper/lib/client/utils/isKeyMatched.js
+// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.82_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite@2.0_qx3eckbqtltmicesfghsinmyqy/node_modules/@vuepress/helper/lib/client/utils/isKeyMatched.js
 import { isString } from "vuepress/shared";
 var isKeyMatched = (event, hotKeys) => hotKeys.some((item) => {
   if (isString(item))
@@ -371,7 +371,7 @@ var isKeyMatched = (event, hotKeys) => hotKeys.some((item) => {
   return key === event.key && ctrl === event.ctrlKey && shift === event.shiftKey && alt === event.altKey;
 });
 
-// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.8_7a1e055a448122d8dc68aa8577e6276c/node_modules/@vuepress/helper/lib/client/utils/hasGlobalComponent.js
+// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.82_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite@2.0_qx3eckbqtltmicesfghsinmyqy/node_modules/@vuepress/helper/lib/client/utils/hasGlobalComponent.js
 var hasGlobalComponent = (name, app) => {
   var _a;
   const globalComponents = (_a = (app == null ? void 0 : app._instance) ?? getCurrentInstance()) == null ? void 0 : _a.appContext.components;
@@ -380,12 +380,12 @@ var hasGlobalComponent = (name, app) => {
   return name in globalComponents || camelize(name) in globalComponents || capitalize(camelize(name)) in globalComponents;
 };
 
-// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.8_7a1e055a448122d8dc68aa8577e6276c/node_modules/@vuepress/helper/lib/client/utils/wait.js
+// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.82_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite@2.0_qx3eckbqtltmicesfghsinmyqy/node_modules/@vuepress/helper/lib/client/utils/wait.js
 var wait = (ms) => new Promise((resolve) => {
   setTimeout(resolve, ms);
 });
 
-// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.8_7a1e055a448122d8dc68aa8577e6276c/node_modules/@vuepress/helper/lib/client/composables/useDarkMode.js
+// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.82_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite@2.0_qx3eckbqtltmicesfghsinmyqy/node_modules/@vuepress/helper/lib/client/composables/useDarkMode.js
 var darkmode = null;
 var _useDarkMode = () => {
   const isDarkMode = ref(false);
@@ -402,7 +402,7 @@ var _useDarkMode = () => {
 };
 var useDarkMode = () => darkmode ?? (darkmode = _useDarkMode());
 
-// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.8_7a1e055a448122d8dc68aa8577e6276c/node_modules/@vuepress/helper/lib/client/composables/useHeaders.js
+// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.82_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite@2.0_qx3eckbqtltmicesfghsinmyqy/node_modules/@vuepress/helper/lib/client/composables/useHeaders.js
 import { onContentUpdated } from "vuepress/client";
 var useHeaders = (options = {}) => {
   const headersRef = ref([]);
@@ -412,14 +412,14 @@ var useHeaders = (options = {}) => {
   return headersRef;
 };
 
-// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.8_7a1e055a448122d8dc68aa8577e6276c/node_modules/@vuepress/helper/lib/client/composables/useLocaleConfig.js
+// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.82_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite@2.0_qx3eckbqtltmicesfghsinmyqy/node_modules/@vuepress/helper/lib/client/composables/useLocaleConfig.js
 import { useRouteLocale } from "vuepress/client";
 var useLocaleConfig = (localesConfig) => {
   const routeLocale = useRouteLocale();
   return computed(() => toValue(localesConfig)[routeLocale.value] ?? {});
 };
 
-// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.8_7a1e055a448122d8dc68aa8577e6276c/node_modules/@vuepress/helper/lib/client/composables/useKeys.js
+// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.82_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite@2.0_qx3eckbqtltmicesfghsinmyqy/node_modules/@vuepress/helper/lib/client/composables/useKeys.js
 var useKeys = (hotKeys, action) => {
   const onKeydown = (event) => {
     const hotKeysValue = toValue(hotKeys);
@@ -438,14 +438,14 @@ var useKeys = (hotKeys, action) => {
   useEventListener("keydown", onKeydown);
 };
 
-// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.8_7a1e055a448122d8dc68aa8577e6276c/node_modules/@vuepress/helper/lib/client/composables/useRoutePaths.js
+// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.82_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite@2.0_qx3eckbqtltmicesfghsinmyqy/node_modules/@vuepress/helper/lib/client/composables/useRoutePaths.js
 import { useRoutes } from "vuepress/client";
 var useRoutePaths = () => {
   const routes = useRoutes();
   return computed(() => Object.keys(routes.value));
 };
 
-// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.8_7a1e055a448122d8dc68aa8577e6276c/node_modules/@vuepress/helper/lib/shared/helper.js
+// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.82_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite@2.0_qx3eckbqtltmicesfghsinmyqy/node_modules/@vuepress/helper/lib/shared/helper.js
 import { isString as isString2 } from "vuepress/shared";
 import { isFunction, isString as isString3, isPlainObject } from "vuepress/shared";
 import { ensureEndingSlash, ensureLeadingSlash, removeEndingSlash, removeLeadingSlash } from "vuepress/shared";
@@ -461,7 +461,7 @@ var { fromEntries } = Object;
 var { keys: keys2 } = Object;
 var { values } = Object;
 
-// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.8_7a1e055a448122d8dc68aa8577e6276c/node_modules/@vuepress/helper/lib/shared/deepAssign.js
+// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.82_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite@2.0_qx3eckbqtltmicesfghsinmyqy/node_modules/@vuepress/helper/lib/shared/deepAssign.js
 var deepAssign = (originObject, ...overrideObjects) => {
   if (overrideObjects.length === 0)
     return originObject;
@@ -484,7 +484,7 @@ var deepAssign = (originObject, ...overrideObjects) => {
   return deepAssign(originObject, ...overrideObjects);
 };
 
-// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.8_7a1e055a448122d8dc68aa8577e6276c/node_modules/@vuepress/helper/lib/shared/date.js
+// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.82_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite@2.0_qx3eckbqtltmicesfghsinmyqy/node_modules/@vuepress/helper/lib/shared/date.js
 var getDate = (input) => {
   if (input) {
     if (typeof input === "number")
@@ -505,7 +505,7 @@ var dateSorter = (valueA, valueB) => {
   return dateB.getTime() - dateA.getTime();
 };
 
-// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.8_7a1e055a448122d8dc68aa8577e6276c/node_modules/@vuepress/helper/lib/shared/link.js
+// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.82_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite@2.0_qx3eckbqtltmicesfghsinmyqy/node_modules/@vuepress/helper/lib/shared/link.js
 import { isLinkExternal, isLinkWithProtocol } from "vuepress/shared";
 import { isLinkExternal as isLinkExternal2, isLinkHttp, isLinkWithProtocol as isLinkWithProtocol2 } from "vuepress/shared";
 var isLinkAbsolute = (test) => startsWith(test, "/") && test[1] !== "/";
