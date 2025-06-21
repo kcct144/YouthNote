@@ -1,15 +1,15 @@
 import { defineClientConfig } from 'vuepress/client'
-import Tabs from 'D:/WebProjs/EnglishTutorial/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1.0.0-rc.137_esbuild@0.25.1_less@4.2.2_markdown-it@14.1.0_sass-embed_3dhmvudt3kiy3hgd6bbggwz4ui/node_modules/vuepress-plugin-md-power/lib/client/components/Tabs.vue'
-import CodeTabs from 'D:/WebProjs/EnglishTutorial/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1.0.0-rc.137_esbuild@0.25.1_less@4.2.2_markdown-it@14.1.0_sass-embed_3dhmvudt3kiy3hgd6bbggwz4ui/node_modules/vuepress-plugin-md-power/lib/client/components/CodeTabs.vue'
-import Plot from 'D:/WebProjs/EnglishTutorial/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1.0.0-rc.137_esbuild@0.25.1_less@4.2.2_markdown-it@14.1.0_sass-embed_3dhmvudt3kiy3hgd6bbggwz4ui/node_modules/vuepress-plugin-md-power/lib/client/components/Plot.vue'
-import FileTreeItem from 'D:/WebProjs/EnglishTutorial/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1.0.0-rc.137_esbuild@0.25.1_less@4.2.2_markdown-it@14.1.0_sass-embed_3dhmvudt3kiy3hgd6bbggwz4ui/node_modules/vuepress-plugin-md-power/lib/client/components/FileTreeItem.vue'
-import VPDemoBasic from 'D:/WebProjs/EnglishTutorial/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1.0.0-rc.137_esbuild@0.25.1_less@4.2.2_markdown-it@14.1.0_sass-embed_3dhmvudt3kiy3hgd6bbggwz4ui/node_modules/vuepress-plugin-md-power/lib/client/components/VPDemoBasic.vue'
-import VPDemoNormal from 'D:/WebProjs/EnglishTutorial/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1.0.0-rc.137_esbuild@0.25.1_less@4.2.2_markdown-it@14.1.0_sass-embed_3dhmvudt3kiy3hgd6bbggwz4ui/node_modules/vuepress-plugin-md-power/lib/client/components/VPDemoNormal.vue'
-import Annotation from 'D:/WebProjs/EnglishTutorial/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1.0.0-rc.137_esbuild@0.25.1_less@4.2.2_markdown-it@14.1.0_sass-embed_3dhmvudt3kiy3hgd6bbggwz4ui/node_modules/vuepress-plugin-md-power/lib/client/components/Annotation.vue'
-import VPCollapse from 'D:/WebProjs/EnglishTutorial/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1.0.0-rc.137_esbuild@0.25.1_less@4.2.2_markdown-it@14.1.0_sass-embed_3dhmvudt3kiy3hgd6bbggwz4ui/node_modules/vuepress-plugin-md-power/lib/client/components/VPCollapse.vue'
-import VPCollapseItem from 'D:/WebProjs/EnglishTutorial/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1.0.0-rc.137_esbuild@0.25.1_less@4.2.2_markdown-it@14.1.0_sass-embed_3dhmvudt3kiy3hgd6bbggwz4ui/node_modules/vuepress-plugin-md-power/lib/client/components/VPCollapseItem.vue'
+import Tabs from 'D:/proj/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1._4b425b6906bb48b7f71e7d3b24a917a1/node_modules/vuepress-plugin-md-power/lib/client/components/Tabs.vue'
+import CodeTabs from 'D:/proj/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1._4b425b6906bb48b7f71e7d3b24a917a1/node_modules/vuepress-plugin-md-power/lib/client/components/CodeTabs.vue'
+import Plot from 'D:/proj/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1._4b425b6906bb48b7f71e7d3b24a917a1/node_modules/vuepress-plugin-md-power/lib/client/components/Plot.vue'
+import FileTreeItem from 'D:/proj/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1._4b425b6906bb48b7f71e7d3b24a917a1/node_modules/vuepress-plugin-md-power/lib/client/components/FileTreeItem.vue'
+import VPDemoBasic from 'D:/proj/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1._4b425b6906bb48b7f71e7d3b24a917a1/node_modules/vuepress-plugin-md-power/lib/client/components/VPDemoBasic.vue'
+import VPDemoNormal from 'D:/proj/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1._4b425b6906bb48b7f71e7d3b24a917a1/node_modules/vuepress-plugin-md-power/lib/client/components/VPDemoNormal.vue'
+import Annotation from 'D:/proj/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1._4b425b6906bb48b7f71e7d3b24a917a1/node_modules/vuepress-plugin-md-power/lib/client/components/Annotation.vue'
+import VPCollapse from 'D:/proj/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1._4b425b6906bb48b7f71e7d3b24a917a1/node_modules/vuepress-plugin-md-power/lib/client/components/VPCollapse.vue'
+import VPCollapseItem from 'D:/proj/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1._4b425b6906bb48b7f71e7d3b24a917a1/node_modules/vuepress-plugin-md-power/lib/client/components/VPCollapseItem.vue'
 
-import 'D:/WebProjs/EnglishTutorial/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1.0.0-rc.137_esbuild@0.25.1_less@4.2.2_markdown-it@14.1.0_sass-embed_3dhmvudt3kiy3hgd6bbggwz4ui/node_modules/vuepress-plugin-md-power/lib/client/styles/index.css'
+import 'D:/proj/YouthNote/node_modules/.pnpm/vuepress-plugin-md-power@1._4b425b6906bb48b7f71e7d3b24a917a1/node_modules/vuepress-plugin-md-power/lib/client/styles/index.css'
 
 export default defineClientConfig({
   enhance({ router, app }) {
