@@ -170,7 +170,7 @@ var useLastUpdated = (enabled = true) => {
 var VPHeader = ({ level = 2, text, anchor }) => h(`h${level || 2}`, { id: anchor, tabindex: "-1" }, h("a", { href: `#${anchor}`, class: "header-anchor" }, h("span", text)));
 
 // node_modules/.pnpm/@vuepress+plugin-git@2.0.0-_df91a7f3eada62522df2f02026eba8c9/node_modules/@vuepress/plugin-git/lib/client/components/GitContributors.js
-import "D:/proj/YouthNote/node_modules/.pnpm/@vuepress+plugin-git@2.0.0-_df91a7f3eada62522df2f02026eba8c9/node_modules/@vuepress/plugin-git/lib/client/styles/contributors.css";
+import "C:/Users/Kai/Desktop/projs/YouthNote/node_modules/.pnpm/@vuepress+plugin-git@2.0.0-_df91a7f3eada62522df2f02026eba8c9/node_modules/@vuepress/plugin-git/lib/client/styles/contributors.css";
 var GitContributor = ({ name, url, avatar }) => h(url ? "a" : "span", {
   href: url,
   target: "_blank",
@@ -206,8 +206,8 @@ var GitContributors = defineComponent({
 });
 
 // node_modules/.pnpm/@vuepress+plugin-git@2.0.0-_df91a7f3eada62522df2f02026eba8c9/node_modules/@vuepress/plugin-git/lib/client/components/GitChangelog.js
-import "D:/proj/YouthNote/node_modules/.pnpm/@vuepress+plugin-git@2.0.0-_df91a7f3eada62522df2f02026eba8c9/node_modules/@vuepress/plugin-git/lib/client/styles/vars.css";
-import "D:/proj/YouthNote/node_modules/.pnpm/@vuepress+plugin-git@2.0.0-_df91a7f3eada62522df2f02026eba8c9/node_modules/@vuepress/plugin-git/lib/client/styles/changelog.css";
+import "C:/Users/Kai/Desktop/projs/YouthNote/node_modules/.pnpm/@vuepress+plugin-git@2.0.0-_df91a7f3eada62522df2f02026eba8c9/node_modules/@vuepress/plugin-git/lib/client/styles/vars.css";
+import "C:/Users/Kai/Desktop/projs/YouthNote/node_modules/.pnpm/@vuepress+plugin-git@2.0.0-_df91a7f3eada62522df2f02026eba8c9/node_modules/@vuepress/plugin-git/lib/client/styles/changelog.css";
 var GitChangelog = defineComponent({
   name: "GitChangelog",
   props: {

@@ -15,5 +15,5 @@ config:
       - title: YouthNote-French
         icon: 🇫🇷
         details: 新大学法语-精读笔记
-        link: "https://kcct144.work/french/"
+        link: https://kcct144.work/french/
 ---
