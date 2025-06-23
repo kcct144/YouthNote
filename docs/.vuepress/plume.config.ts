@@ -35,7 +35,7 @@ export default defineThemeConfig({
    * @see https://theme-plume.vuejs.press/config/basic/#profile
    */
   profile: {
-    avatar: "https://theme-plume.vuejs.press/plume.png",
+    avatar: "https://s21.ax1x.com/2025/06/23/pVZhphF.png",
     name: "Senior Notes",
     description: "初中知识笔记",
     // circle: true,

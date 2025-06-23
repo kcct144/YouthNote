@@ -13,7 +13,7 @@ config:
         icon: 🖊
         details: 英语个人学习终端（开发中）
       - title: YouthNote-French
-        icon: 🖊
+        icon: 🇫🇷
         details: 新大学法语-精读笔记
-        link: /french/
+        link: "https://kcct144.work/french/"
 ---
