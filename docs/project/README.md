@@ -11,5 +11,9 @@ config:
         link: /study/
       - title: Youth Practice
         icon: 🖊
-        details: 初高中英语个人学习终端（开发中）
+        details: 英语个人学习终端（开发中）
+      - title: YouthNote-French
+        icon: 🖊
+        details: 新大学法语-精读笔记
+        link: /french/
 ---
