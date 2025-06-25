@@ -1,6 +1,6 @@
 ---
 title: 生物
-permalink: /note/bi/
+permalink: /bi/
 ---
 
 # 中考专题

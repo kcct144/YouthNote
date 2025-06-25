@@ -1,6 +1,6 @@
 ---
 title: 地理
-permalink: /note/ge/
+permalink: /ge/
 ---
 
 # 中考专题

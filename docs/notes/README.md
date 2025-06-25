@@ -1,35 +1,35 @@
 ---
 title: 学科笔记
-permalink: /note/
+permalink: /notes/
 home: true
 config:
   - type: features
     features:
       - title: 语文
         icon: 📖
-        link: /note/cn/
+        link: /cn/
       - title: 数学
         icon: 🔢
-        link: /note/ma/
+        link: /ma/
       - title: 英语
         icon: 🔤
-        link: /note/en/
+        link: /en/
       - title: 物理
         icon: 🔬
-        link: /note/ph/
+        link: /ph/
       - title: 化学
         icon: 🧪
-        link: /note/ch/
+        link: /ch/
       - title: 生物
         icon: 🧬
-        link: /note/bi/
+        link: /bi/
       - title: 地理
         icon: 🌍
-        link: /note/ge/
+        link: /ge/
       - title: 历史
         icon: 📜
-        link: /note/hi/
+        link: /hi/
       - title: 政治
         icon: 🏛
-        link: /note/po/
+        link: /po/
 ---
