@@ -11,5 +11,12 @@ config:
         link: /study/
       - title: Youth Practice
         icon: 🖊
-        details: 初高中英语个人学习终端（开发中）
+        details: 英语个人学习终端（开发中）
+      - title: YouthNote-French
+        icon: 🇫🇷
+        details: 新大学法语-精读笔记
+        link: https://kcct144.work/french/
+      - title: 凯凯の教学日记
+        icon: 📝
+        details: 凯凯时发生的故事和心得（持续更新）
 ---

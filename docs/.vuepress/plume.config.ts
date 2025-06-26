@@ -26,16 +26,16 @@ export default defineThemeConfig({
   // createTime: true, // 是否显示文章创建时间
 
   /* 站点页脚 */
-  // footer: {
-  //   message: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
-  //   copyright: '',
-  // },
+  footer: {
+    message:
+      '<p>Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a></p><p><a href="https://beian.miit.gov.cn">粤ICP备2021038051号</a></p>',
+  },
 
   /**
    * @see https://theme-plume.vuejs.press/config/basic/#profile
    */
   profile: {
-    avatar: "https://theme-plume.vuejs.press/plume.png",
+    avatar: "https://s21.ax1x.com/2025/06/23/pVZhphF.png",
     name: "Senior Notes",
     description: "初中知识笔记",
     // circle: true,

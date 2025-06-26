@@ -14,7 +14,7 @@ export default defineUserConfig({
       {
         rel: "icon",
         type: "image/png",
-        href: "https://theme-plume.vuejs.press/favicon-32x32.png",
+        href: "https://s21.ax1x.com/2025/06/23/pVZhphF.png",
       },
     ],
   ],
@@ -47,7 +47,7 @@ export default defineUserConfig({
       tags: true, // 是否启用标签页
       archives: true, // 是否启用归档页
       categories: true, // 是否启用分类页
-      postCover: 'right', // 文章封面位置
+      postCover: "right", // 文章封面位置
       pagination: 15, // 每页显示文章数量
     },
 

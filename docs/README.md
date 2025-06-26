@@ -15,7 +15,7 @@ config:
       actions:
         - theme: alt
           text: 学科笔记
-          link: /note/
+          link: /notes/
         - theme: alt
           text: 英语语法
           link: /grammar/
