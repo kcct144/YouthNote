@@ -125,7 +125,7 @@ createTime: 2025/06/26 11:14:00
 
 ### /ɑ:/
 
-以下单词中，均有一部分的发音为 /ɑ:/，请试着将它们归类，并总结发音为 /ɑ:/ 的字母组合，一般有哪些：
+以下单词中，均有一部分的发音为 /ɑ:/，请试着将它们归类，并总结发音为 /ɑ:/ 的字母组合一般有哪些：
 
 ::: tabs
 
@@ -154,3 +154,24 @@ createTime: 2025/06/26 11:14:00
 | farm /fɑːm/    | fast /fɑːst/  | task /tɑːsk/  | shark /ʃɑːk/ |
 | car /kɑː/      | start /stɑːt/ | smart /smɑːt/ | ask /ɑːsk/   |
 
+### /ɔ:/
+
+以下单词中，均有一部分的发音为 /ɔ:/，请试着将它们归类，并总结发音为 /ɔ:/ 的字母组合一般有哪些：
+
+::: tabs
+
+@tab 问题
+
+1. \_\_\_\_\_ :
+2. \_\_\_\_\_ :
+
+最常见的是：\_\_\_\_\_
+
+@tab 答案
+
+1. a: plant, ask, class, fast, glass, last, mark, mask, past, task
+2. ar: star, large, arm, farm, car, hard, mark, part, park, March, shark, art, start, smart,
+
+最常见的是：ar
+
+:::
