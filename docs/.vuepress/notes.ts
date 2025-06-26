@@ -1,19 +1,5 @@
 import { defineNoteConfig, defineNotesConfig } from "vuepress-theme-plume";
 
-<<<<<<< HEAD
-
-const grammar = defineNoteConfig({
-  dir: '',
-  link: '/grammar',
-  sidebar: ['NP/','VP/','PP/'],
-})
-
-export const notes = defineNotesConfig({
-  dir: 'grammar',
-  link: '/',
-  notes: [grammar],
-})
-=======
 const bi = defineNoteConfig({
   dir: "bi",
   link: "/bi/",
@@ -73,4 +59,3 @@ export const notes = defineNotesConfig({
   link: "/",
   notes: [cn, ma, en, ph, bi, ch, po, hi, ge],
 });
->>>>>>> 754885c502570a6c05334d3b827269d0bd30d061

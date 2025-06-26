@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 import comp from "D:/WebProjs/EnglishTutorial/YouthNote/docs/.vuepress/.temp/pages/study/审题/index.html.vue"
-const data = JSON.parse("{\"path\":\"/study/%E5%AE%A1%E9%A2%98/\",\"title\":\"审题\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"审题\",\"createTime\":\"2025/06/06 23:43:33\",\"permalink\":\"/study/审题/\",\"gitInclude\":[]},\"headers\":[],\"readingTime\":{\"minutes\":2.44,\"words\":732},\"filePathRelative\":\"study/method/审题.md\",\"categoryList\":[{\"id\":\"2cd1c6\",\"sort\":10003,\"name\":\"study\"},{\"id\":\"51dbed\",\"sort\":10020,\"name\":\"method\"}]}")
-=======
-import comp from "C:/Users/Kai/Desktop/projs/YouthNote/docs/.vuepress/.temp/pages/study/审题/index.html.vue"
-const data = JSON.parse("{\"path\":\"/study/%E5%AE%A1%E9%A2%98/\",\"title\":\"审题\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"审题\",\"createTime\":\"2025/06/06 23:43:33\",\"permalink\":\"/study/审题/\",\"gitInclude\":[]},\"headers\":[],\"readingTime\":{\"minutes\":2.44,\"words\":732},\"filePathRelative\":\"study/method/审题.md\",\"categoryList\":[{\"id\":\"2cd1c6\",\"sort\":10006,\"name\":\"study\"},{\"id\":\"51dbed\",\"sort\":10023,\"name\":\"method\"}]}")
->>>>>>> 754885c502570a6c05334d3b827269d0bd30d061
+const data = JSON.parse("{\"path\":\"/study/%E5%AE%A1%E9%A2%98/\",\"title\":\"审题\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"审题\",\"createTime\":\"2025/06/06 23:43:33\",\"permalink\":\"/study/审题/\",\"gitInclude\":[]},\"headers\":[],\"readingTime\":{\"minutes\":2.44,\"words\":732},\"filePathRelative\":\"study/method/审题.md\",\"categoryList\":[{\"id\":\"2cd1c6\",\"sort\":10003,\"name\":\"study\"},{\"id\":\"51dbed\",\"sort\":10025,\"name\":\"method\"}]}")
 export { comp, data }
 
 if (import.meta.webpackHot) {
