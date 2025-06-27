@@ -1,7 +1,7 @@
 import {
   defineComponent,
   h
-} from "./chunk-IA4MHOT7.js";
+} from "./chunk-GQAESYNE.js";
 import "./chunk-G3PMV62Z.js";
 
 // node_modules/.pnpm/@iconify+vue@4.3.0_vue@3.5.13_typescript@5.8.2_/node_modules/@iconify/vue/dist/offline.mjs

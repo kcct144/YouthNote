@@ -65,9 +65,9 @@ export default defineUserConfig({
      * @see https://theme-plume.vuejs.press/config/basic/#autofrontmatter
      */
     autoFrontmatter: {
-      permalink: true,  // 是否生成永久链接
+      permalink: true, // 是否生成永久链接
       createTime: true, // 是否生成创建时间
-      title: true,      // 是否生成标题
+      title: true, // 是否生成标题
     },
 
     /* 本地搜索, 默认启用 */
@@ -112,7 +112,7 @@ export default defineUserConfig({
       //   bilibili: true,     // 启用嵌入 bilibili视频 语法 @[bilibili](bid)
       //   youtube: true,      // 启用嵌入 youtube视频 语法 @[youtube](video_id)
       //   artPlayer: true,    // 启用嵌入 artPlayer 本地视频 语法 @[artPlayer](url)
-      //   audioReader: true,  // 启用嵌入音频朗读功能 语法 @[audioReader](url)
+      audioReader: true, // 启用嵌入音频朗读功能 语法 @[audioReader](url)
       //   icons: true,        // 启用内置图标语法  :[icon-name]:
       //   codepen: true,      // 启用嵌入 codepen 语法 @[codepen](user/slash)
       //   replit: true,       // 启用嵌入 replit 语法 @[replit](user/repl-name)

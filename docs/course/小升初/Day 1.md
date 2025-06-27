@@ -12,10 +12,10 @@ createTime: 2025/06/26 11:14:00
 
 观察以下几个单词，尝试读出来：
 
-- ==a==pple | l==a==b | B==a==tm==a==n
-- c==a==ke | f==a==ke | g==a==te | s==a==ke
-- ==e==lephant | ==e==leven | T==e==d | W==e==b
-- ch==o==colate | T==o==d | m==o==p | l==o==ck | n==o==d
+- apple | lab | Batman
+- cake | fake | gate | sake
+- elephant | eleven | Ted | Web
+- chocolate | Tod | mop | lock | nod
 
 以下单词中的字母 i，和 like 中的 i 发音是一样的。尝试读出来：
 
@@ -33,27 +33,22 @@ createTime: 2025/06/26 11:14:00
 
 @tab 单词
 
-- like /laɪk/
-- bike /baɪk/
-- light /laɪt/
-- night /naɪt/
-- might /maɪt/
-- fight /faɪt/
-- sky /skaɪ/
-- my /maɪ/
-- fly /flaɪ/
+相同发音的部分是？对应的音标符号是？
 
-@tab 显示标注
+- like /laɪk/ @[audioReader](https://dict.youdao.com/dictvoice?audio=like)
+- bike /baɪk/ @[audioReader](https://dict.youdao.com/dictvoice?audio=bike)
+- light /laɪt/ @[audioReader](https://dict.youdao.com/dictvoice?audio=light)
+- night /naɪt/ @[audioReader](https://dict.youdao.com/dictvoice?audio=night)
+- might /maɪt/ @[audioReader](https://dict.youdao.com/dictvoice?audio=might)
+- fight /faɪt/ @[audioReader](https://dict.youdao.com/dictvoice?audio=fight)
+- sky /skaɪ/ @[audioReader](https://dict.youdao.com/dictvoice?audio=sky)
+- my /maɪ/ @[audioReader](https://dict.youdao.com/dictvoice?audio=my)
+- fly /flaɪ/ @[audioReader](https://dict.youdao.com/dictvoice?audio=fly)
 
-- l==i==ke /l==aɪ==k/
-- b==i==ke /b==aɪ==k/
-- l==i==ght /l==aɪ==t/
-- n==i==ght /n==aɪ==t/
-- m==i==ght /m==aɪ==t/
-- f==i==ght /f==aɪ==t/
-- sk==y== /sk==aɪ==/
-- m==y== /m==aɪ==/
-- fl==y== /fl==aɪ==/
+@tab 看看答案
+
+- 在以上例子中，i, igh 和 y 的发音是一样的。都和字母 I 的发音一样，读“爱”。
+- 并且，都用符号 /aɪ/ 表示。
 
 :::
 
@@ -61,11 +56,9 @@ createTime: 2025/06/26 11:14:00
 
 我们用音标来表示发音，一种符号表示一种发音。
 
-在以上例子中，i 、 igh 和 y 的发音都一样，我们用音标 /aɪ/ 来表示。
-
 :::
 
-## 音标表
+### 音标表
 
 一共 48 个音标如下：
 
@@ -146,7 +139,7 @@ createTime: 2025/06/26 11:14:00
 :::
 
 |                |               |               |              |
-|----------------|---------------|---------------|--------------|
+| -------------- | ------------- | ------------- | ------------ |
 | plant /plɑːnt/ | card /kɑːd/   | class /klɑːs/ | dark /dɑːk/  |
 | star /stɑː/    | mark /mɑːk/   | last /lɑːst/  | far /fɑː/    |
 | large /lɑːʤ/   | park /pɑːk/   | glass /glɑːs/ | hard /hɑːd/  |
@@ -164,14 +157,136 @@ createTime: 2025/06/26 11:14:00
 
 1. \_\_\_\_\_ :
 2. \_\_\_\_\_ :
+3. \_\_\_\_\_ :
+4. \_\_\_\_\_ :
 
 最常见的是：\_\_\_\_\_
 
 @tab 答案
 
-1. a: plant, ask, class, fast, glass, last, mark, mask, past, task
-2. ar: star, large, arm, farm, car, hard, mark, part, park, March, shark, art, start, smart,
+1. all: small, ball, call, hall, tall, fall, wall, all
+2. al: false, talk, walk, alright
+3. or: short, sport, story
+4. aw: draw
 
-最常见的是：ar
+最常见的是：all
 
 :::
+
+|       |         |         |            |
+| ----- | ------- | ------- | ---------- |
+| small | /smɔːl/ | false   | /fɔːls/    |
+| short | /ʃɔːt/  | fall    | /fɔːl/     |
+| ball  | /bɔːl/  | talk    | /tɔːk/     |
+| call  | /kɔːl/  | wall    | /wɔːl/     |
+| sport | /spɔːt/ | walk    | /wɔːk/     |
+| hall  | /hɔːl/  | all     | /ɔːl/      |
+| tall  | /tɔːl/  | story   | /ˈstɔːri/  |
+| draw  | /drɔː/  | alright | /ɔːlˈraɪt/ |
+
+### /ɜ:/
+
+以下单词中，均有一部分的发音为 /ɜ:/，请试着将它们归类，并总结发音为 /ɜ:/ 的字母组合一般有哪些：
+
+::: tabs
+
+@tab 问题
+
+1. \_\_\_\_\_ :
+2. \_\_\_\_\_ :
+
+最常见的是：\_\_\_\_\_
+
+@tab 答案
+
+1. ir: third, girl, bird, dirty, first, shirt, sir, skirt, birthday
+2. ur: burn, hurt, turn, nurse, Thursday, purple
+
+最常见的是：ir
+
+:::
+
+|        |           |          |            |
+| ------ | --------- | -------- | ---------- |
+| third  | /θɜːd/    | shirt    | /ʃɜːt/     |
+| girl   | /ɡɜːl/    | sir      | /sɜː/      |
+| bird   | /bɜːd/    | skirt    | /skɜːt/    |
+| burn   | /bɜːn/    | turn     | /tɜːn/     |
+| circle | /ˈsɜːkᵊl/ | nurse    | /nɜːs/     |
+| dirty  | /dɜːti/   | Thursday | /ˈθɜːzdeɪ/ |
+| first  | /fɜːst/   | birthday | /ˈbɜːθdeɪ/ |
+| hurt   | /hɜːt/    | purple   | /ˈpɜːpᵊl/  |
+
+### /u:/
+
+以下单词中，均有一部分的发音为 /u:/，请试着将它们归类，并总结发音为 /u:/ 的字母组合一般有哪些：
+
+::: tabs
+
+@tab 问题
+
+1. \_\_\_\_\_ :
+2. \_\_\_\_\_ :
+3. \_\_\_\_\_ :
+4. \_\_\_\_\_ :
+
+最常见的是：\_\_\_\_\_
+
+@tab 答案
+
+1. all: small, ball, call, hall, tall, fall, wall, all
+2. al: false, talk, walk, alright
+3. or: short, sport, story
+4. aw: draw
+
+最常见的是：all
+
+:::
+
+|       |         |         |            |
+| ----- | ------- | ------- | ---------- |
+| small | /smɔːl/ | false   | /fɔːls/    |
+| short | /ʃɔːt/  | fall    | /fɔːl/     |
+| ball  | /bɔːl/  | talk    | /tɔːk/     |
+| call  | /kɔːl/  | wall    | /wɔːl/     |
+| sport | /spɔːt/ | walk    | /wɔːk/     |
+| hall  | /hɔːl/  | all     | /ɔːl/      |
+| tall  | /tɔːl/  | story   | /ˈstɔːri/  |
+| draw  | /drɔː/  | alright | /ɔːlˈraɪt/ |
+
+### /ɪ:/
+
+以下单词中，均有一部分的发音为 /ɪ:/，请试着将它们归类，并总结发音为 /ɪ:/ 的字母组合一般有哪些：
+
+::: tabs
+
+@tab 问题
+
+1. \_\_\_\_\_ :
+2. \_\_\_\_\_ :
+3. \_\_\_\_\_ :
+4. \_\_\_\_\_ :
+
+最常见的是：\_\_\_\_\_
+
+@tab 答案
+
+1. all: small, ball, call, hall, tall, fall, wall, all
+2. al: false, talk, walk, alright
+3. or: short, sport, story
+4. aw: draw
+
+最常见的是：all
+
+:::
+
+|       |         |         |            |
+| ----- | ------- | ------- | ---------- |
+| small | /smɔːl/ | false   | /fɔːls/    |
+| short | /ʃɔːt/  | fall    | /fɔːl/     |
+| ball  | /bɔːl/  | talk    | /tɔːk/     |
+| call  | /kɔːl/  | wall    | /wɔːl/     |
+| sport | /spɔːt/ | walk    | /wɔːk/     |
+| hall  | /hɔːl/  | all     | /ɔːl/      |
+| tall  | /tɔːl/  | story   | /ˈstɔːri/  |
+| draw  | /drɔː/  | alright | /ɔːlˈraɪt/ |
