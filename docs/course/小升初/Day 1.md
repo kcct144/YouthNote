@@ -228,31 +228,26 @@ createTime: 2025/06/26 11:14:00
 1. \_\_\_\_\_ :
 2. \_\_\_\_\_ :
 3. \_\_\_\_\_ :
-4. \_\_\_\_\_ :
 
 最常见的是：\_\_\_\_\_
 
 @tab 答案
 
-1. all: small, ball, call, hall, tall, fall, wall, all
-2. al: false, talk, walk, alright
-3. or: short, sport, story
-4. aw: draw
+1. ue: blue, Tuesday
+2. oo: moon, school, too, tooth, noon, room, food, cool, goose
+3. u: Lucy, June, ruler, tofu
 
-最常见的是：all
+最常见的是：oo
 
 :::
 
-|       |         |         |            |
-| ----- | ------- | ------- | ---------- |
-| small | /smɔːl/ | false   | /fɔːls/    |
-| short | /ʃɔːt/  | fall    | /fɔːl/     |
-| ball  | /bɔːl/  | talk    | /tɔːk/     |
-| call  | /kɔːl/  | wall    | /wɔːl/     |
-| sport | /spɔːt/ | walk    | /wɔːk/     |
-| hall  | /hɔːl/  | all     | /ɔːl/      |
-| tall  | /tɔːl/  | story   | /ˈstɔːri/  |
-| draw  | /drɔː/  | alright | /ɔːlˈraɪt/ |
+|         |            |       |          |       |           |
+| ------- | ---------- | ----- | -------- | ----- | --------- |
+| blue    | /bluː/     | too   | /tuː/    | tofu  | /ˈtəʊfuː/ |
+| Tuesday | /ˈʧuːzdeɪ/ | June  | /ʤuːn/   | room  | /ruːm/    |
+| moon    | /muːn/     | tooth | /tuːθ/   | food  | /fuːd/    |
+| school  | /skuːl/    | noon  | /nuːn/   | cool  | /kuːl/    |
+| Lucy    | /ˈluːsi/   | ruler | /ˈruːlə/ | goose | /ɡuːs/    |
 
 ### /ɪ:/
 
@@ -271,22 +266,23 @@ createTime: 2025/06/26 11:14:00
 
 @tab 答案
 
-1. all: small, ball, call, hall, tall, fall, wall, all
-2. al: false, talk, walk, alright
-3. or: short, sport, story
-4. aw: draw
+1. ee: tree, see, knee, green, feed, sweep, meet, keep, tree, three, greet, week, need, beef
+2. ea: mean, please, speak, eat, easy, cheap, teacher, dream, each
+3. e: she, me, Peter, we, be, even, these
+4. ey: key
 
-最常见的是：all
+最常见的是：ee
 
 :::
 
-|       |         |         |            |
-| ----- | ------- | ------- | ---------- |
-| small | /smɔːl/ | false   | /fɔːls/    |
-| short | /ʃɔːt/  | fall    | /fɔːl/     |
-| ball  | /bɔːl/  | talk    | /tɔːk/     |
-| call  | /kɔːl/  | wall    | /wɔːl/     |
-| sport | /spɔːt/ | walk    | /wɔːk/     |
-| hall  | /hɔːl/  | all     | /ɔːl/      |
-| tall  | /tɔːl/  | story   | /ˈstɔːri/  |
-| draw  | /drɔː/  | alright | /ɔːlˈraɪt/ |
+|        |         |         |             |       |          |         |          |
+| ------ | ------- | ------- | ----------- | ----- | -------- | ------- | -------- |
+| free   | /friː/  | me      | /miː/       | meet  | /miːt/   | even    | /ˈiːvᵊn/ |
+| mean   | /miːn/  | speak   | /spiːk/     | Peter | /ˈpiːtə/ | teacher | /ˈtiːʧə/ |
+| meat   | /miːt/  | key     | /kiː/       | keep  | /kiːp/   | these   | /ðiːz/   |
+| she    | /ʃiː/   | Lisa    | /ˈliːsə/    | tree  | /triː/   | week    | /wiːk/   |
+| he     | /hiː/   | feed    | /fiːd/      | three | /θriː/   | sweet   | /swiːt/  |
+| see    | /siː/   | eat     | /iːt/       | greet | /ɡriːt/  | need    | /niːd/   |
+| please | /pliːz/ | fifteen | /ˌfɪfˈtiːn/ | we    | /wiː/    | dream   | /driːm/  |
+| knee   | /niː/   | sweep   | /swiːp/     | be    | /biː/    | each    | /iːʧ/    |
+| green  | /ɡriːn/ | easy    | /ˈiːzi/     | cheap | /ʧiːp/   | beef    | /biːf/   |
