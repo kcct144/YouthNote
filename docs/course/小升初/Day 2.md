@@ -31,90 +31,273 @@ createTime: 2025/07/01 11:14:00
 
 ## 二、摩擦音 [f] [v] [s] [z] [θ] [ð]
 
-### /f/＆/v/
+### 1. /f/＆/v/
 
-### /s/＆/z/
+两者嘴型一致，均为唇齿音（上齿轻咬下唇，往外送气。）
 
-### /θ/＆/ð/
+- /f/ 清辅音，喉咙不振动
+- /v/ 浊辅音，喉咙振动
+
+尝试拼读：
+
+- fake /feɪk/ @[audioReader](https://dict.youdao.com/dictvoice?audio=fake) 假的
+- fine /faɪn/ @[audioReader](https://dict.youdao.com/dictvoice?audio=fine) 好
+- laugh /lɑːf/ @[audioReader](https://dict.youdao.com/dictvoice?audio=laugh) 笑
+- vast /vɑːst/ @[audioReader](https://dict.youdao.com/dictvoice?audio=vast) 巨大的
+- move /muːv/ @[audioReader](https://dict.youdao.com/dictvoice?audio=move) 移动
+- leave /liːv/ @[audioReader](https://dict.youdao.com/dictvoice?audio=leave) 离开
+- five /faɪv/ @[audioReader](https://dict.youdao.com/dictvoice?audio=five) 五
+- favor /feɪvə/ @[audioReader](https://dict.youdao.com/dictvoice?audio=favor) 偏爱
+- leaf /liːf/ @[audioReader](https://dict.youdao.com/dictvoice?audio=leaf) 树叶
+- leaves /liːvz/ @[audioReader](https://dict.youdao.com/dictvoice?audio=leaves) 树叶（复数）
+
+### 2. /s/＆/z/
+
+两者嘴型一致，均为齿龈音（上齿咬下齿，舌头抵在上齿龈）
+
+- /s/：清辅音，喉咙不振动
+- /z/：浊辅音，喉咙振动
+
+::: tip
+
+一般来说，名词的复数形式，或动词的三单形式，会在后面加 -s 或 -es。
+
+- 如果前面是清辅音，一般发音为 /s/
+- 如果前面是浊辅音，一般发音为 /z/
+- 如果前面是元音，一般发音为 /z/，有时发音为 /s/
+
+但不必过于纠结，不管是读成 /s/ 还是 /z/，都不影响别人理解。
+
+:::
+
+尝试拼读：
+
+- cakes /keɪks/ @[audioReader](https://dict.youdao.com/dictvoice?audio=cakes) 蛋糕
+- maps /meps/ @[audioReader](https://dict.youdao.com/dictvoice?audio=maps) 地图
+- pigs /pigz/ @[audioReader](https://dict.youdao.com/dictvoice?audio=pigs) 猪
+- dogs /dɒɡz/ @[audioReader](https://dict.youdao.com/dictvoice?audio=dogs) 狗
+- photos /ˈfəʊtəʊz/ @[audioReader](https://dict.youdao.com/dictvoice?audio=photos) 照片
+- sofas /ˈsəʊfəz/ @[audioReader](https://dict.youdao.com/dictvoice?audio=sofas) 沙发
+
+### 3. /θ/＆/ð/
+
+两者嘴型一致，均为齿尖音（上下齿轻咬舌尖，往外送气）
+
+- /θ/：清辅音，喉咙不振动
+- /ð/：浊辅音，喉咙振动
+
+::: danger 注意
+
+很多同学会把这两个发音和其他发音混淆，比如：
+
+- 用 /s/ 或 /f/ 替代 /θ/
+- 用 /z/ 或 /d/ 替代 /ð/
+
+:::
+
+尝试拼读：
+
+- three /θriː/ @[audioReader](https://dict.youdao.com/dictvoice?audio=three) 三
+- think /θɪŋk/ @[audioReader](https://dict.youdao.com/dictvoice?audio=think) 思考
+- thought /θɔːt/ @[audioReader](https://dict.youdao.com/dictvoice?audio=thought) 思考（过去式）
+- breath /breθ/ @[audioReader](https://dict.youdao.com/dictvoice?audio=breath) 呼吸（名词）
+- this /ðɪs/ @[audioReader](https://dict.youdao.com/dictvoice?audio=this) 这个
+- these /ðiːz/ @[audioReader](https://dict.youdao.com/dictvoice?audio=these) 这些
+- there /ðeə/ @[audioReader](https://dict.youdao.com/dictvoice?audio=there) 那里
+- breathe /briːð/ @[audioReader](https://dict.youdao.com/dictvoice?audio=breathe) 呼吸（动词）
 
 ### 总结
 
-这些单词中，都有一部分和 like 的 i 一样，试着找出来：
+爆破音和摩擦音的区别：
+
+- 爆破音是完全挡住气流，然后一瞬间释放出去
+- 摩擦音是持续地、不完全地阻塞气流
+
+- 唇齿音：/f/ ＆ /v/
+- 齿龈音：/s/ ＆ /z/
+- 齿尖音：/θ/ ＆ /ð/
+
+除了以上摩擦音，还有 /∫/、/ʒ/，我们会在之后介绍。/h/ 也可以归类为摩擦音。
+
+## 三、短元音 [æ] [e] [ɪ] [ʌ] [ɒ] [ʊ] [ə]
+
+根据发音的长短，我们可以把单元音分为两类：
+
+- 短元音：发音较短，没有冒号 `：`
+- 长元音：发音较长，有冒号 `：`
+
+大部分长元音的发音，其实就是对应短元音的延长：
+
+- /i:/ 对应 /ɪ/
+- /ɑ:/ 对应 /ʌ/
+- /ɔ:/ 对应 /ɒ/
+- /u:/ 对应 /ʊ/
+- /ɜ:/ 对应 /ǝ/
+
+/æ/ 和 /e/ 则没有对应的长元音。
+
+### 1. /ɪ/
 
 ::: tabs
 
-@tab 单词
+@tab 问题
 
-相同发音的部分是？对应的音标符号是？
+以下单词中，均有一部分的发音为 /ɪ/，请试着将它们归类，并总结发音为 /ɪ/ 的字母组合一般有哪些：
 
-- like /laɪk/ @[audioReader](https://dict.youdao.com/dictvoice?audio=like)
-- bike /baɪk/ @[audioReader](https://dict.youdao.com/dictvoice?audio=bike)
-- light /laɪt/ @[audioReader](https://dict.youdao.com/dictvoice?audio=light)
-- night /naɪt/ @[audioReader](https://dict.youdao.com/dictvoice?audio=night)
-- might /maɪt/ @[audioReader](https://dict.youdao.com/dictvoice?audio=might)
-- fight /faɪt/ @[audioReader](https://dict.youdao.com/dictvoice?audio=fight)
-- sky /skaɪ/ @[audioReader](https://dict.youdao.com/dictvoice?audio=sky)
-- my /maɪ/ @[audioReader](https://dict.youdao.com/dictvoice?audio=my)
-- fly /flaɪ/ @[audioReader](https://dict.youdao.com/dictvoice?audio=fly)
+1. \_\_\_\_\_ :
+2. \_\_\_\_\_ :
 
-@tab 看看答案
+最常见的是：\_\_\_\_\_
 
-- 在以上例子中，i, igh 和 y 的发音是一样的。都和字母 I 的发音一样，读“爱”。
-- 并且，都用符号 /aɪ/ 表示。
+@tab 答案
+
+1. a: plant, ask, class, fast, glass, last, mark, mask, past, task
+2. ar: star, large, arm, farm, car, hard, mark, part, park, March, shark, art, start, smart,
+
+最常见的是：ar
 
 :::
 
-::: tip
+|                                                                                      |                                                                                   |                                                                                   |                                                                                |
+| ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| trip /trɪp/ @[audioReader](https://dict.youdao.com/dictvoice?audio=trip)             | windy /wɪndy/ @[audioReader](https://dict.youdao.com/dictvoice?audio=windy)       | fifteen /fɪfteen/ @[audioReader](https://dict.youdao.com/dictvoice?audio=fifteen) | Sydney /Sydney/ @[audioReader](https://dict.youdao.com/dictvoice?audio=Sydney) |
+| six /sɪx/ @[audioReader](https://dict.youdao.com/dictvoice?audio=six)                | this /thɪs/ @[audioReader](https://dict.youdao.com/dictvoice?audio=this)          | with /wɪth/ @[audioReader](https://dict.youdao.com/dictvoice?audio=with)          | Miller /Mɪller/ @[audioReader](https://dict.youdao.com/dictvoice?audio=Miller) |
+| gym /gym/ @[audioReader](https://dict.youdao.com/dictvoice?audio=gym)                | sit /sɪt/ @[audioReader](https://dict.youdao.com/dictvoice?audio=sit)             | morning /mornɪng/ @[audioReader](https://dict.youdao.com/dictvoice?audio=morning) | kid /kɪd/ @[audioReader](https://dict.youdao.com/dictvoice?audio=kid)          |
+| fit /fɪt/ @[audioReader](https://dict.youdao.com/dictvoice?audio=fit)                | sick /sɪck/ @[audioReader](https://dict.youdao.com/dictvoice?audio=sick)          | unit /unɪt/ @[audioReader](https://dict.youdao.com/dictvoice?audio=unit)          | thin /thɪn/ @[audioReader](https://dict.youdao.com/dictvoice?audio=thin)       |
+| Jim /Jɪm/ @[audioReader](https://dict.youdao.com/dictvoice?audio=Jim)                | quickly /quɪckly/ @[audioReader](https://dict.youdao.com/dictvoice?audio=quickly) | ship /shɪp/ @[audioReader](https://dict.youdao.com/dictvoice?audio=ship)          | big /bɪg/ @[audioReader](https://dict.youdao.com/dictvoice?audio=big)          |
+| pink /pɪnk/ @[audioReader](https://dict.youdao.com/dictvoice?audio=pink)             | middle /mɪddle/ @[audioReader](https://dict.youdao.com/dictvoice?audio=middle)    | think /thɪnk/ @[audioReader](https://dict.youdao.com/dictvoice?audio=think)       | pick /pɪck/ @[audioReader](https://dict.youdao.com/dictvoice?audio=pick)       |
+| building /buɪldɪng/ @[audioReader](https://dict.youdao.com/dictvoice?audio=building) | guitar /guɪtar/ @[audioReader](https://dict.youdao.com/dictvoice?audio=guitar)    | twin /twɪn/ @[audioReader](https://dict.youdao.com/dictvoice?audio=twin)          | thing /thɪng/ @[audioReader](https://dict.youdao.com/dictvoice?audio=thing)    |
+| pig /pɪg/ @[audioReader](https://dict.youdao.com/dictvoice?audio=pig)                | music /musɪc/ @[audioReader](https://dict.youdao.com/dictvoice?audio=music)       | Lily /Lɪly/ @[audioReader](https://dict.youdao.com/dictvoice?audio=Lily)          | Smith /Smɪth/ @[audioReader](https://dict.youdao.com/dictvoice?audio=Smith)    |
 
-我们用音标来表示发音，一种符号表示一种发音。
+### 2. /ʌ/
 
-:::
+::: tabs
 
-### 音标表
+@tab 问题
 
-一共 48 个音标如下：
+以下单词中，均有一部分的发音为 /ɑ:/，请试着将它们归类，并总结发音为 /ɑ:/ 的字母组合一般有哪些：
 
-- 元音
-  - 单元音
-    - 长元音：/ɜ:/ /u:/ /ɔ:/ /ɑ:/ /ɪ:/
-    - 短元音：/ǝ/ /ʊ/ /ɒ/ /ʌ/ /ɪ/ /e/ /æ/
-  - 双元音：/eɪ/ /aɪ/ /ɔɪ/ /ǝʊ/ /aʊ/ /ɪǝ/ /eǝ/ /ʊǝ/
-- 辅音
-  - 爆破音
-    - 清：/p/ /t/ /k/
-    - 浊：/b/ /d/ /g/
-  - 摩擦音
-    - 清：/f/ /s/ /θ/ /∫/ /tr/ /ts/ /t∫/
-    - 浊：/v/ /z/ /ð/ /ʒ/ /dr/ /dz/ /dʒ/
-  - 鼻音：/m/ /n/ /ŋ/
-  - 边音：/l/
-  - 近音：/j/ /w/ /r/
+1. \_\_\_\_\_ :
+2. \_\_\_\_\_ :
 
-::: tip
+最常见的是：\_\_\_\_\_
 
-- 元音：气流没有受到阻塞的发音
-- 辅音：阻塞气流的方式
+@tab 答案
 
-通过辅音+元音的方式，组成了单词中用到的各种发音。
+1. a: plant, ask, class, fast, glass, last, mark, mask, past, task
+2. ar: star, large, arm, farm, car, hard, mark, part, park, March, shark, art, start, smart,
+
+最常见的是：ar
 
 :::
 
-## 三、爆破音
+### 3. /ɒ/
 
-辅音中，`爆破音` 包括： /p/ /t/ /k/ /b/ /d/ /g/
+::: tabs
 
-它们是最常见的辅音，并且中文拼音里也有相同的符号，发音几乎一样。
+@tab 问题
 
-==辅音一般是成对出现的，总是有两个发音，嘴型一致，但一个喉咙震动，一个不震动==。我们称他们为 `清辅音` 和 `浊辅音` 。
+以下单词中，均有一部分的发音为 /ɑ:/，请试着将它们归类，并总结发音为 /ɑ:/ 的字母组合一般有哪些：
 
-- （喉咙不振）清辅音： /p/ /k/ /t/
-- （喉咙振动）浊辅音： /b/ /g/ /d/
+1. \_\_\_\_\_ :
+2. \_\_\_\_\_ :
 
-::: tip
+最常见的是：\_\_\_\_\_
 
-发浊辅音的时候，要先喉咙振动，再发音。
+@tab 答案
 
-类似先短暂地“嗯”，再开始念 b, g, d。
+1. a: plant, ask, class, fast, glass, last, mark, mask, past, task
+2. ar: star, large, arm, farm, car, hard, mark, part, park, March, shark, art, start, smart,
+
+最常见的是：ar
+
+:::
+
+### 4. /ʊ/
+
+::: tabs
+
+@tab 问题
+
+以下单词中，均有一部分的发音为 /ɑ:/，请试着将它们归类，并总结发音为 /ɑ:/ 的字母组合一般有哪些：
+
+1. \_\_\_\_\_ :
+2. \_\_\_\_\_ :
+
+最常见的是：\_\_\_\_\_
+
+@tab 答案
+
+1. a: plant, ask, class, fast, glass, last, mark, mask, past, task
+2. ar: star, large, arm, farm, car, hard, mark, part, park, March, shark, art, start, smart,
+
+最常见的是：ar
+
+:::
+
+### 5. /ǝ/
+
+::: tabs
+
+@tab 问题
+
+以下单词中，均有一部分的发音为 /ɑ:/，请试着将它们归类，并总结发音为 /ɑ:/ 的字母组合一般有哪些：
+
+1. \_\_\_\_\_ :
+2. \_\_\_\_\_ :
+
+最常见的是：\_\_\_\_\_
+
+@tab 答案
+
+1. a: plant, ask, class, fast, glass, last, mark, mask, past, task
+2. ar: star, large, arm, farm, car, hard, mark, part, park, March, shark, art, start, smart,
+
+最常见的是：ar
+
+:::
+
+### 6. /æ/
+
+::: tabs
+
+@tab 问题
+
+以下单词中，均有一部分的发音为 /ɑ:/，请试着将它们归类，并总结发音为 /ɑ:/ 的字母组合一般有哪些：
+
+1. \_\_\_\_\_ :
+2. \_\_\_\_\_ :
+
+最常见的是：\_\_\_\_\_
+
+@tab 答案
+
+1. a: plant, ask, class, fast, glass, last, mark, mask, past, task
+2. ar: star, large, arm, farm, car, hard, mark, part, park, March, shark, art, start, smart,
+
+最常见的是：ar
+
+:::
+
+### 7. /e/
+
+::: tabs
+
+@tab 问题
+
+以下单词中，均有一部分的发音为 /ɑ:/，请试着将它们归类，并总结发音为 /ɑ:/ 的字母组合一般有哪些：
+
+1. \_\_\_\_\_ :
+2. \_\_\_\_\_ :
+
+最常见的是：\_\_\_\_\_
+
+@tab 答案
+
+1. a: plant, ask, class, fast, glass, last, mark, mask, past, task
+2. ar: star, large, arm, farm, car, hard, mark, part, park, March, shark, art, start, smart,
+
+最常见的是：ar
 
 :::
 
