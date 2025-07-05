@@ -8,26 +8,19 @@ createTime: 2025/07/01 11:14:00
 
 像拼拼音一样，把以下音标读出来，并说出它们对应的英文和中文：
 
-- /pɑːk/ @[audioReader](https://dict.youdao.com/dictvoice?audio=park) !!park 公园!!
-- /ɡɜːl/ @[audioReader](https://dict.youdao.com/dictvoice?audio=girl) !!girl 女孩!!
-- /swiːp/ @[audioReader](https://dict.youdao.com/dictvoice?audio=sweep) !!sweep 打扫!!
-- /klɑːs/ @[audioReader](https://dict.youdao.com/dictvoice?audio=class) !!class 班级!!
-- /spiːk/ @[audioReader](https://dict.youdao.com/dictvoice?audio=speak) !!speak 说话!!
-- /ʃɔːt/ @[audioReader](https://dict.youdao.com/dictvoice?audio=short) !!short 短的!!
-- /bɔːl/ @[audioReader](https://dict.youdao.com/dictvoice?audio=ball) !!ball 球!!
-- /ʃɜːt/ @[audioReader](https://dict.youdao.com/dictvoice?audio=shirt) !!shirt 衬衫!!
-- /wɔːl/ @[audioReader](https://dict.youdao.com/dictvoice?audio=wall) !!wall 墙!!
-- /siː/ @[audioReader](https://dict.youdao.com/dictvoice?audio=see) !!see 看见!!
-- /fɜːst/ @[audioReader](https://dict.youdao.com/dictvoice?audio=first) !!first 第一!!
-- /niːd/ @[audioReader](https://dict.youdao.com/dictvoice?audio=need) !!need 需要!!
-- /fɑːst/ @[audioReader](https://dict.youdao.com/dictvoice?audio=fast) !!fast 快的!!
-- /bɜːd/ @[audioReader](https://dict.youdao.com/dictvoice?audio=bird) !!bird 鸟!!
-- /kiːp/ @[audioReader](https://dict.youdao.com/dictvoice?audio=keep) !!keep 保持!!
-- /fuːd/ @[audioReader](https://dict.youdao.com/dictvoice?audio=food) !!food 食物!!
-- /tɔːk/ @[audioReader](https://dict.youdao.com/dictvoice?audio=talk) !!talk 说话!!
-- /ˈruːlə/ @[audioReader](https://dict.youdao.com/dictvoice?audio=ruler) !!ruler 尺子!!
-- /hɑːd/ @[audioReader](https://dict.youdao.com/dictvoice?audio=hard) !!hard 困难的!!
-- /iːt/ @[audioReader](https://dict.youdao.com/dictvoice?audio=eat) !!eat 吃!!
+|                                                                                    |                                                                                     |
+|------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| /pɑːk/ @[audioReader](https://dict.youdao.com/dictvoice?audio=park) !!park 公园!!    | /fɜːst/ @[audioReader](https://dict.youdao.com/dictvoice?audio=first) !!first 第一!!  |
+| /ɡɜːl/ @[audioReader](https://dict.youdao.com/dictvoice?audio=girl) !!girl 女孩!!    | /niːd/ @[audioReader](https://dict.youdao.com/dictvoice?audio=need) !!need 需要!!     |
+| /swiːp/ @[audioReader](https://dict.youdao.com/dictvoice?audio=sweep) !!sweep 打扫!! | /fɑːst/ @[audioReader](https://dict.youdao.com/dictvoice?audio=fast) !!fast 快的!!    |
+| /klɑːs/ @[audioReader](https://dict.youdao.com/dictvoice?audio=class) !!class 班级!! | /bɜːd/ @[audioReader](https://dict.youdao.com/dictvoice?audio=bird) !!bird 鸟!!      |
+| /spiːk/ @[audioReader](https://dict.youdao.com/dictvoice?audio=speak) !!speak 说话!! | /kiːp/ @[audioReader](https://dict.youdao.com/dictvoice?audio=keep) !!keep 保持!!     |
+| /ʃɔːt/ @[audioReader](https://dict.youdao.com/dictvoice?audio=short) !!short 短的!!  | /fuːd/ @[audioReader](https://dict.youdao.com/dictvoice?audio=food) !!food 食物!!     |
+| /bɔːl/ @[audioReader](https://dict.youdao.com/dictvoice?audio=ball) !!ball 球!!     | /tɔːk/ @[audioReader](https://dict.youdao.com/dictvoice?audio=talk) !!talk 说话!!     |
+| /ʃɜːt/ @[audioReader](https://dict.youdao.com/dictvoice?audio=shirt) !!shirt 衬衫!!  | /ˈruːlə/ @[audioReader](https://dict.youdao.com/dictvoice?audio=ruler) !!ruler 尺子!! |
+| /wɔːl/ @[audioReader](https://dict.youdao.com/dictvoice?audio=wall) !!wall 墙!!     | /hɑːd/ @[audioReader](https://dict.youdao.com/dictvoice?audio=hard) !!hard 困难的!!    |
+| /siː/ @[audioReader](https://dict.youdao.com/dictvoice?audio=see) !!see 看见!!       | /iːt/ @[audioReader](https://dict.youdao.com/dictvoice?audio=eat) !!eat 吃!!         |
+
 
 ## 二、摩擦音 [f] [v] [s] [z] [θ] [ð]
 
@@ -175,7 +168,7 @@ createTime: 2025/07/01 11:14:00
 
 @tab 问题
 
-以下单词中，均有一部分的发音为 /ɑ:/，请试着将它们归类，并总结发音为 /ɑ:/ 的字母组合一般有哪些：
+以下单词中，均有一部分的发音为 /ʌ/，请试着将它们归类，并总结发音为 /ʌ/ 的字母组合一般有哪些：
 
 1. \_\_\_\_\_ :
 2. \_\_\_\_\_ :
@@ -184,12 +177,22 @@ createTime: 2025/07/01 11:14:00
 
 @tab 答案
 
-1. a: plant, ask, class, fast, glass, last, mark, mask, past, task
-2. ar: star, large, arm, farm, car, hard, mark, part, park, March, shark, art, start, smart,
+1. u: fun, bus, just, funny, must, lunch, luck, duck, much, subject, but, cup, cut
+2. o: son, month, love, come
 
-最常见的是：ar
+最常见的是：u
 
 :::
+
+|       |                                                                       |       |                                                                      |         |                                                                            |
+|-------|-----------------------------------------------------------------------|-------|----------------------------------------------------------------------|---------|----------------------------------------------------------------------------|
+| fun   | /fʌn/ @[audioReader](https://dict.youdao.com/dictvoice?audio=fun)     | month | /mʌnθ/ @[audioReader](https://dict.youdao.com/dictvoice?audio=month) | subject | /ˈsʌbʤɪkt/ @[audioReader](https://dict.youdao.com/dictvoice?audio=subject) |
+| son   | /sʌn/ @[audioReader](https://dict.youdao.com/dictvoice?audio=son)     | love  | /lʌv/ @[audioReader](https://dict.youdao.com/dictvoice?audio=love)   | come    | /kʌm/ @[audioReader](https://dict.youdao.com/dictvoice?audio=come)         |
+| bus   | /bʌs/ @[audioReader](https://dict.youdao.com/dictvoice?audio=bus)     | lunch | /lʌnʧ/ @[audioReader](https://dict.youdao.com/dictvoice?audio=lunch) | but     | /bʌt/ @[audioReader](https://dict.youdao.com/dictvoice?audio=but)          |
+| just  | /ʤʌst/ @[audioReader](https://dict.youdao.com/dictvoice?audio=just)   | luck  | /lʌk/ @[audioReader](https://dict.youdao.com/dictvoice?audio=luck)   | cup     | /kʌp/ @[audioReader](https://dict.youdao.com/dictvoice?audio=cup)          |
+| funny | /ˈfʌni/ @[audioReader](https://dict.youdao.com/dictvoice?audio=funny) | duck  | /dʌk/ @[audioReader](https://dict.youdao.com/dictvoice?audio=duck)   | cut     | /kʌt/ @[audioReader](https://dict.youdao.com/dictvoice?audio=cut)          |
+| must  | /mʌst/ @[audioReader](https://dict.youdao.com/dictvoice?audio=must)   | much  | /mʌʧ/ @[audioReader](https://dict.youdao.com/dictvoice?audio=much)   | sunny   | /ˈsʌni/ @[audioReader](https://dict.youdao.com/dictvoice?audio=sunny)      |
+
 
 ### 3. /ɒ/
 
@@ -197,21 +200,23 @@ createTime: 2025/07/01 11:14:00
 
 @tab 问题
 
-以下单词中，均有一部分的发音为 /ɑ:/，请试着将它们归类，并总结发音为 /ɑ:/ 的字母组合一般有哪些：
-
-1. \_\_\_\_\_ :
-2. \_\_\_\_\_ :
-
-最常见的是：\_\_\_\_\_
+以下单词中，发音为 /ɒ/ 的字母是？\_\_\_\_\_ 
 
 @tab 答案
 
-1. a: plant, ask, class, fast, glass, last, mark, mask, past, task
-2. ar: star, large, arm, farm, car, hard, mark, part, park, March, shark, art, start, smart,
-
-最常见的是：ar
+o
 
 :::
+
+|        |                                                                         |       |                                                                       |        |                                                                         |
+|--------|-------------------------------------------------------------------------|-------|-----------------------------------------------------------------------|--------|-------------------------------------------------------------------------|
+| office | /ˈɒfɪs/ @[audioReader](https://dict.youdao.com/dictvoice?audio=office)  | Tom   | /tɒm/ @[audioReader](https://dict.youdao.com/dictvoice?audio=Tom)     | stop   | /stɒp/ @[audioReader](https://dict.youdao.com/dictvoice?audio=stop)     |
+| shop   | /ʃɒp/ @[audioReader](https://dict.youdao.com/dictvoice?audio=shop)      | top   | /tɒp/ @[audioReader](https://dict.youdao.com/dictvoice?audio=top)     | dog    | /dɒɡ/ @[audioReader](https://dict.youdao.com/dictvoice?audio=dog)       |
+| not    | /nɒt/ @[audioReader](https://dict.youdao.com/dictvoice?audio=not)       | lot   | /lɒt/ @[audioReader](https://dict.youdao.com/dictvoice?audio=lot)     | pot    | /pɒt/ @[audioReader](https://dict.youdao.com/dictvoice?audio=pot)       |
+| doctor | /ˈdɒktə/ @[audioReader](https://dict.youdao.com/dictvoice?audio=doctor) | hobby | /ˈhɒbi/ @[audioReader](https://dict.youdao.com/dictvoice?audio=hobby) | hot    | /hɒt/ @[audioReader](https://dict.youdao.com/dictvoice?audio=hot)       |
+| sock   | /sɒk/ @[audioReader](https://dict.youdao.com/dictvoice?audio=sock)      | long  | /lɒŋ/ @[audioReader](https://dict.youdao.com/dictvoice?audio=long)    | bottle | /ˈbɒtᵊl/ @[audioReader](https://dict.youdao.com/dictvoice?audio=bottle) |
+| box    | /bɒks/ @[audioReader](https://dict.youdao.com/dictvoice?audio=box)      | clock | /klɒk/ @[audioReader](https://dict.youdao.com/dictvoice?audio=clock)  | doctor | /ˈdɒktə/ @[audioReader](https://dict.youdao.com/dictvoice?audio=doctor) |
+
 
 ### 4. /ʊ/
 
@@ -219,21 +224,30 @@ createTime: 2025/07/01 11:14:00
 
 @tab 问题
 
-以下单词中，均有一部分的发音为 /ɑ:/，请试着将它们归类，并总结发音为 /ɑ:/ 的字母组合一般有哪些：
+以下单词中，均有一部分的发音为 /ʊ/，请试着将它们归类，并总结发音为 /ʊ/ 的字母组合一般有哪些：
 
 1. \_\_\_\_\_ :
 2. \_\_\_\_\_ :
+3. \_\_\_\_\_ :
 
 最常见的是：\_\_\_\_\_
 
 @tab 答案
 
-1. a: plant, ask, class, fast, glass, last, mark, mask, past, task
-2. ar: star, large, arm, farm, car, hard, mark, part, park, March, shark, art, start, smart,
+1. oo: book, foot, good, look
+2. u: full
+3. ou: would
 
-最常见的是：ar
+最常见的是：oo
 
 :::
+
+|      |                                                                    |       |                                                                     |
+|------|--------------------------------------------------------------------|-------|---------------------------------------------------------------------|
+| book | /bʊk/ @[audioReader](https://dict.youdao.com/dictvoice?audio=book) | look  | /lʊk/ @[audioReader](https://dict.youdao.com/dictvoice?audio=look)  |
+| foot | /fʊt/ @[audioReader](https://dict.youdao.com/dictvoice?audio=foot) | full  | /fʊl/ @[audioReader](https://dict.youdao.com/dictvoice?audio=full)  |
+| good | /ɡʊd/ @[audioReader](https://dict.youdao.com/dictvoice?audio=good) | would | /wʊd/ @[audioReader](https://dict.youdao.com/dictvoice?audio=would) |
+
 
 ### 5. /ǝ/
 
