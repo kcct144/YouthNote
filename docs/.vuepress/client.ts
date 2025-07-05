@@ -14,6 +14,7 @@ import MakeSentence from "./theme/components/Question/MakeSentence.vue";
 import Reading from "./theme/components/Reading.vue";
 import Dictation from "./theme/components/Dictation.vue";
 import VideoPlayer from "./theme/components/VideoPlayer.vue";
+import MultipleChoiceS from "./theme/components/Question/MultipleChoiceS.vue";
 import { createPinia } from "pinia";
 
 export default defineClientConfig({
@@ -25,11 +26,13 @@ export default defineClientConfig({
     // app.component('Swiper', Swiper) // you should install `swiper`
     // your custom components
     app.component("MultipleChoice", MultipleChoice);
+    app.component("MultipleChoiceS", MultipleChoiceS);
     app.component("MakeSentence", MakeSentence);
     app.component("FillIn", FillIn);
     app.component("Reading", Reading);
     app.component("Dictation", Dictation);
     app.component("VideoPlayer", VideoPlayer);
+
     app.use(createPinia());
     app.use(ElementPlus);
   },
