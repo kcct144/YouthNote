@@ -153,11 +153,11 @@ createTime: 2025/07/01 11:14:00
 
 |                                                                                      |                                                                                   |                                                                                   |                                                                                |
 | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| trip /trɪp/ @[audioReader](https://dict.youdao.com/dictvoice?audio=trip)             | windy /wɪndy/ @[audioReader](https://dict.youdao.com/dictvoice?audio=windy)       | fifteen /fɪfteen/ @[audioReader](https://dict.youdao.com/dictvoice?audio=fifteen) | Sydney /Sydney/ @[audioReader](https://dict.youdao.com/dictvoice?audio=Sydney) |
+| trip /trɪp/ @[audioReader](https://dict.youdao.com/dictvoice?audio=trip)             | windy /wɪndɪ/ @[audioReader](https://dict.youdao.com/dictvoice?audio=windy)       | fifteen /fɪfteen/ @[audioReader](https://dict.youdao.com/dictvoice?audio=fifteen) | Sydney /Sydney/ @[audioReader](https://dict.youdao.com/dictvoice?audio=Sydney) |
 | six /sɪx/ @[audioReader](https://dict.youdao.com/dictvoice?audio=six)                | this /thɪs/ @[audioReader](https://dict.youdao.com/dictvoice?audio=this)          | with /wɪth/ @[audioReader](https://dict.youdao.com/dictvoice?audio=with)          | Miller /Mɪller/ @[audioReader](https://dict.youdao.com/dictvoice?audio=Miller) |
 | gym /gym/ @[audioReader](https://dict.youdao.com/dictvoice?audio=gym)                | sit /sɪt/ @[audioReader](https://dict.youdao.com/dictvoice?audio=sit)             | morning /mornɪng/ @[audioReader](https://dict.youdao.com/dictvoice?audio=morning) | kid /kɪd/ @[audioReader](https://dict.youdao.com/dictvoice?audio=kid)          |
 | fit /fɪt/ @[audioReader](https://dict.youdao.com/dictvoice?audio=fit)                | sick /sɪck/ @[audioReader](https://dict.youdao.com/dictvoice?audio=sick)          | unit /unɪt/ @[audioReader](https://dict.youdao.com/dictvoice?audio=unit)          | thin /thɪn/ @[audioReader](https://dict.youdao.com/dictvoice?audio=thin)       |
-| Jim /Jɪm/ @[audioReader](https://dict.youdao.com/dictvoice?audio=Jim)                | quickly /quɪckly/ @[audioReader](https://dict.youdao.com/dictvoice?audio=quickly) | ship /shɪp/ @[audioReader](https://dict.youdao.com/dictvoice?audio=ship)          | big /bɪg/ @[audioReader](https://dict.youdao.com/dictvoice?audio=big)          |
+| Jim /Jɪm/ @[audioReader](https://dict.youdao.com/dictvoice?audio=Jim)                | quickly /kwɪkly/ @[audioReader](https://dict.youdao.com/dictvoice?audio=quickly) | ship /shɪp/ @[audioReader](https://dict.youdao.com/dictvoice?audio=ship)          | big /bɪg/ @[audioReader](https://dict.youdao.com/dictvoice?audio=big)          |
 | pink /pɪnk/ @[audioReader](https://dict.youdao.com/dictvoice?audio=pink)             | middle /mɪddle/ @[audioReader](https://dict.youdao.com/dictvoice?audio=middle)    | think /thɪnk/ @[audioReader](https://dict.youdao.com/dictvoice?audio=think)       | pick /pɪck/ @[audioReader](https://dict.youdao.com/dictvoice?audio=pick)       |
 | building /buɪldɪng/ @[audioReader](https://dict.youdao.com/dictvoice?audio=building) | guitar /guɪtar/ @[audioReader](https://dict.youdao.com/dictvoice?audio=guitar)    | twin /twɪn/ @[audioReader](https://dict.youdao.com/dictvoice?audio=twin)          | thing /thɪng/ @[audioReader](https://dict.youdao.com/dictvoice?audio=thing)    |
 | pig /pɪg/ @[audioReader](https://dict.youdao.com/dictvoice?audio=pig)                | music /musɪc/ @[audioReader](https://dict.youdao.com/dictvoice?audio=music)       | Lily /Lɪly/ @[audioReader](https://dict.youdao.com/dictvoice?audio=Lily)          | Smith /Smɪth/ @[audioReader](https://dict.youdao.com/dictvoice?audio=Smith)    |
@@ -255,7 +255,7 @@ o
 
 @tab 问题
 
-以下单词中，均有一部分的发音为 /ɑ:/，请试着将它们归类，并总结发音为 /ɑ:/ 的字母组合一般有哪些：
+以下单词中，均有一部分的发音为 /ǝ/，请试着将它们归类，并总结发音为 /ǝ/ 的字母组合一般有哪些：
 
 1. \_\_\_\_\_ :
 2. \_\_\_\_\_ :
@@ -264,12 +264,25 @@ o
 
 @tab 答案
 
-1. a: plant, ask, class, fast, glass, last, mark, mask, past, task
-2. ar: star, large, arm, farm, car, hard, mark, part, park, March, shark, art, start, smart,
+1. er: water, teacher, after, ruler, sister, farmer, mother, singer, brother, winter, number, summer, Peter, dinner, computer
+2. or: visitor, doctor, color
+3. ar: dollar
+4. a: allow, about
+5. o: carrot, parrot
 
-最常见的是：ar
+最常见的是：er
 
 :::
+
+|         |                                                                           |        |                                                                         |         |                                                                          |          |                                                                               |
+|---------|---------------------------------------------------------------------------|--------|-------------------------------------------------------------------------|---------|--------------------------------------------------------------------------|----------|-------------------------------------------------------------------------------|
+| visitor | /ˈvɪzɪtə/ @[audioReader](https://dict.youdao.com/dictvoice?audio=visitor) | sister | /ˈsɪstə/ @[audioReader](https://dict.youdao.com/dictvoice?audio=sister) | singer  | /ˈsɪŋə/ @[audioReader](https://dict.youdao.com/dictvoice?audio=singer)   | number   | /ˈnʌmbə/ @[audioReader](https://dict.youdao.com/dictvoice?audio=number)       |
+| water   | /ˈwɔːtə/ @[audioReader](https://dict.youdao.com/dictvoice?audio=water)    | farmer | /ˈfɑːmə/ @[audioReader](https://dict.youdao.com/dictvoice?audio=farmer) | Lisa    | /ˈliːsə/ @[audioReader](https://dict.youdao.com/dictvoice?audio=Lisa)    | dollar   | /ˈdɒlə/ @[audioReader](https://dict.youdao.com/dictvoice?audio=dollar)        |
+| allow   | /əˈlaʊ/ @[audioReader](https://dict.youdao.com/dictvoice?audio=allow)     | mother | /ˈmʌðə/ @[audioReader](https://dict.youdao.com/dictvoice?audio=mother)  | parrot  | /ˈpærət/ @[audioReader](https://dict.youdao.com/dictvoice?audio=parrot)  | summer   | /ˈsʌmə/ @[audioReader](https://dict.youdao.com/dictvoice?audio=summer)        |
+| teacher | /ˈtiːʧə/ @[audioReader](https://dict.youdao.com/dictvoice?audio=teacher)  | doctor | /ˈdɒktə/ @[audioReader](https://dict.youdao.com/dictvoice?audio=doctor) | about   | /əˈbaʊt/ @[audioReader](https://dict.youdao.com/dictvoice?audio=about)   | Peter    | /ˈpiːtə/ @[audioReader](https://dict.youdao.com/dictvoice?audio=Peter)        |
+| after   | /ˈɑːftə/ @[audioReader](https://dict.youdao.com/dictvoice?audio=after)    | color  | /ˈkʌlə/ @[audioReader](https://dict.youdao.com/dictvoice?audio=color)   | brother | /ˈbrʌðə/ @[audioReader](https://dict.youdao.com/dictvoice?audio=brother) | dinner   | /ˈdɪnə/ @[audioReader](https://dict.youdao.com/dictvoice?audio=dinner)        |
+| ruler   | /ˈruːlə/ @[audioReader](https://dict.youdao.com/dictvoice?audio=ruler)    | carrot | /ˈkærət/ @[audioReader](https://dict.youdao.com/dictvoice?audio=carrot) | winter  | /ˈwɪntə/ @[audioReader](https://dict.youdao.com/dictvoice?audio=winter)  | computer | /kəmˈpjuːtə/ @[audioReader](https://dict.youdao.com/dictvoice?audio=computer) |
+
 
 ### 6. /æ/
 
@@ -277,21 +290,22 @@ o
 
 @tab 问题
 
-以下单词中，均有一部分的发音为 /ɑ:/，请试着将它们归类，并总结发音为 /ɑ:/ 的字母组合一般有哪些：
-
-1. \_\_\_\_\_ :
-2. \_\_\_\_\_ :
-
-最常见的是：\_\_\_\_\_
+以下单词中，发音为 /ɒ/ 的字母是？\_\_\_\_\_ 
 
 @tab 答案
 
-1. a: plant, ask, class, fast, glass, last, mark, mask, past, task
-2. ar: star, large, arm, farm, car, hard, mark, part, park, March, shark, art, start, smart,
-
-最常见的是：ar
+a
 
 :::
+
+|       |                                                                       |        |                                                                         |       |                                                                       |
+|-------|-----------------------------------------------------------------------|--------|-------------------------------------------------------------------------|-------|-----------------------------------------------------------------------|
+| Sally | /ˈsæli/ @[audioReader](https://dict.youdao.com/dictvoice?audio=Sally) | carrot | /ˈkærət/ @[audioReader](https://dict.youdao.com/dictvoice?audio=carrot) | bat   | /bæt/ @[audioReader](https://dict.youdao.com/dictvoice?audio=bat)     |
+| bag   | /bæɡ/ @[audioReader](https://dict.youdao.com/dictvoice?audio=bag)     | parrot | /ˈpærət/ @[audioReader](https://dict.youdao.com/dictvoice?audio=parrot) | man   | /mæn/ @[audioReader](https://dict.youdao.com/dictvoice?audio=man)     |
+| back  | /bæk/ @[audioReader](https://dict.youdao.com/dictvoice?audio=back)    | Sam    | /sæm/ @[audioReader](https://dict.youdao.com/dictvoice?audio=Sam)       | happy | /ˈhæpi/ @[audioReader](https://dict.youdao.com/dictvoice?audio=happy) |
+| flag  | /flæɡ/ @[audioReader](https://dict.youdao.com/dictvoice?audio=flag)   | black  | /blæk/ @[audioReader](https://dict.youdao.com/dictvoice?audio=black)    | fan   | /fæn/ @[audioReader](https://dict.youdao.com/dictvoice?audio=fan)     |
+| Jack  | /ʤæk/ @[audioReader](https://dict.youdao.com/dictvoice?audio=Jack)    | band   | /bænd/ @[audioReader](https://dict.youdao.com/dictvoice?audio=band)     | hat   | /hæt/ @[audioReader](https://dict.youdao.com/dictvoice?audio=hat)     |
+
 
 ### 7. /e/
 
@@ -308,190 +322,18 @@ o
 
 @tab 答案
 
-1. a: plant, ask, class, fast, glass, last, mark, mask, past, task
-2. ar: star, large, arm, farm, car, hard, mark, part, park, March, shark, art, start, smart,
+1. e: get, spell, next, spend, bread, set, best, bed, let, test, less, rest, bell, egg, chess, sell, leg, else, desk, help
+2. ea: sweater, breakfast, head, bread, ready
 
-最常见的是：ar
-
-:::
-
-## 四、长元音
-
-长元音一共有五个，音标后面都有个冒号。
-
-- /ɑ:/ 发音类似“啊”
-- /ɔ:/ 发音类似“哦”
-- /ɜ:/ 发音类似“饿”
-- /u:/ 发音类似“呜”
-- /ɪ:/ 发音类似“亿”
-
-### /ɑ:/
-
-以下单词中，均有一部分的发音为 /ɑ:/，请试着将它们归类，并总结发音为 /ɑ:/ 的字母组合一般有哪些：
-
-::: tabs
-
-@tab 问题
-
-1. \_\_\_\_\_ :
-2. \_\_\_\_\_ :
-
-最常见的是：\_\_\_\_\_
-
-@tab 答案
-
-1. a: plant, ask, class, fast, glass, last, mark, mask, past, task
-2. ar: star, large, arm, farm, car, hard, mark, part, park, March, shark, art, start, smart,
-
-最常见的是：ar
+最常见的是：e
 
 :::
 
-|                |               |               |              |
-| -------------- | ------------- | ------------- | ------------ |
-| plant /plɑːnt/ | card /kɑːd/   | class /klɑːs/ | dark /dɑːk/  |
-| star /stɑː/    | mark /mɑːk/   | last /lɑːst/  | far /fɑː/    |
-| large /lɑːʤ/   | park /pɑːk/   | glass /glɑːs/ | hard /hɑːd/  |
-| arm /ɑːm/      | part /pɑːt/   | past /pɑːst/  | March /mɑːʧ/ |
-| farm /fɑːm/    | fast /fɑːst/  | task /tɑːsk/  | shark /ʃɑːk/ |
-| car /kɑː/      | start /stɑːt/ | smart /smɑːt/ | ask /ɑːsk/   |
-
-### /ɔ:/
-
-以下单词中，均有一部分的发音为 /ɔ:/，请试着将它们归类，并总结发音为 /ɔ:/ 的字母组合一般有哪些：
-
-::: tabs
-
-@tab 问题
-
-1. \_\_\_\_\_ :
-2. \_\_\_\_\_ :
-3. \_\_\_\_\_ :
-4. \_\_\_\_\_ :
-
-最常见的是：\_\_\_\_\_
-
-@tab 答案
-
-1. all: small, ball, call, hall, tall, fall, wall, all
-2. al: false, talk, walk, alright
-3. or: short, sport, story
-4. aw: draw
-
-最常见的是：all
-
-:::
-
-|       |         |         |            |
-| ----- | ------- | ------- | ---------- |
-| small | /smɔːl/ | false   | /fɔːls/    |
-| short | /ʃɔːt/  | fall    | /fɔːl/     |
-| ball  | /bɔːl/  | talk    | /tɔːk/     |
-| call  | /kɔːl/  | wall    | /wɔːl/     |
-| sport | /spɔːt/ | walk    | /wɔːk/     |
-| hall  | /hɔːl/  | all     | /ɔːl/      |
-| tall  | /tɔːl/  | story   | /ˈstɔːri/  |
-| draw  | /drɔː/  | alright | /ɔːlˈraɪt/ |
-
-### /ɜ:/
-
-以下单词中，均有一部分的发音为 /ɜ:/，请试着将它们归类，并总结发音为 /ɜ:/ 的字母组合一般有哪些：
-
-::: tabs
-
-@tab 问题
-
-1. \_\_\_\_\_ :
-2. \_\_\_\_\_ :
-
-最常见的是：\_\_\_\_\_
-
-@tab 答案
-
-1. ir: third, girl, bird, dirty, first, shirt, sir, skirt, birthday
-2. ur: burn, hurt, turn, nurse, Thursday, purple
-
-最常见的是：ir
-
-:::
-
-|        |           |          |            |
-| ------ | --------- | -------- | ---------- |
-| third  | /θɜːd/    | shirt    | /ʃɜːt/     |
-| girl   | /ɡɜːl/    | sir      | /sɜː/      |
-| bird   | /bɜːd/    | skirt    | /skɜːt/    |
-| burn   | /bɜːn/    | turn     | /tɜːn/     |
-| circle | /ˈsɜːkᵊl/ | nurse    | /nɜːs/     |
-| dirty  | /dɜːti/   | Thursday | /ˈθɜːzdeɪ/ |
-| first  | /fɜːst/   | birthday | /ˈbɜːθdeɪ/ |
-| hurt   | /hɜːt/    | purple   | /ˈpɜːpᵊl/  |
-
-### /u:/
-
-以下单词中，均有一部分的发音为 /u:/，请试着将它们归类，并总结发音为 /u:/ 的字母组合一般有哪些：
-
-::: tabs
-
-@tab 问题
-
-1. \_\_\_\_\_ :
-2. \_\_\_\_\_ :
-3. \_\_\_\_\_ :
-
-最常见的是：\_\_\_\_\_
-
-@tab 答案
-
-1. ue: blue, Tuesday
-2. oo: moon, school, too, tooth, noon, room, food, cool, goose
-3. u: Lucy, June, ruler, tofu
-
-最常见的是：oo
-
-:::
-
-|         |            |       |          |       |           |
-| ------- | ---------- | ----- | -------- | ----- | --------- |
-| blue    | /bluː/     | too   | /tuː/    | tofu  | /ˈtəʊfuː/ |
-| Tuesday | /ˈʧuːzdeɪ/ | June  | /ʤuːn/   | room  | /ruːm/    |
-| moon    | /muːn/     | tooth | /tuːθ/   | food  | /fuːd/    |
-| school  | /skuːl/    | noon  | /nuːn/   | cool  | /kuːl/    |
-| Lucy    | /ˈluːsi/   | ruler | /ˈruːlə/ | goose | /ɡuːs/    |
-
-### /ɪ:/
-
-以下单词中，均有一部分的发音为 /ɪ:/，请试着将它们归类，并总结发音为 /ɪ:/ 的字母组合一般有哪些：
-
-::: tabs
-
-@tab 问题
-
-1. \_\_\_\_\_ :
-2. \_\_\_\_\_ :
-3. \_\_\_\_\_ :
-4. \_\_\_\_\_ :
-
-最常见的是：\_\_\_\_\_
-
-@tab 答案
-
-1. ee: tree, see, knee, green, feed, sweep, meet, keep, tree, three, greet, week, need, beef
-2. ea: mean, please, speak, eat, easy, cheap, teacher, dream, each
-3. e: she, me, Peter, we, be, even, these
-4. ey: key
-
-最常见的是：ee
-
-:::
-
-|        |         |         |             |       |          |         |          |
-| ------ | ------- | ------- | ----------- | ----- | -------- | ------- | -------- |
-| free   | /friː/  | me      | /miː/       | meet  | /miːt/   | even    | /ˈiːvᵊn/ |
-| mean   | /miːn/  | speak   | /spiːk/     | Peter | /ˈpiːtə/ | teacher | /ˈtiːʧə/ |
-| meat   | /miːt/  | key     | /kiː/       | keep  | /kiːp/   | these   | /ðiːz/   |
-| she    | /ʃiː/   | Lisa    | /ˈliːsə/    | tree  | /triː/   | week    | /wiːk/   |
-| he     | /hiː/   | feed    | /fiːd/      | three | /θriː/   | sweet   | /swiːt/  |
-| see    | /siː/   | eat     | /iːt/       | greet | /ɡriːt/  | need    | /niːd/   |
-| please | /pliːz/ | fifteen | /ˌfɪfˈtiːn/ | we    | /wiː/    | dream   | /driːm/  |
-| knee   | /niː/   | sweep   | /swiːp/     | be    | /biː/    | each    | /iːʧ/    |
-| green  | /ɡriːn/ | easy    | /ˈiːzi/     | cheap | /ʧiːp/   | beef    | /biːf/   |
+|           |                                                                               |       |                                                                       |       |                                                                       |       |                                                                       |
+|-----------|-------------------------------------------------------------------------------|-------|-----------------------------------------------------------------------|-------|-----------------------------------------------------------------------|-------|-----------------------------------------------------------------------|
+| get       | /get/ @[audioReader](https://dict.youdao.com/dictvoice?audio=get)             | spend | /spend/ @[audioReader](https://dict.youdao.com/dictvoice?audio=spend) | test  | /test/ @[audioReader](https://dict.youdao.com/dictvoice?audio=test)   | ready | /ready/ @[audioReader](https://dict.youdao.com/dictvoice?audio=ready) |
+| sweater   | /sweater/ @[audioReader](https://dict.youdao.com/dictvoice?audio=sweater)     | bread | /bread/ @[audioReader](https://dict.youdao.com/dictvoice?audio=bread) | less  | /less/ @[audioReader](https://dict.youdao.com/dictvoice?audio=less)   | sell  | /sell/ @[audioReader](https://dict.youdao.com/dictvoice?audio=sell)   |
+| breakfast | /breakfast/ @[audioReader](https://dict.youdao.com/dictvoice?audio=breakfast) | set   | /set/ @[audioReader](https://dict.youdao.com/dictvoice?audio=set)     | rest  | /rest/ @[audioReader](https://dict.youdao.com/dictvoice?audio=rest)   | leg   | /leg/ @[audioReader](https://dict.youdao.com/dictvoice?audio=leg)     |
+| head      | /head/ @[audioReader](https://dict.youdao.com/dictvoice?audio=head)           | best  | /best/ @[audioReader](https://dict.youdao.com/dictvoice?audio=best)   | bell  | /bell/ @[audioReader](https://dict.youdao.com/dictvoice?audio=bell)   | else  | /els/ @[audioReader](https://dict.youdao.com/dictvoice?audio=else)   |
+| spell     | /spell/ @[audioReader](https://dict.youdao.com/dictvoice?audio=spell)         | bed   | /bed/ @[audioReader](https://dict.youdao.com/dictvoice?audio=bed)     | egg   | /egg/ @[audioReader](https://dict.youdao.com/dictvoice?audio=egg)     | desk  | /desk/ @[audioReader](https://dict.youdao.com/dictvoice?audio=desk)   |
+| next      | /next/ @[audioReader](https://dict.youdao.com/dictvoice?audio=next)           | let   | /let/ @[audioReader](https://dict.youdao.com/dictvoice?audio=let)     | chess | /chess/ @[audioReader](https://dict.youdao.com/dictvoice?audio=chess) | help  | /help/ @[audioReader](https://dict.youdao.com/dictvoice?audio=help)   |
