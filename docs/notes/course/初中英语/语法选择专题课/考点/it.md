@@ -1,7 +1,7 @@
 ---
 title: 含it的词
 createTime: 2025/04/20 07:58:50
-permalink: /english/题型/语法选择/考点/含it的词/
+permalink: /course/语法选择/含it的词/
 ---
 
 # it, its, it's, it is, is it 的区别

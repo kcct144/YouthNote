@@ -1,7 +1,7 @@
 ---
 title: be动词
 createTime: 2025/03/27 11:22:10
-permalink: /english/题型/语法选择/be动词/
+permalink: /course/语法选择/be动词/
 ---
 
 # be 动词

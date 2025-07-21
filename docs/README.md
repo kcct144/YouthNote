@@ -25,4 +25,7 @@ config:
         - theme: alt
           text: 其他项目
           link: /project/
+        - theme: alt
+          text: 专题课程
+          link: /course/
 ---

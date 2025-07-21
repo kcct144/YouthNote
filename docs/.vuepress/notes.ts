@@ -1,5 +1,11 @@
 import { defineNoteConfig, defineNotesConfig } from "vuepress-theme-plume";
 
+const GrammarSelection = defineNoteConfig({
+  dir: "course/初中英语/语法选择专题课",
+  link: "/course/语法选择/",
+  sidebar: "auto",
+});
+
 const bi = defineNoteConfig({
   dir: "bi",
   link: "/bi/",
@@ -57,5 +63,5 @@ const ch = defineNoteConfig({
 export const notes = defineNotesConfig({
   dir: "notes",
   link: "/",
-  notes: [cn, ma, en, ph, bi, ch, po, hi, ge],
+  notes: [cn, ma, en, ph, bi, ch, po, hi, ge, GrammarSelection],
 });
