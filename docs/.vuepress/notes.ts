@@ -6,6 +6,12 @@ const GrammarSelection = defineNoteConfig({
   sidebar: "auto",
 });
 
+const PassageBlanking = defineNoteConfig({
+  dir: "course/初中英语/选词填空专题课",
+  link: "/course/选词填空/",
+  sidebar: "auto",
+});
+
 const bi = defineNoteConfig({
   dir: "bi",
   link: "/bi/",
@@ -63,5 +69,5 @@ const ch = defineNoteConfig({
 export const notes = defineNotesConfig({
   dir: "notes",
   link: "/",
-  notes: [cn, ma, en, ph, bi, ch, po, hi, ge, GrammarSelection],
+  notes: [cn, ma, en, ph, bi, ch, po, hi, ge, GrammarSelection, PassageBlanking],
 });
