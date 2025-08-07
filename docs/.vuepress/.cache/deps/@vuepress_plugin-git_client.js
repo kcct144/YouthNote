@@ -1,7 +1,7 @@
-import "./chunk-5S3H3MFS.js";
 import {
   useToggle
 } from "./chunk-ZGZ2OFWV.js";
+import "./chunk-5S3H3MFS.js";
 import {
   computed,
   defineComponent,
@@ -10,13 +10,13 @@ import {
 } from "./chunk-GQAESYNE.js";
 import "./chunk-G3PMV62Z.js";
 
-// node_modules/.pnpm/@vuepress+plugin-git@2.0.0-rc.87_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite_oij4vhp3uebkdvh4owfv5bl2ga/node_modules/@vuepress/plugin-git/lib/client/composables/useChangelog.js
+// node_modules/.pnpm/@vuepress+plugin-git@2.0.0-_df91a7f3eada62522df2f02026eba8c9/node_modules/@vuepress/plugin-git/lib/client/composables/useChangelog.js
 import { usePageData, usePageFrontmatter, usePageLang } from "vuepress/client";
 
-// node_modules/.pnpm/@vuepress+plugin-git@2.0.0-rc.87_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite_oij4vhp3uebkdvh4owfv5bl2ga/node_modules/@vuepress/plugin-git/lib/client/options.js
+// node_modules/.pnpm/@vuepress+plugin-git@2.0.0-_df91a7f3eada62522df2f02026eba8c9/node_modules/@vuepress/plugin-git/lib/client/options.js
 var gitOptions = typeof __GIT_OPTIONS__ === "undefined" ? {} : __GIT_OPTIONS__;
 
-// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.86_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite@2.0_ad2pl2vynxulzrhkfwnx2kuuua/node_modules/@vuepress/helper/lib/client/components/LoadingIcon.js
+// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.8_036efcaa7e6c9dd158735f7ed82e1254/node_modules/@vuepress/helper/lib/client/components/LoadingIcon.js
 var getLength = (size) => typeof size === "number" ? `${size}px` : size;
 var LoadingIcon = ({ size = 48, stroke = 4, wrapper = true, height = 2 * size }) => {
   const icon = h("span", {
@@ -39,26 +39,26 @@ height: ${getLength(height)}`
 };
 LoadingIcon.displayName = "LoadingIcon";
 
-// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.86_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite@2.0_ad2pl2vynxulzrhkfwnx2kuuua/node_modules/@vuepress/helper/lib/client/utils/getHeaders.js
+// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.8_036efcaa7e6c9dd158735f7ed82e1254/node_modules/@vuepress/helper/lib/client/utils/getHeaders.js
 var DEFAULT_HEADER_SELECTOR = [...new Array(6)].map((_, i) => `[vp-content] h${i + 1}`).join(",");
 
-// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.86_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite@2.0_ad2pl2vynxulzrhkfwnx2kuuua/node_modules/@vuepress/helper/lib/client/utils/isKeyMatched.js
+// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.8_036efcaa7e6c9dd158735f7ed82e1254/node_modules/@vuepress/helper/lib/client/utils/isKeyMatched.js
 import { isString } from "vuepress/shared";
 
-// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.86_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite@2.0_ad2pl2vynxulzrhkfwnx2kuuua/node_modules/@vuepress/helper/lib/client/composables/useHeaders.js
+// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.8_036efcaa7e6c9dd158735f7ed82e1254/node_modules/@vuepress/helper/lib/client/composables/useHeaders.js
 import { onContentUpdated } from "vuepress/client";
 
-// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.86_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite@2.0_ad2pl2vynxulzrhkfwnx2kuuua/node_modules/@vuepress/helper/lib/client/composables/useLocaleConfig.js
+// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.8_036efcaa7e6c9dd158735f7ed82e1254/node_modules/@vuepress/helper/lib/client/composables/useLocaleConfig.js
 import { useRouteLocale } from "vuepress/client";
 var useLocaleConfig = (localesConfig) => {
   const routeLocale = useRouteLocale();
   return computed(() => toValue(localesConfig)[routeLocale.value] ?? {});
 };
 
-// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.86_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite@2.0_ad2pl2vynxulzrhkfwnx2kuuua/node_modules/@vuepress/helper/lib/client/composables/useRoutePaths.js
+// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.8_036efcaa7e6c9dd158735f7ed82e1254/node_modules/@vuepress/helper/lib/client/composables/useRoutePaths.js
 import { useRoutes } from "vuepress/client";
 
-// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.86_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite@2.0_ad2pl2vynxulzrhkfwnx2kuuua/node_modules/@vuepress/helper/lib/shared/helper.js
+// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.8_036efcaa7e6c9dd158735f7ed82e1254/node_modules/@vuepress/helper/lib/shared/helper.js
 import { isString as isString2 } from "vuepress/shared";
 import { isFunction, isString as isString3, isPlainObject } from "vuepress/shared";
 import { ensureEndingSlash, ensureLeadingSlash, removeEndingSlash, removeLeadingSlash } from "vuepress/shared";
@@ -68,11 +68,11 @@ var { fromEntries } = Object;
 var { keys } = Object;
 var { values } = Object;
 
-// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.86_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite@2.0_ad2pl2vynxulzrhkfwnx2kuuua/node_modules/@vuepress/helper/lib/shared/link.js
+// node_modules/.pnpm/@vuepress+helper@2.0.0-rc.8_036efcaa7e6c9dd158735f7ed82e1254/node_modules/@vuepress/helper/lib/shared/link.js
 import { isLinkExternal, isLinkWithProtocol } from "vuepress/shared";
 import { isLinkExternal as isLinkExternal2, isLinkHttp, isLinkWithProtocol as isLinkWithProtocol2 } from "vuepress/shared";
 
-// node_modules/.pnpm/@vuepress+plugin-git@2.0.0-rc.87_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite_oij4vhp3uebkdvh4owfv5bl2ga/node_modules/@vuepress/plugin-git/lib/client/utils/resolveRepoLink.js
+// node_modules/.pnpm/@vuepress+plugin-git@2.0.0-_df91a7f3eada62522df2f02026eba8c9/node_modules/@vuepress/plugin-git/lib/client/utils/resolveRepoLink.js
 var resolveRepoLink = (link, provider) => {
   if (!link || isLinkHttp(link))
     return link;
@@ -83,7 +83,7 @@ var resolveRepoLink = (link, provider) => {
   return link;
 };
 
-// node_modules/.pnpm/@vuepress+plugin-git@2.0.0-rc.87_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite_oij4vhp3uebkdvh4owfv5bl2ga/node_modules/@vuepress/plugin-git/lib/client/composables/useChangelog.js
+// node_modules/.pnpm/@vuepress+plugin-git@2.0.0-_df91a7f3eada62522df2f02026eba8c9/node_modules/@vuepress/plugin-git/lib/client/composables/useChangelog.js
 var RE_ISSUE = /#(\d+)/g;
 var useChangelog = typeof __GIT_CHANGELOG__ === "boolean" && __GIT_CHANGELOG__ ? (enabled = true) => {
   const frontmatter = usePageFrontmatter();
@@ -119,7 +119,7 @@ var useChangelog = typeof __GIT_CHANGELOG__ === "boolean" && __GIT_CHANGELOG__ ?
   });
 } : () => computed(() => []);
 
-// node_modules/.pnpm/@vuepress+plugin-git@2.0.0-rc.87_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite_oij4vhp3uebkdvh4owfv5bl2ga/node_modules/@vuepress/plugin-git/lib/client/composables/useContributors.js
+// node_modules/.pnpm/@vuepress+plugin-git@2.0.0-_df91a7f3eada62522df2f02026eba8c9/node_modules/@vuepress/plugin-git/lib/client/composables/useContributors.js
 import { usePageData as usePageData2, usePageFrontmatter as usePageFrontmatter2 } from "vuepress/client";
 var useContributors = typeof __GIT_CONTRIBUTORS__ === "boolean" && __GIT_CONTRIBUTORS__ ? (enabled = true) => {
   const frontmatter = usePageFrontmatter2();
@@ -132,11 +132,11 @@ var useContributors = typeof __GIT_CONTRIBUTORS__ === "boolean" && __GIT_CONTRIB
   });
 } : () => computed(() => []);
 
-// node_modules/.pnpm/@vuepress+plugin-git@2.0.0-rc.87_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite_oij4vhp3uebkdvh4owfv5bl2ga/node_modules/@vuepress/plugin-git/lib/client/composables/useGitLocales.js
+// node_modules/.pnpm/@vuepress+plugin-git@2.0.0-_df91a7f3eada62522df2f02026eba8c9/node_modules/@vuepress/plugin-git/lib/client/composables/useGitLocales.js
 var locales = typeof __GIT_LOCALES__ === "undefined" ? {} : __GIT_LOCALES__;
 var useGitLocaleConfig = () => useLocaleConfig(locales);
 
-// node_modules/.pnpm/@vuepress+plugin-git@2.0.0-rc.87_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite_oij4vhp3uebkdvh4owfv5bl2ga/node_modules/@vuepress/plugin-git/lib/client/composables/useLastUpdated.js
+// node_modules/.pnpm/@vuepress+plugin-git@2.0.0-_df91a7f3eada62522df2f02026eba8c9/node_modules/@vuepress/plugin-git/lib/client/composables/useLastUpdated.js
 import { usePageData as usePageData3, usePageLang as usePageLang2 } from "vuepress/client";
 var useLastUpdated = (enabled = true) => {
   const lang = usePageLang2();
@@ -166,11 +166,11 @@ var useLastUpdated = (enabled = true) => {
   });
 };
 
-// node_modules/.pnpm/@vuepress+plugin-git@2.0.0-rc.87_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite_oij4vhp3uebkdvh4owfv5bl2ga/node_modules/@vuepress/plugin-git/lib/client/components/VPHeader.js
+// node_modules/.pnpm/@vuepress+plugin-git@2.0.0-_df91a7f3eada62522df2f02026eba8c9/node_modules/@vuepress/plugin-git/lib/client/components/VPHeader.js
 var VPHeader = ({ level = 2, text, anchor }) => h(`h${level || 2}`, { id: anchor, tabindex: "-1" }, h("a", { href: `#${anchor}`, class: "header-anchor" }, h("span", text)));
 
-// node_modules/.pnpm/@vuepress+plugin-git@2.0.0-rc.87_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite_oij4vhp3uebkdvh4owfv5bl2ga/node_modules/@vuepress/plugin-git/lib/client/components/GitContributors.js
-import "D:/WebProjs/EnglishTutorial/YouthNote/node_modules/.pnpm/@vuepress+plugin-git@2.0.0-rc.87_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite_oij4vhp3uebkdvh4owfv5bl2ga/node_modules/@vuepress/plugin-git/lib/client/styles/contributors.css";
+// node_modules/.pnpm/@vuepress+plugin-git@2.0.0-_df91a7f3eada62522df2f02026eba8c9/node_modules/@vuepress/plugin-git/lib/client/components/GitContributors.js
+import "D:/proj/YouthNote/node_modules/.pnpm/@vuepress+plugin-git@2.0.0-_df91a7f3eada62522df2f02026eba8c9/node_modules/@vuepress/plugin-git/lib/client/styles/contributors.css";
 var GitContributor = ({ name, url, avatar }) => h(url ? "a" : "span", {
   href: url,
   target: "_blank",
@@ -205,9 +205,9 @@ var GitContributors = defineComponent({
   }
 });
 
-// node_modules/.pnpm/@vuepress+plugin-git@2.0.0-rc.87_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite_oij4vhp3uebkdvh4owfv5bl2ga/node_modules/@vuepress/plugin-git/lib/client/components/GitChangelog.js
-import "D:/WebProjs/EnglishTutorial/YouthNote/node_modules/.pnpm/@vuepress+plugin-git@2.0.0-rc.87_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite_oij4vhp3uebkdvh4owfv5bl2ga/node_modules/@vuepress/plugin-git/lib/client/styles/vars.css";
-import "D:/WebProjs/EnglishTutorial/YouthNote/node_modules/.pnpm/@vuepress+plugin-git@2.0.0-rc.87_typescript@5.8.2_vuepress@2.0.0-rc.20_@vuepress+bundler-vite_oij4vhp3uebkdvh4owfv5bl2ga/node_modules/@vuepress/plugin-git/lib/client/styles/changelog.css";
+// node_modules/.pnpm/@vuepress+plugin-git@2.0.0-_df91a7f3eada62522df2f02026eba8c9/node_modules/@vuepress/plugin-git/lib/client/components/GitChangelog.js
+import "D:/proj/YouthNote/node_modules/.pnpm/@vuepress+plugin-git@2.0.0-_df91a7f3eada62522df2f02026eba8c9/node_modules/@vuepress/plugin-git/lib/client/styles/vars.css";
+import "D:/proj/YouthNote/node_modules/.pnpm/@vuepress+plugin-git@2.0.0-_df91a7f3eada62522df2f02026eba8c9/node_modules/@vuepress/plugin-git/lib/client/styles/changelog.css";
 var GitChangelog = defineComponent({
   name: "GitChangelog",
   props: {
