@@ -1,5 +1,11 @@
 import { defineNoteConfig, defineNotesConfig } from "vuepress-theme-plume";
 
+const Oxford = defineNoteConfig({
+  dir: "Oxford",
+  link: "/Oxford/",
+  sidebar: "auto",
+});
+
 const GrammarSelection = defineNoteConfig({
   dir: "course/初中英语/语法选择专题课",
   link: "/course/语法选择/",
@@ -69,5 +75,18 @@ const ch = defineNoteConfig({
 export const notes = defineNotesConfig({
   dir: "notes",
   link: "/",
-  notes: [cn, ma, en, ph, bi, ch, po, hi, ge, GrammarSelection, PassageBlanking],
+  notes: [
+    cn,
+    ma,
+    en,
+    ph,
+    bi,
+    ch,
+    po,
+    hi,
+    ge,
+    GrammarSelection,
+    PassageBlanking,
+    Oxford,
+  ],
 });

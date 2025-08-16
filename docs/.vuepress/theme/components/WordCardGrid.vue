@@ -1,0 +1,89 @@
+<template>
+  <div
+    class="card-grid"
+    :style="{ '--card-grid-cols': cols }"
+  >
+    <div
+      class="card"
+      v-for="item in words"
+      :key="item.word"
+    >
+      <div class="card-title">{{ item.word }}</div>
+      <div class="card-content">
+        <img
+          :src="item.image"
+          @click="handleImageClick($event, item.word)"
+          style="cursor: pointer; pointer-events: auto"
+          :alt="item.word"
+        />
+      </div>
+    </div>
+  </div>
+</template>
+
+<script setup lang="ts">
+const props = defineProps({
+  words: {
+    type: Array as () => Array<{ word: string; image: string }>,
+    required: true,
+  },
+  cols: {
+    type: Number,
+    default: 4,
+  },
+});
+
+const playAudio = (word) => {
+  const audio = new Audio(`https://dict.youdao.com/dictvoice?audio=${word}`);
+  audio.play();
+};
+
+const handleImageClick = (event, word) => {
+  // 阻止事件冒泡，防止触发图片放大
+  event.stopPropagation();
+  // 阻止默认行为
+  event.preventDefault();
+  // 播放音频
+  playAudio(word);
+};
+</script>
+
+<style scoped>
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(var(--card-grid-cols), 1fr);
+  gap: 16px;
+  margin: 16px 0;
+}
+
+.card {
+  border: 1px solid var(--vp-c-border);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: var(--vp-t-color);
+  background: var(--vp-c-bg);
+}
+
+.card:hover {
+  box-shadow: var(--vp-shadow-2);
+  border-color: var(--vp-c-brand-1);
+}
+
+.card-title {
+  font-weight: 500;
+  padding: 8px 12px;
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1);
+}
+
+.card-content {
+  padding: 12px;
+  text-align: center;
+}
+
+.card-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+</style>
