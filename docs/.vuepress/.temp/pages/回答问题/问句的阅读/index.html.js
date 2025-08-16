@@ -1,5 +1,5 @@
-import comp from "D:/WebProjs/EnglishTutorial/YouthNote/docs/.vuepress/.temp/pages/回答问题/问句的阅读/index.html.vue"
-const data = JSON.parse("{\"path\":\"/%E5%9B%9E%E7%AD%94%E9%97%AE%E9%A2%98/%E9%97%AE%E5%8F%A5%E7%9A%84%E9%98%85%E8%AF%BB/\",\"title\":\"问句的阅读\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"问句的阅读\",\"createTime\":\"2025/06/16 07:35:50\",\"permalink\":\"/回答问题/问句的阅读/\",\"gitInclude\":[]},\"headers\":[],\"readingTime\":{\"minutes\":1.58,\"words\":473},\"filePathRelative\":\"english/问句的阅读.md\",\"categoryList\":[{\"id\":\"ba0a6d\",\"sort\":10003,\"name\":\"english\"}]}")
+import comp from "D:/proj/YouthNote/docs/.vuepress/.temp/pages/回答问题/问句的阅读/index.html.vue"
+const data = JSON.parse("{\"path\":\"/%E5%9B%9E%E7%AD%94%E9%97%AE%E9%A2%98/%E9%97%AE%E5%8F%A5%E7%9A%84%E9%98%85%E8%AF%BB/\",\"title\":\"问句的阅读\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"问句的阅读\",\"createTime\":\"2025/06/16 07:35:50\",\"permalink\":\"/回答问题/问句的阅读/\",\"gitInclude\":[]},\"headers\":[],\"readingTime\":{\"minutes\":1.58,\"words\":473},\"filePathRelative\":\"english/问句的阅读.md\",\"categoryList\":[{\"id\":\"ba0a6d\",\"sort\":10001,\"name\":\"english\"}]}")
 export { comp, data }
 
 if (import.meta.webpackHot) {
