@@ -1,5 +1,5 @@
-import comp from "D:/proj/YouthNote/docs/.vuepress/.temp/pages/english/语法/名词短语/index.html.vue"
-const data = JSON.parse("{\"path\":\"/english/%E8%AF%AD%E6%B3%95/%E5%90%8D%E8%AF%8D%E7%9F%AD%E8%AF%AD/\",\"title\":\"名词短语\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"名词短语\",\"createTime\":\"2025/05/13 06:37:58\",\"permalink\":\"/english/语法/名词短语/\",\"gitInclude\":[]},\"headers\":[],\"readingTime\":{\"minutes\":13.05,\"words\":3914},\"filePathRelative\":\"english/名词短语.md\",\"categoryList\":[{\"id\":\"ba0a6d\",\"sort\":10003,\"name\":\"english\"}]}")
+import comp from "D:/WebProjs/EnglishTutorial/YouthNote/docs/.vuepress/.temp/pages/english/语法/名词短语/index.html.vue"
+const data = JSON.parse("{\"path\":\"/english/%E8%AF%AD%E6%B3%95/%E5%90%8D%E8%AF%8D%E7%9F%AD%E8%AF%AD/\",\"title\":\"名词短语\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"名词短语\",\"createTime\":\"2025/05/13 06:37:58\",\"permalink\":\"/english/语法/名词短语/\",\"gitInclude\":[]},\"headers\":[],\"readingTime\":{\"minutes\":13.05,\"words\":3914},\"filePathRelative\":\"english/名词短语.md\",\"categoryList\":[{\"id\":\"ba0a6d\",\"sort\":10002,\"name\":\"english\"}]}")
 export { comp, data }
 
 if (import.meta.webpackHot) {

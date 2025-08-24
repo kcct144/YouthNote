@@ -1,6 +1,6 @@
 ---
 title: 一级拼读 | 单词表
-permalink: /Oxford/1/wordlist/
+permalink: /Oxford/3/wordlist/
 createTime: 2025/07/21 11:11:40
 ---
 
