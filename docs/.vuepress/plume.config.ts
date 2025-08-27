@@ -28,7 +28,7 @@ export default defineThemeConfig({
   /* 站点页脚 */
   footer: {
     message:
-      '<p>Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a></p><p><a href="https://beian.miit.gov.cn">粤ICP备2021038051号</a></p>',
+      '<span>Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress<aa> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a></span><br><span><a href="https://beian.miit.gov.cn">粤ICP备2021038051号</a></span>',
   },
 
   /**
