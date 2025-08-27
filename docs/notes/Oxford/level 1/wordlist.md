@@ -94,7 +94,7 @@ const words = [
   { level: '1', title: 'Vv', word: 'vest' },
   { level: '1', title: 'Vv', word: 'vet' },
   { level: '1', title: 'Vv', word: 'violin' },
-  { level: '1', title: 'Ww', word: 'wet' },
+  { level: '1', title: 'Ww', word: 'web' },
   { level: '1', title: 'Ww', word: 'watch' },
   { level: '1', title: 'Ww', word: 'water' },
   { level: '1', title: 'Ww', word: 'wolf' },
@@ -106,7 +106,7 @@ const words = [
   { level: '1', title: 'Yy', word: 'yak' },
   { level: '1', title: 'Yy', word: 'yogurt' },
   { level: '1', title: 'Yy', word: 'yacht' },
-  { level: '1', title: 'Zz', word: 'zibra' },
+  { level: '1', title: 'Zz', word: 'zebra' },
   { level: '1', title: 'Zz', word: 'zoo' },
   { level: '1', title: 'Zz', word: 'zero' },
   { level: '1', title: 'Zz', word: 'zipper' }
