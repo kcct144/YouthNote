@@ -13,9 +13,9 @@ config:
       tagline: 青春记录站
       text: 欢迎来到凯凯的秘密基地，这里是凯凯的生活和学习笔记。
       actions:
-        - theme: alt
-          text: 学科笔记
-          link: /notes/
+        # - theme: alt
+        #   text: 学科笔记
+        #   link: /notes/
         - theme: alt
           text: 英语语法
           link: /grammar/
