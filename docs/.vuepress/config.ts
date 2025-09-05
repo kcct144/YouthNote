@@ -126,22 +126,22 @@ export default defineUserConfig({
       //     rust: true,       // ::: rust-repl
       //     kotlin: true,     // ::: kotlin-repl
       //   },
-      //   math: {             // 启用数学公式
-      //     type: 'katex',
-      //   },
+        math: {             // 启用数学公式
+          type: 'katex',
+        },
       //   chartjs: true,      // 启用 chart.js
       //   echarts: true,      // 启用 ECharts
       mermaid: true, // 启用 mermaid
       markmap: true,
       //   flowchart: true,    // 启用 flowchart
-      //   image: {
-      //     figure: true,     // 启用 figure
-      //     lazyload: true,   // 启用图片懒加载
-      //     mark: true,       // 启用图片标记
-      //     size: true,       // 启用图片大小
-      //   },
+        image: {
+          figure: true,     // 启用 figure
+          lazyload: true,   // 启用图片懒加载
+          mark: true,       // 启用图片标记
+          size: true,       // 启用图片大小
+        },
       //   include: true,      // 在 Markdown 文件中导入其他 markdown 文件内容
-      //   imageSize: 'local', // 启用 自动填充 图片宽高属性，避免页面抖动
+        imageSize: 'local', // 启用 自动填充 图片宽高属性，避免页面抖动
     },
 
     /**

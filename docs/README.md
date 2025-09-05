@@ -14,14 +14,8 @@ config:
       text: 欢迎来到凯凯的秘密基地，这里是凯凯的生活和学习笔记。
       actions:
         - theme: alt
-          text: 学科笔记
-          link: /notes/
-        - theme: alt
-          text: 英语语法
-          link: /grammar/
-        - theme: alt
-          text: 学习学习
-          link: /study/
+          text: 凯凯的教学日记
+          link: /journal/
         - theme: alt
           text: 其他项目
           link: /project/

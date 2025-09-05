@@ -23,7 +23,7 @@ export default defineThemeConfig({
 
   // prevPage: true,   // 是否启用上一页链接
   // nextPage: true,   // 是否启用下一页链接
-  // createTime: true, // 是否显示文章创建时间
+  createTime: true, // 是否显示文章创建时间
 
   /* 站点页脚 */
   footer: {
@@ -36,8 +36,8 @@ export default defineThemeConfig({
    */
   profile: {
     avatar: "https://s21.ax1x.com/2025/06/23/pVZhphF.png",
-    name: "Senior Notes",
-    description: "初中知识笔记",
+    name: "YouthNote",
+    description: "青春记录站",
     // circle: true,
     // location: '',
     // organization: '',
