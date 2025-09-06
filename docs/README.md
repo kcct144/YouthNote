@@ -15,7 +15,7 @@ config:
       actions:
         - theme: alt
           text: 凯凯的教学日记
-          link: /journal/
+          link: /blog/
         - theme: alt
           text: 其他项目
           link: /project/

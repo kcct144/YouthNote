@@ -30,9 +30,7 @@ export default defineClientConfig({
     app.component("MultipleChoiceS", MultipleChoiceS);
     app.component("MakeSentence", MakeSentence);
     app.component("FillIn", FillIn);
-    app.component("Reading", Reading);
     app.component("Dictation", Dictation);
-    app.component("VideoPlayer", VideoPlayer);
     app.component("WordCardGrid", WordCardGrid);
 
     app.use(createPinia());
