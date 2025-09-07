@@ -118,6 +118,7 @@ const groupedWords = groupWordsByTitle(words)
 <!-- 单词列表 -->
 
 ## 目录
+
 <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px;">
   <a 
     v-for="group in groupedWords" 
@@ -146,7 +147,7 @@ function groupWordsByTitle(words) {
     }
     groups[word.title].items.push({
       word: word.word,
-      image: `/images/Oxford/level1/${word.word}.png`
+      image: `/images/Oxford/${word.word}.png`
     })
   })
   return Object.values(groups)
