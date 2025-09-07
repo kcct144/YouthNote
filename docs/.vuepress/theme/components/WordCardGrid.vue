@@ -34,7 +34,9 @@ const props = defineProps({
 });
 
 const playAudio = (word) => {
-  const audio = new Audio(`https://dict.youdao.com/dictvoice?audio=${word}`);
+  // 将短语中的空格替换为连字符以构造正确的音频URL
+  const processedWord = word.replace(/\s+/g, '-');
+  const audio = new Audio(`https://dict.youdao.com/dictvoice?audio=${processedWord}`);
   audio.play();
 };
 

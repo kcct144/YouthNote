@@ -111,12 +111,26 @@ const words = [
   { level: '1', title: 'Zz', word: 'zero' },
   { level: '1', title: 'Zz', word: 'zipper' }
 ]
+
+const groupedWords = groupWordsByTitle(words)
 </script>
 
 <!-- 单词列表 -->
 
-<div v-for="group in groupWordsByTitle(words)" :key="group.title">
-  <h2>{{group.title}}</h2>
+## 目录
+<div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px;">
+  <a 
+    v-for="group in groupedWords" 
+    :key="group.title" 
+    :href="'#' + group.title"
+    style="display: inline-block; padding: 6px 12px; background-color: var(--vp-c-bg-soft); border-radius: 4px; text-decoration: none; color: var(--vp-c-brand-1); font-weight: 500;"
+  >
+    {{ group.title }}
+  </a>
+</div>
+
+<div v-for="group in groupedWords" :key="group.title">
+  <h2 :id="group.title">{{group.title}}</h2>
   <WordCardGrid :words="group.items" />
 </div>
 

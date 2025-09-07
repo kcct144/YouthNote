@@ -20,6 +20,9 @@ config:
           text: 其他项目
           link: /project/
         - theme: alt
+          text: 拼读课程
+          link: /Oxford/
+        - theme: alt
           text: 专题课程
           link: /course/
 ---
