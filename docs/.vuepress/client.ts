@@ -11,11 +11,11 @@ import "./theme/styles/custom.css";
 import MultipleChoice from "./theme/components/Question/MultipleChoice.vue";
 import FillIn from "./theme/components/Question/FillIn.vue";
 import MakeSentence from "./theme/components/Question/MakeSentence.vue";
-import Reading from "./theme/components/Reading.vue";
 import Dictation from "./theme/components/Dictation.vue";
 import VideoPlayer from "./theme/components/VideoPlayer.vue";
 import MultipleChoiceS from "./theme/components/Question/MultipleChoiceS.vue";
 import WordCardGrid from "./theme/components/WordCardGrid.vue";
+import WebsiteNav from "./theme/components/WebsiteNav/WebsiteNav.vue";
 import { createPinia } from "pinia";
 
 export default defineClientConfig({
@@ -32,6 +32,7 @@ export default defineClientConfig({
     app.component("FillIn", FillIn);
     app.component("Dictation", Dictation);
     app.component("WordCardGrid", WordCardGrid);
+    app.component("WebsiteNav", WebsiteNav);
 
     app.use(createPinia());
     app.use(ElementPlus);
