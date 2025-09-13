@@ -114,7 +114,7 @@ export default defineUserConfig({
       timeline: true, 
       //   bilibili: true,     // 启用嵌入 bilibili视频 语法 @[bilibili](bid)
       //   youtube: true,      // 启用嵌入 youtube视频 语法 @[youtube](video_id)
-      //   artPlayer: true,    // 启用嵌入 artPlayer 本地视频 语法 @[artPlayer](url)
+      artPlayer: true,    // 启用嵌入 artPlayer 本地视频 语法 @[artPlayer](url)
       audioReader: true, // 启用嵌入音频朗读功能 语法 @[audioReader](url)
       //   icons: true,        // 启用内置图标语法  :[icon-name]:
       //   codepen: true,      // 启用嵌入 codepen 语法 @[codepen](user/slash)

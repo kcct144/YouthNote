@@ -28,6 +28,7 @@
     "@alicloud/credentials": "^2.4.4",
     "@vueuse/core": "^13.9.0",
     "ali-oss": "^6.23.0",
+    "artplayer": "^5.3.0",
     "element-plus": "^2.11.2",
     "express": "^5.1.0",
     "markmap": "^0.6.1",
