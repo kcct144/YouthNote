@@ -1,7 +1,7 @@
-import { viteBundler } from "@vuepress/bundler-vite"
-import { defineUserConfig } from "vuepress"
-import { plumeTheme } from "vuepress-theme-plume"
-console.log("VuePress config loaded!")
+import { viteBundler } from "@vuepress/bundler-vite";
+import { defineUserConfig } from "vuepress";
+import { plumeTheme } from "vuepress-theme-plume";
+console.log("VuePress config loaded!");
 export default defineUserConfig({
   base: "/",
   lang: "zh-CN",
@@ -20,7 +20,19 @@ export default defineUserConfig({
     ],
   ],
 
-  bundler: viteBundler(),
+  bundler: viteBundler({
+    viteOptions: {
+      server: {
+        proxy: {
+          "/api/oss": {
+            target: "http://120.25.178.64:3150",
+            changeOrigin: true,
+            rewrite: (path) => path.replace(/^\/api\/oss/, ""),
+          },
+        },
+      },
+    },
+  }),
   shouldPrefetch: false, // 站点较大，页面数量较多时，不建议启用
 
   theme: plumeTheme({
@@ -104,17 +116,17 @@ export default defineUserConfig({
      * @see https://theme-plume.vuejs.press/config/markdown/
      */
     markdown: {
-      chat: true, 
+      chat: true,
       //   abbr: true,         // 启用 abbr 语法  *[label]: content
       annotation: true, // 启用 annotation 语法  [+label]: content
       //   pdf: true,          // 启用 PDF 嵌入 @[pdf](/xxx.pdf)
       //   caniuse: true,      // 启用 caniuse 语法  @[caniuse](feature_name)
       plot: true, // 启用隐秘文本语法 !!xxxx!!
       collapse: true,
-      timeline: true, 
+      timeline: true,
       //   bilibili: true,     // 启用嵌入 bilibili视频 语法 @[bilibili](bid)
       //   youtube: true,      // 启用嵌入 youtube视频 语法 @[youtube](video_id)
-      artPlayer: true,    // 启用嵌入 artPlayer 本地视频 语法 @[artPlayer](url)
+      artPlayer: true, // 启用嵌入 artPlayer 本地视频 语法 @[artPlayer](url)
       audioReader: true, // 启用嵌入音频朗读功能 语法 @[audioReader](url)
       //   icons: true,        // 启用内置图标语法  :[icon-name]:
       //   codepen: true,      // 启用嵌入 codepen 语法 @[codepen](user/slash)
@@ -128,22 +140,23 @@ export default defineUserConfig({
       //     rust: true,       // ::: rust-repl
       //     kotlin: true,     // ::: kotlin-repl
       //   },
-        math: {             // 启用数学公式
-          type: 'katex',
-        },
+      math: {
+        // 启用数学公式
+        type: "katex",
+      },
       //   chartjs: true,      // 启用 chart.js
       //   echarts: true,      // 启用 ECharts
       mermaid: true, // 启用 mermaid
       markmap: true,
       //   flowchart: true,    // 启用 flowchart
-        image: {
-          figure: true,     // 启用 figure
-          lazyload: true,   // 启用图片懒加载
-          mark: true,       // 启用图片标记
-          size: true,       // 启用图片大小
-        },
+      image: {
+        figure: true, // 启用 figure
+        lazyload: true, // 启用图片懒加载
+        mark: true, // 启用图片标记
+        size: true, // 启用图片大小
+      },
       //   include: true,      // 在 Markdown 文件中导入其他 markdown 文件内容
-        imageSize: 'local', // 启用 自动填充 图片宽高属性，避免页面抖动
+      imageSize: "local", // 启用 自动填充 图片宽高属性，避免页面抖动
     },
 
     /**
@@ -174,4 +187,4 @@ export default defineUserConfig({
      */
     // encrypt: {},
   }),
-})
+});
