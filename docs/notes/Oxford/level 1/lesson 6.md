@@ -4,11 +4,20 @@ permalink: /Oxford/1/lesson/6/
 createTime: 2025/09/13 11:11:40
 ---
 
-## Aa
+## Pp
+
+:::: card-grid
+::: card
+字母：Aa @[audioReader](/media-proxy/Oxford/lv1/letter/P.mp3)
+:::
+::: card
+发音：/æ/ @[audioReader](/media-proxy/Oxford/lv1/sound/P.mp3)
+:::
+::::
 
 <CardGrid>
-<Card>字母：Aa</Card>
-<Card>发音：/æ/</Card>
+<Card>字母：Pp</Card>
+<Card>发音：/p/</Card>
 </CardGrid>
 
 <WordCardGrid 
@@ -22,15 +31,25 @@ createTime: 2025/09/13 11:11:40
 />
 
 <ArtPlayer
-  src="/media-proxy/Oxford/lv1/video/A.mp4"
+  src="/media-proxy/Oxford/lv1/video/P.mp4"
   fullscreen
 />
 
-## Bb
+## Qq
+
+:::: card-grid
+::: card
+字母：Aa @[audioReader](/media-proxy/Oxford/lv1/letter/Q.mp3)
+:::
+::: card
+发音：/æ/ @[audioReader](/media-proxy/Oxford/lv1/sound/Q.mp3)
+:::
+::::
+
 
 <CardGrid>
-<Card>字母：Bb</Card>
-<Card>发音：/b/</Card>
+<Card>字母：Qq</Card>
+<Card>发音：/kw/</Card>
 </CardGrid>
 
 <WordCardGrid 
@@ -44,15 +63,24 @@ createTime: 2025/09/13 11:11:40
 />
 
 <ArtPlayer
-  src="/media-proxy/Oxford/lv1/video/B.mp4"
+  src="/media-proxy/Oxford/lv1/video/Q.mp4"
   fullscreen
 />
 
-## Cc
+## Rr
+
+:::: card-grid
+::: card
+字母：Aa @[audioReader](/media-proxy/Oxford/lv1/letter/R.mp3)
+:::
+::: card
+发音：/æ/ @[audioReader](/media-proxy/Oxford/lv1/sound/R.mp3)
+:::
+::::
 
 <CardGrid>
-<Card>字母：Cc</Card>
-<Card>发音：/k/</Card>
+<Card>字母：Rr</Card>
+<Card>发音：/r/</Card>
 </CardGrid>
 
 <WordCardGrid 
@@ -66,6 +94,6 @@ createTime: 2025/09/13 11:11:40
 />
 
 <ArtPlayer
-  src="/media-proxy/Oxford/lv1/video/C.mp4"
+  src="/media-proxy/Oxford/lv1/video/R.mp4"
   fullscreen
 />

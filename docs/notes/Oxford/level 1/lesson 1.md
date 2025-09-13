@@ -6,10 +6,14 @@ createTime: 2025/09/13 11:11:40
 
 ## Aa
 
-<CardGrid>
-<Card>字母：Aa</Card>
-<Card>发音：/æ/</Card>
-</CardGrid>
+:::: card-grid
+::: card
+字母：Aa @[audioReader](/media-proxy/Oxford/lv1/letter/A.mp3)
+:::
+::: card
+发音：/æ/ @[audioReader](/media-proxy/Oxford/lv1/sound/A.mp3)
+:::
+::::
 
 <WordCardGrid 
   :words="[
@@ -27,6 +31,15 @@ createTime: 2025/09/13 11:11:40
 />
 
 ## Bb
+
+:::: card-grid
+::: card
+字母：Aa @[audioReader](/media-proxy/Oxford/lv1/letter/B.mp3)
+:::
+::: card
+发音：/æ/ @[audioReader](/media-proxy/Oxford/lv1/sound/B.mp3)
+:::
+::::
 
 <CardGrid>
 <Card>字母：Bb</Card>
@@ -49,6 +62,15 @@ createTime: 2025/09/13 11:11:40
 />
 
 ## Cc
+
+:::: card-grid
+::: card
+字母：Aa @[audioReader](/media-proxy/Oxford/lv1/letter/C.mp3)
+:::
+::: card
+发音：/æ/ @[audioReader](/media-proxy/Oxford/lv1/sound/C.mp3)
+:::
+::::
 
 <CardGrid>
 <Card>字母：Cc</Card>

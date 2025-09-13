@@ -4,11 +4,20 @@ permalink: /Oxford/1/lesson/8/
 createTime: 2025/09/13 11:11:40
 ---
 
-## Aa
+## Ww
+
+:::: card-grid
+::: card
+字母：Aa @[audioReader](/media-proxy/Oxford/lv1/letter/W.mp3)
+:::
+::: card
+发音：/æ/ @[audioReader](/media-proxy/Oxford/lv1/sound/W.mp3)
+:::
+::::
 
 <CardGrid>
-<Card>字母：Aa</Card>
-<Card>发音：/æ/</Card>
+<Card>字母：Ww</Card>
+<Card>发音：/w/</Card>
 </CardGrid>
 
 <WordCardGrid 
@@ -22,15 +31,24 @@ createTime: 2025/09/13 11:11:40
 />
 
 <ArtPlayer
-  src="/media-proxy/Oxford/lv1/video/A.mp4"
+  src="/media-proxy/Oxford/lv1/video/W.mp4"
   fullscreen
 />
 
-## Bb
+## Xx
+
+:::: card-grid
+::: card
+字母：Aa @[audioReader](/media-proxy/Oxford/lv1/letter/X.mp3)
+:::
+::: card
+发音：/æ/ @[audioReader](/media-proxy/Oxford/lv1/sound/X.mp3)
+:::
+::::
 
 <CardGrid>
-<Card>字母：Bb</Card>
-<Card>发音：/b/</Card>
+<Card>字母：Xx</Card>
+<Card>发音：/ks/</Card>
 </CardGrid>
 
 <WordCardGrid 
@@ -44,15 +62,24 @@ createTime: 2025/09/13 11:11:40
 />
 
 <ArtPlayer
-  src="/media-proxy/Oxford/lv1/video/B.mp4"
+  src="/media-proxy/Oxford/lv1/video/X.mp4"
   fullscreen
 />
 
-## Cc
+## Yy
+
+:::: card-grid
+::: card
+字母：Aa @[audioReader](/media-proxy/Oxford/lv1/letter/Y.mp3)
+:::
+::: card
+发音：/æ/ @[audioReader](/media-proxy/Oxford/lv1/sound/Y.mp3)
+:::
+::::
 
 <CardGrid>
-<Card>字母：Cc</Card>
-<Card>发音：/k/</Card>
+<Card>字母：Yy</Card>
+<Card>发音：/j/</Card>
 </CardGrid>
 
 <WordCardGrid 
@@ -66,6 +93,38 @@ createTime: 2025/09/13 11:11:40
 />
 
 <ArtPlayer
-  src="/media-proxy/Oxford/lv1/video/C.mp4"
+  src="/media-proxy/Oxford/lv1/video/Y.mp4"
   fullscreen
 />
+
+## Zz
+
+:::: card-grid
+::: card
+字母：Aa @[audioReader](/media-proxy/Oxford/lv1/letter/Z.mp3)
+:::
+::: card
+发音：/æ/ @[audioReader](/media-proxy/Oxford/lv1/sound/Z.mp3)
+:::
+::::
+
+<CardGrid>
+<Card>字母：Zz</Card>
+<Card>发音：/z/</Card>
+</CardGrid>
+
+<WordCardGrid 
+  :words="[
+    { word: 'cat', image: '/images/Oxford/cat.png' },
+    { word: 'cup', image: '/images/Oxford/cup.png' },
+    { word: 'computer', image: '/images/Oxford/computer.png' },
+    { word: 'car', image: '/images/Oxford/car.png' }
+  ]" 
+  :cols="4" 
+/>
+
+<ArtPlayer
+  src="/media-proxy/Oxford/lv1/video/Z.mp4"
+  fullscreen
+/>
+
