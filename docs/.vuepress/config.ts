@@ -20,19 +20,7 @@ export default defineUserConfig({
     ],
   ],
 
-  bundler: viteBundler({
-    viteOptions: {
-      server: {
-        proxy: {
-          "/api/oss": {
-            target: "http://120.25.178.64:3150",
-            changeOrigin: true,
-            rewrite: (path) => path.replace(/^\/api\/oss/, ""),
-          },
-        },
-      },
-    },
-  }),
+  bundler: viteBundler(),
   shouldPrefetch: false, // 站点较大，页面数量较多时，不建议启用
 
   theme: plumeTheme({

@@ -22,7 +22,7 @@ createTime: 2025/09/13 11:11:40
 />
 
 <ArtPlayer
-  src="/api/oss/Oxford/lv1/video/A.mp4"
+  src="http://120.25.178.64:3150/Oxford/lv1/video/A.mp4"
   fullscreen
 />
 
@@ -44,7 +44,7 @@ createTime: 2025/09/13 11:11:40
 />
 
 <ArtPlayer
-  src="/videos/Oxford/lv1/video/B.mp4"
+  src="http://120.25.178.64:3150/Oxford/lv1/video/B.mp4"
   fullscreen
 />
 
@@ -66,6 +66,6 @@ createTime: 2025/09/13 11:11:40
 />
 
 <ArtPlayer
-  src="/videos/Oxford/lv1/video/C.mp4"
+  src="http://120.25.178.64:3150/Oxford/lv1/video/C.mp4"
   fullscreen
 />
