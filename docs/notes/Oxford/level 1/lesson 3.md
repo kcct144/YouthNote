@@ -1,6 +1,6 @@
 ---
 title: 一级拼读 | Gg-Ii
-permalink: /Oxford/1/lesson/1/
+permalink: /Oxford/1/lesson/3/
 createTime: 2025/09/13 11:11:40
 ---
 
