@@ -13,7 +13,7 @@
         <img
           :src="item.image"
           @click="handleImageClick($event, item.word)"
-          style="cursor: pointer; pointer-events: auto"
+          style="cursor: pointer; pointer-events: auto; height: 100px;"
           :alt="item.word"
         />
       </div>
@@ -74,6 +74,7 @@ const handleImageClick = (event, word) => {
 .card-title {
   font-weight: 500;
   padding: 8px 12px;
+  text-align: center;
   background: var(--vp-c-bg-soft);
   color: var(--vp-c-text-1);
 }

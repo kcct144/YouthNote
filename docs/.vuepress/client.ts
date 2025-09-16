@@ -16,6 +16,7 @@ import VideoPlayer from "./theme/components/VideoPlayer.vue";
 import MultipleChoiceS from "./theme/components/Question/MultipleChoiceS.vue";
 import WordCardGrid from "./theme/components/WordCardGrid.vue";
 import WebsiteNav from "./theme/components/WebsiteNav/WebsiteNav.vue";
+import Phone from "./theme/components/Phone.vue";
 import { createPinia } from "pinia";
 
 export default defineClientConfig({
@@ -33,6 +34,7 @@ export default defineClientConfig({
     app.component("Dictation", Dictation);
     app.component("WordCardGrid", WordCardGrid);
     app.component("WebsiteNav", WebsiteNav);
+    app.component("Phone", Phone);
 
     app.use(createPinia());
     app.use(ElementPlus);
