@@ -2,6 +2,8 @@
 title: Four Strategies for Dealing With Difficulties
 createTime: 2025/09/06
 permalink: /Four Strategies for Dealing With Difficulties/
+tags:
+ - Article
 ---
 
 A problem that can't be solved right now is called a ==difficulty==. If you can solve it immediately, then it's just a common to-do task.

@@ -47,16 +47,6 @@ const sites: Site[] = [
     url: 'https://www.zxxk.com/',
     favicon: 'https://www.zxxk.com//favicon.ico'
   },
-  {
-    title: '教学资源库',
-    url: 'https://resources.example.com',
-    favicon: 'https://resources.example.com/favicon.ico'
-  },
-  {
-    title: '教师邮箱',
-    url: 'https://mail.example.com',
-    favicon: 'https://mail.example.com/favicon.ico'
-  }
 ]
 </script>
 
