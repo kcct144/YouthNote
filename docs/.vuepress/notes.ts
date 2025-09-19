@@ -6,6 +6,12 @@ const Oxford = defineNoteConfig({
   sidebar: "auto",
 });
 
+const Tguide = defineNoteConfig({
+  dir: "Ttools/guide",
+  link: "/Ttools/guide/",
+  sidebar: "auto",
+});
+
 const study = defineNoteConfig({
   dir: "study",
   link: "/study/",
@@ -32,6 +38,7 @@ export const notes = defineNotesConfig({
     GrammarSelection,
     PassageBlanking,
     Oxford,
+    Tguide,
     study,
   ],
 });
