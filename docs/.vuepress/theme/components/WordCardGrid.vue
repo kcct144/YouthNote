@@ -13,7 +13,7 @@
         <img
           :src="item.image"
           @click="handleImageClick($event, item.word)"
-          style="cursor: pointer; pointer-events: auto; height: 100px;"
+          style="cursor: pointer; pointer-events: auto;"
           :alt="item.word"
         />
       </div>
@@ -86,7 +86,13 @@ const handleImageClick = (event, word) => {
 
 .card-content img {
   max-width: 100%;
-  height: auto;
+  height: 50px;
   border-radius: 4px;
+}
+
+@media (min-width: 768px) {
+  .card-content img {
+    height: 100px;
+  }
 }
 </style>
