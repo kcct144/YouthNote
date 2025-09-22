@@ -47,6 +47,10 @@ const sites: Site[] = [
     url: 'https://www.zxxk.com/',
     favicon: 'https://www.zxxk.com//favicon.ico'
   },
+  {
+    title: '班主任工作手册',
+    url: 'kcct144.work/Ttools/guide/',
+  }
 ]
 </script>
 
