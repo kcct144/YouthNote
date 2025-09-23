@@ -5,6 +5,8 @@ createTime: 2025/07/21 11:11:40
 ---
 
 <script setup>
+const ossBaseURL = process.env.NODE_ENV === "production" ? "/media-proxy/" : "http://120.25.178.64:3150/";
+
 const words = [
   { level: '1', title: 'Aa', word: 'ant' },
   { level: '1', title: 'Aa', word: 'apple' },
@@ -112,6 +114,23 @@ const words = [
   { level: '1', title: 'Zz', word: 'zipper' }
 ]
 
+function groupWordsByTitle(words) {
+  const groups = {}
+  words.forEach(word => {
+    if (!groups[word.title]) {
+      groups[word.title] = {
+        title: word.title,
+        items: []
+      }
+    }
+    groups[word.title].items.push({
+      word: word.word,
+      image: `${ossBaseURL}Oxford/lv${word.level}/image/${word.word}.png`
+    })
+  })
+  return Object.values(groups)
+}
+
 const groupedWords = groupWordsByTitle(words)
 </script>
 
@@ -132,24 +151,5 @@ const groupedWords = groupWordsByTitle(words)
 
 <div v-for="group in groupedWords" :key="group.title">
   <h2 :id="group.title">{{group.title}}</h2>
-  <WordCardGrid :words="group.items" />
+  <PhoneWordGrid :words="group.items" />
 </div>
-
-<script>
-function groupWordsByTitle(words) {
-  const groups = {}
-  words.forEach(word => {
-    if (!groups[word.title]) {
-      groups[word.title] = {
-        title: word.title,
-        items: []
-      }
-    }
-    groups[word.title].items.push({
-      word: word.word,
-      image: `/images/Oxford/${word.word}.png`
-    })
-  })
-  return Object.values(groups)
-}
-</script>

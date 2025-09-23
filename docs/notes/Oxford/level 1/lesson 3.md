@@ -6,36 +6,33 @@ createTime: 2025/09/13 11:11:40
 
 ## Gg
 
-<OxfordPhone
-    level="1"
+<Phone
     letter="Gg"
     sound="/g/"
     :word="['gorilla', 'girl', 'gift', 'goat']"
-    video="G.mp4"
-    letterAudio="G.mp3"
-    soundAudio="G.mp3"
+    video="/media-proxy/Oxford/lv1/video/G.mp4"
+    letterAudio="/media-proxy/Oxford/lv1/letter/G.mp3"
+    soundAudio="/media-proxy/Oxford/lv1/sound/G.mp3"
 />
 
 ## Hh
 
-<OxfordPhone
-    level="1"
+<Phone
     letter="Hh"
     sound="/h/"
     :word="['hat', 'house', 'hot dog', 'horse']"
-    video="H.mp4"
-    letterAudio="H.mp3"
-    soundAudio="H.mp3"
+    video="/media-proxy/Oxford/lv1/video/H.mp4"
+    letterAudio="/media-proxy/Oxford/lv1/letter/H.mp3"
+    soundAudio="/media-proxy/Oxford/lv1/sound/H.mp3"
 />
 
 ## Ii
 
-<OxfordPhone
-    level="1"
+<Phone
     letter="Ii"
     sound="/i/"
     :word="['igloo', 'insect', 'iguana', 'ink']"
-    video="I.mp4"
-    letterAudio="I.mp3"
-    soundAudio="I.mp3"
+    video="/media-proxy/Oxford/lv1/video/I.mp4"
+    letterAudio="/media-proxy/Oxford/lv1/letter/I.mp3"
+    soundAudio="/media-proxy/Oxford/lv1/sound/I.mp3"
 />

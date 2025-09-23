@@ -6,36 +6,33 @@ createTime: 2025/09/13 11:11:40
 
 ## Mm
 
-<OxfordPhone
-    level="1"
+<Phone
     letter="Mm"
     sound="/m/"
     :word="['mouse', 'money', 'milk', 'monkey']"
-    video="M.mp4"
-    letterAudio="M.mp3"
-    soundAudio="M.mp3"
+    video="/media-proxy/Oxford/lv1/video/M.mp4"
+    letterAudio="/media-proxy/Oxford/lv1/letter/M.mp3"
+    soundAudio="/media-proxy/Oxford/lv1/sound/M.mp3"
 />
 
 ## Nn
 
-<OxfordPhone
-    level="1"
+<Phone
     letter="Nn"
     sound="/n/"
     :word="['nest', 'nose', 'nut', 'net']"
-    video="N.mp4"
-    letterAudio="N.mp3"
-    soundAudio="N.mp3"
+    video="/media-proxy/Oxford/lv1/video/N.mp4"
+    letterAudio="/media-proxy/Oxford/lv1/letter/N.mp3"
+    soundAudio="/media-proxy/Oxford/lv1/sound/N.mp3"
 />
 
 ## Oo
 
-<OxfordPhone
-    level="1"
+<Phone
     letter="Oo"
-    sound="/o/"
+    sound="/ɒ/"
     :word="['ostrich', 'octopus', 'olive', 'ox']"
-    video="O.mp4"
-    letterAudio="O.mp3"
-    soundAudio="O.mp3"
+    video="/media-proxy/Oxford/lv1/video/O.mp4"
+    letterAudio="/media-proxy/Oxford/lv1/letter/O.mp3"
+    soundAudio="/media-proxy/Oxford/lv1/sound/O.mp3"
 />

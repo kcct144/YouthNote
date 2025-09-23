@@ -6,48 +6,44 @@ createTime: 2025/09/13 11:11:40
 
 ## Ww
 
-<OxfordPhone
-    level="1"
+<Phone
     letter="Ww"
     sound="/w/"
     :word="['web', 'watch', 'water', 'wolf']"
-    video="W.mp4"
-    letterAudio="W.mp3"
-    soundAudio="W.mp3"
+    video="/media-proxy/Oxford/lv1/video/W.mp4"
+    letterAudio="/media-proxy/Oxford/lv1/letter/W.mp3"
+    soundAudio="/media-proxy/Oxford/lv1/sound/W.mp3"
 />
 
 ## Xx
 
-<OxfordPhone
-    level="1"
+<Phone
     letter="Xx"
     sound="/ks/"
     :word="['box', 'wax', 'fox', 'six']"
-    video="X.mp4"
-    letterAudio="X.mp3"
-    soundAudio="X.mp3"
+    video="/media-proxy/Oxford/lv1/video/X.mp4"
+    letterAudio="/media-proxy/Oxford/lv1/letter/X.mp3"
+    soundAudio="/media-proxy/Oxford/lv1/sound/X.mp3"
 />
 
 ## Yy
 
-<OxfordPhone
-    level="1"
+<Phone
     letter="Yy"
     sound="/j/"
     :word="['yoyo', 'yak', 'yogurt', 'yacht']"
-    video="Y.mp4"
-    letterAudio="Y.mp3"
-    soundAudio="Y.mp3"
+    video="/media-proxy/Oxford/lv1/video/Y.mp4"
+    letterAudio="/media-proxy/Oxford/lv1/letter/Y.mp3"
+    soundAudio="/media-proxy/Oxford/lv1/sound/Y.mp3"
 />
 
 ## Zz
 
-<OxfordPhone
-    level="1"
+<Phone
     letter="Zz"
     sound="/z/"
     :word="['zebra', 'zoo', 'zero', 'zipper']"
-    video="Z.mp4"
-    letterAudio="Z.mp3"
-    soundAudio="Z.mp3"
+    video="/media-proxy/Oxford/lv1/video/Z.mp4"
+    letterAudio="/media-proxy/Oxford/lv1/letter/Z.mp3"
+    soundAudio="/media-proxy/Oxford/lv1/sound/Z.mp3"
 />

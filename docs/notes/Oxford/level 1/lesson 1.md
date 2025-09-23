@@ -18,22 +18,24 @@ createTime: 2025/09/13 11:11:40
 
 ## Bb
 
-<Phone
+<OxfordPhone
+    level="1"
     letter="Bb"
     sound="/b/"
     :word="['bed', 'bear', 'banana', 'bird']"
-    video="/Oxford/lv1/video/B.mp4"
-    letterAudio="/Oxford/lv1/letter/B.mp3"
-    soundAudio="/Oxford/lv1/sound/B.mp3"
+    video="B.mp4"
+    letterAudio="B.mp3"
+    soundAudio="B.mp3"
 />
 
 ## Cc
 
-<Phone
+<OxfordPhone
+    level="1"
     letter="Cc"
     sound="/k/"
     :word="['cat', 'cup', 'computer', 'car']"
-    video="/Oxford/lv1/video/C.mp4"
-    letterAudio="/Oxford/lv1/letter/C.mp3"
-    soundAudio="/Oxford/lv1/sound/C.mp3"
+    video="C.mp4"
+    letterAudio="C.mp3"
+    soundAudio="C.mp3"
 />

@@ -12,10 +12,10 @@ import MultipleChoice from "./theme/components/Question/MultipleChoice.vue";
 import FillIn from "./theme/components/Question/FillIn.vue";
 import MakeSentence from "./theme/components/Question/MakeSentence.vue";
 import OxfordPhone from "./theme/components/Phone/OxfordPhone.vue";
+import PhoneWordGrid from "./theme/components/Phone/PhoneWordGrid.vue";
 import MultipleChoiceS from "./theme/components/Question/MultipleChoiceS.vue";
 import WordCardGrid from "./theme/components/WordCardGrid.vue";
 import WebsiteNav from "./theme/components/WebsiteNav/WebsiteNav.vue";
-import Phone from "./theme/components/Phone.vue";
 import { createPinia } from "pinia";
 
 export default defineClientConfig({
@@ -33,7 +33,7 @@ export default defineClientConfig({
     app.component("WordCardGrid", WordCardGrid);
     app.component("WebsiteNav", WebsiteNav);
     app.component("OxfordPhone", OxfordPhone);
-    app.component("Phone", Phone);
+    app.component("PhoneWordGrid", PhoneWordGrid);
 
     app.use(createPinia());
     app.use(ElementPlus);
