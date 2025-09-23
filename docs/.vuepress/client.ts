@@ -11,8 +11,7 @@ import "./theme/styles/custom.css";
 import MultipleChoice from "./theme/components/Question/MultipleChoice.vue";
 import FillIn from "./theme/components/Question/FillIn.vue";
 import MakeSentence from "./theme/components/Question/MakeSentence.vue";
-import Dictation from "./theme/components/Dictation.vue";
-import VideoPlayer from "./theme/components/VideoPlayer.vue";
+import OxfordPhone from "./theme/components/Phone/OxfordPhone.vue";
 import MultipleChoiceS from "./theme/components/Question/MultipleChoiceS.vue";
 import WordCardGrid from "./theme/components/WordCardGrid.vue";
 import WebsiteNav from "./theme/components/WebsiteNav/WebsiteNav.vue";
@@ -31,9 +30,9 @@ export default defineClientConfig({
     app.component("MultipleChoiceS", MultipleChoiceS);
     app.component("MakeSentence", MakeSentence);
     app.component("FillIn", FillIn);
-    app.component("Dictation", Dictation);
     app.component("WordCardGrid", WordCardGrid);
     app.component("WebsiteNav", WebsiteNav);
+    app.component("OxfordPhone", OxfordPhone);
     app.component("Phone", Phone);
 
     app.use(createPinia());

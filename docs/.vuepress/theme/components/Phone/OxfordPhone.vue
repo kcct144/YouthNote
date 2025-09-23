@@ -1,23 +1,30 @@
 <template>
   <CardGrid :cols="2">
-    <Card>字母：{{ letter }} <audioReader :src="`${ossBaseURL}${letterAudio}`" /></Card>
-    <Card>发音：{{ sound }} <audioReader :src="`${ossBaseURL}${soundAudio}`" /></Card>
+    <Card>字母：{{ letter }} <audioReader :src="computedLetterAudio" /></Card>
+    <Card>发音：{{ sound }} <audioReader :src="computedSoundAudio" /></Card>
   </CardGrid>
 
-  <WordCardGrid
+  <PhoneWordGrid
     :words="wordItems"
     :cols="4"
   />
 
   <ArtPlayer
-    :src="`${ossBaseURL}${video}`"
+    :src="computedVideo"
     fullscreen
   />
 </template>
 
 <script setup lang="ts">
-import { ossBaseURL } from "../utils/oss"
+import PhoneWordGrid from "./PhoneWordGrid.vue"
+import { ossBaseURL } from "../../utils/oss"
+import { computed } from "vue"
+
 const props = defineProps({
+  level: {
+    type: String,
+    required: true,
+  },
   letter: {
     type: String,
     required: true,
@@ -32,23 +39,41 @@ const props = defineProps({
   },
   video: {
     type: String,
-    required: true,
+    default: ""
   },
   letterAudio: {
     type: String,
-    required: true,
+    default: ""
   },
   soundAudio: {
     type: String,
-    required: true,
+    default: ""
   },
 });
 
+// 计算视频路径
+const computedVideo = computed(() => {
+  const letterChar = props.letter.charAt(0);
+  return `${ossBaseURL}Oxford/lv${props.level}/video/${letterChar}.mp4`;
+});
+
+// 计算字母音频路径
+const computedLetterAudio = computed(() => {
+  const letterChar = props.letter.charAt(0);
+  return `${ossBaseURL}Oxford/lv${props.level}/letter/${letterChar}.mp3`;
+});
+
+// 计算发音音频路径
+const computedSoundAudio = computed(() => {
+  const letterChar = props.letter.charAt(0);
+  return `${ossBaseURL}Oxford/lv${props.level}/sound/${letterChar}.mp3`;
+});
+
 // 将单词数组转换为WordCardGrid组件所需的格式
-const wordItems = props.word.map((word) => ({
+const wordItems = computed(() => props.word.map((word) => ({
   word,
-  image: `/images/Oxford/${word}.png`,
-}));
+  image: `${ossBaseURL}Oxford/lv${props.level}/image/${word}.png`,
+})));
 </script>
 
 <style scoped>

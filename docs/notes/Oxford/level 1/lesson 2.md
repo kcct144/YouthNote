@@ -6,33 +6,36 @@ createTime: 2025/09/13 11:11:40
 
 ## Dd
 
-<Phone
+<OxfordPhone
+    level="1"
     letter="Dd"
     sound="/d/"
     :word="['doll', 'dog', 'desk', 'duck']"
-    video="/media-proxy/Oxford/lv1/video/D.mp4"
-    letterAudio="/media-proxy/Oxford/lv1/letter/D.mp3"
-    soundAudio="/media-proxy/Oxford/lv1/sound/D.mp3"
+    video="D.mp4"
+    letterAudio="D.mp3"
+    soundAudio="D.mp3"
 />
 
 ## Ee
 
-<Phone
+<OxfordPhone
+    level="1"
     letter="Ee"
     sound="/e/"
     :word="['egg', 'envelop', 'elbow', 'elephant']"
-    video="/media-proxy/Oxford/lv1/video/E.mp4"
-    letterAudio="/media-proxy/Oxford/lv1/letter/E.mp3"
-    soundAudio="/media-proxy/Oxford/lv1/sound/E.mp3"
+    video="E.mp4"
+    letterAudio="E.mp3"
+    soundAudio="E.mp3"
 />
 
 ## Ff
 
-<Phone
+<OxfordPhone
+    level="1"
     letter="Ff"
     sound="/f/"
     :word="['farm', 'fan', 'fork', 'fish']"
-    video="/media-proxy/Oxford/lv1/video/F.mp4"
-    letterAudio="/media-proxy/Oxford/lv1/letter/F.mp3"
-    soundAudio="/media-proxy/Oxford/lv1/sound/F.mp3"
+    video="F.mp4"
+    letterAudio="F.mp3"
+    soundAudio="F.mp3"
 />
