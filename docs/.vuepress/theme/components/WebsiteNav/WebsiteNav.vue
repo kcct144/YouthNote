@@ -49,7 +49,7 @@ const sites: Site[] = [
   },
   {
     title: '班主任工作手册',
-    url: 'kcct144.work/Ttools/guide/',
+    url: '/Ttools/guide/',
   }
 ]
 </script>
