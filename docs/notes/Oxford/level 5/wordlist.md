@@ -5,136 +5,129 @@ createTime: 2025/07/21 11:11:40
 ---
 
 <script setup>
+const ossBaseURL = process.env.NODE_ENV === "production" ? "/media-proxy/" : "http://120.25.178.64:3150/";
+
 const words = [
-  { level: '1', title: 'Aa', word: 'ant' },
-  { level: '1', title: 'Aa', word: 'apple' },
-  { level: '1', title: 'Aa', word: 'alligator' },
-  { level: '1', title: 'Aa', word: 'ax' },
-  { level: '1', title: 'Bb', word: 'bed' },
-  { level: '1', title: 'Bb', word: 'bear' },
-  { level: '1', title: 'Bb', word: 'banana' },
-  { level: '1', title: 'Bb', word: 'bird' },
-  { level: '1', title: 'Cc', word: 'cat' },
-  { level: '1', title: 'Cc', word: 'cup' },
-  { level: '1', title: 'Cc', word: 'computer' },
-  { level: '1', title: 'Cc', word: 'car' },
-  { level: '1', title: 'Dd', word: 'doll' },
-  { level: '1', title: 'Dd', word: 'dog' },
-  { level: '1', title: 'Dd', word: 'desk' },
-  { level: '1', title: 'Dd', word: 'duck' },
-  { level: '1', title: 'Ee', word: 'egg' },
-  { level: '1', title: 'Ee', word: 'envelop' },
-  { level: '1', title: 'Ee', word: 'elbow' },
-  { level: '1', title: 'Ee', word: 'elephant' },
-  { level: '1', title: 'Ff', word: 'farm' },
-  { level: '1', title: 'Ff', word: 'fan' },
-  { level: '1', title: 'Ff', word: 'fork' },
-  { level: '1', title: 'Ff', word: 'fish' },
-  { level: '1', title: 'Gg', word: 'gorilla' },
-  { level: '1', title: 'Gg', word: 'girl' },
-  { level: '1', title: 'Gg', word: 'gift' },
-  { level: '1', title: 'Gg', word: 'goat' },
-  { level: '1', title: 'Hh', word: 'hat' },
-  { level: '1', title: 'Hh', word: 'house' },
-  { level: '1', title: 'Hh', word: 'hot dog' },
-  { level: '1', title: 'Hh', word: 'horse' },
-  { level: '1', title: 'Ii', word: 'igloo' },
-  { level: '1', title: 'Ii', word: 'insect' },
-  { level: '1', title: 'Ii', word: 'iguana' },
-  { level: '1', title: 'Ii', word: 'ink' },
-  { level: '1', title: 'Jj', word: 'juice' },
-  { level: '1', title: 'Jj', word: 'jacket' },
-  { level: '1', title: 'Jj', word: 'jam' },
-  { level: '1', title: 'Jj', word: 'jet' },
-  { level: '1', title: 'Kk', word: 'key' },
-  { level: '1', title: 'Kk', word: 'kite' },
-  { level: '1', title: 'Kk', word: 'king' },
-  { level: '1', title: 'Kk', word: 'kangaroo' },
-  { level: '1', title: 'Ll', word: 'lemon' },
-  { level: '1', title: 'Ll', word: 'lamp' },
-  { level: '1', title: 'Ll', word: 'leaf' },
-  { level: '1', title: 'Ll', word: 'lion' },
-  { level: '1', title: 'Mm', word: 'mouse' },
-  { level: '1', title: 'Mm', word: 'money' },
-  { level: '1', title: 'Mm', word: 'milk' },
-  { level: '1', title: 'Mm', word: 'monkey' },
-  { level: '1', title: 'Nn', word: 'nest' },
-  { level: '1', title: 'Nn', word: 'nose' },
-  { level: '1', title: 'Nn', word: 'nut' },
-  { level: '1', title: 'Nn', word: 'net' },
-  { level: '1', title: 'Oo', word: 'ostrich' },
-  { level: '1', title: 'Oo', word: 'octopus' },
-  { level: '1', title: 'Oo', word: 'olive' },
-  { level: '1', title: 'Oo', word: 'ox' },
-  { level: '1', title: 'Pp', word: 'panda' },
-  { level: '1', title: 'Pp', word: 'pineapple' },
-  { level: '1', title: 'Pp', word: 'peach' },
-  { level: '1', title: 'Pp', word: 'pen' },
-  { level: '1', title: 'Qq', word: 'quilt' },
-  { level: '1', title: 'Qq', word: 'question' },
-  { level: '1', title: 'Qq', word: 'quiz' },
-  { level: '1', title: 'Qq', word: 'queen' },
-  { level: '1', title: 'Rr', word: 'rice' },
-  { level: '1', title: 'Rr', word: 'rose' },
-  { level: '1', title: 'Rr', word: 'rabbit' },
-  { level: '1', title: 'Rr', word: 'robot' },
-  { level: '1', title: 'Ss', word: 'soap' },
-  { level: '1', title: 'Ss', word: 'sun' },
-  { level: '1', title: 'Ss', word: 'socks' },
-  { level: '1', title: 'Ss', word: 'seal' },
-  { level: '1', title: 'Tt', word: 'turtle' },
-  { level: '1', title: 'Tt', word: 'tent' },
-  { level: '1', title: 'Tt', word: 'teacher' },
-  { level: '1', title: 'Tt', word: 'tiger' },
-  { level: '1', title: 'Uu', word: 'umpire' },
-  { level: '1', title: 'Uu', word: 'uncle' },
-  { level: '1', title: 'Uu', word: 'umbrella' },
-  { level: '1', title: 'Uu', word: 'up' },
-  { level: '1', title: 'Vv', word: 'van' },
-  { level: '1', title: 'Vv', word: 'vest' },
-  { level: '1', title: 'Vv', word: 'vet' },
-  { level: '1', title: 'Vv', word: 'violin' },
-  { level: '1', title: 'Ww', word: 'wet' },
-  { level: '1', title: 'Ww', word: 'watch' },
-  { level: '1', title: 'Ww', word: 'water' },
-  { level: '1', title: 'Ww', word: 'wolf' },
-  { level: '1', title: 'Xx', word: 'box' },
-  { level: '1', title: 'Xx', word: 'wax' },
-  { level: '1', title: 'Xx', word: 'fox' },
-  { level: '1', title: 'Xx', word: 'six' },
-  { level: '1', title: 'Yy', word: 'yoyo' },
-  { level: '1', title: 'Yy', word: 'yak' },
-  { level: '1', title: 'Yy', word: 'yogurt' },
-  { level: '1', title: 'Yy', word: 'yacht' },
-  { level: '1', title: 'Zz', word: 'zibra' },
-  { level: '1', title: 'Zz', word: 'zoo' },
-  { level: '1', title: 'Zz', word: 'zero' },
-  { level: '1', title: 'Zz', word: 'zipper' }
+  {level: '5', title: 'ar', word: 'car'},
+  {level: '5',title: 'ar',word: 'farm'},
+  {level: '5',title: 'ar',word: 'park'},
+  {level: '5',title: 'ar',word: 'star'},
+  {level: '5',title: 'ir ur',word: 'bird'},
+  {level: '5',title: 'ir ur',word: 'girl'},
+  {level: '5',title: 'ir ur',word: 'nurse'},
+  {level: '5',title: 'ir ur',word: 'purple'},
+  {level: '5',title: 'er or',word: 'teacher'},
+  {level: '5',title: 'er or',word: 'sister'},
+  {level: '5',title: 'er or',word: 'doctor'},
+  {level: '5',title: 'er or',word: 'tractor'},
+  {level: '5',title: 'ou ow',word: 'mouse'},
+  {level: '5',title: 'ou ow',word: 'house'},
+  {level: '5',title: 'ou ow',word: 'cow'},
+  {level: '5',title: 'ou ow',word: 'brown'},
+  {level: '5',title: 'oi oy',word: 'coin'},
+  {level: '5',title: 'oi oy',word: 'soil'},
+  {level: '5',title: 'oi oy',word: 'toy'},
+  {level: '5',title: 'oi oy',word: 'boy'},
+  {level: '5',title: 'oo u',word: 'book'},
+  {level: '5',title: 'oo u',word: 'foot'},
+  {level: '5',title: 'oo u',word: 'bush'},
+  {level: '5',title: 'oo u',word: 'pull'},
+  {level: '5',title: 'au aw',word: 'sauce'},
+  {level: '5',title: 'au aw',word: 'August'},
+  {level: '5',title: 'au aw',word: 'prawn'},
+  {level: '5',title: 'au aw',word: 'draw'},
+  {level: '5',title: 'all wa',word: 'ball'},
+  {level: '5',title: 'all wa',word: 'tall'},
+  {level: '5',title: 'all wa',word: 'water'},
+  {level: '5',title: 'all wa',word: 'walk'},
+  {level: '5',title: 'or oar',word: 'horse'},
+  {level: '5',title: 'or oar',word: 'fork'},
+  {level: '5',title: 'or oar',word: 'roar'},
+  {level: '5',title: 'or oar',word: 'board'},
+  {level: '5',title: 'are air',word: 'square'},
+  {level: '5',title: 'are air',word: 'share'},
+  {level: '5',title: 'are air',word: 'chair'},
+  {level: '5',title: 'are air',word: 'hair'},
+  {level: '5',title: 'ea ear',word: 'bread'},
+  {level: '5',title: 'ea ear',word: 'head'},
+  {level: '5',title: 'ea ear',word: 'bear'},
+  {level: '5',title: 'ea ear',word: 'pear'},
+  {level: '5',title: 'ear eer',word: 'ear'},
+  {level: '5',title: 'ear eer',word: 'clear'},
+  {level: '5',title: 'ear eer',word: 'deer'},
+  {level: '5',title: 'ear eer',word: 'cheer'},
+  {level: '5',title: 'a',word: 'acorn'},
+  {level: '5',title: 'a',word: 'baby'},
+  {level: '5',title: 'a',word: 'elevator'},
+  {level: '5',title: 'a',word: 'lady'},
+  {level: '5',title: 'e i',word: 'he'},
+  {level: '5',title: 'e i',word: 'she'},
+  {level: '5',title: 'e i',word: 'tiger'},
+  {level: '5',title: 'e i',word: 'child'},
+  {level: '5',title: 'o u',word: 'cold'},
+  {level: '5',title: 'o u',word: 'hotel'},
+  {level: '5',title: 'o u',word: 'uniform'},
+  {level: '5',title: 'o u',word: 'music'},
+  {level: '5',title: 'a',word: 'panda'},
+  {level: '5',title: 'a',word: 'gorilla'},
+  {level: '5',title: 'a',word: 'banana'},
+  {level: '5',title: 'a',word: 'umbrella'},
+  {level: '5',title: 'e i o u',word: 'chicken'},
+  {level: '5',title: 'e i o u',word: 'pencil'},
+  {level: '5',title: 'e i o u',word: 'lemon'},
+  {level: '5',title: 'e i o u',word: 'surprise'},
+  {level: '5',title: 'o',word: 'monkey'},
+  {level: '5',title: 'o',word: 'love'},
+  {level: '5',title: 'o',word: 'son'},
+  {level: '5',title: 'o',word: 'honey'},
+  {level: '5',title: 'kn wr',word: 'knife'},
+  {level: '5',title: 'kn wr',word: 'knee'},
+  {level: '5',title: 'kn wr',word: 'write'},
+  {level: '5',title: 'kn wr',word: 'wrong'},
+  {level: '5',title: 'mb e',word: 'lamb'},
+  {level: '5',title: 'mb e',word: 'comb'},
+  {level: '5',title: 'mb e',word: 'glove'},
+  {level: '5',title: 'mb e',word: 'live'},
+  {level: '5',title: 'rh st',word: 'rhino'},
+  {level: '5',title: 'rh st',word: 'rhubarb'},
+  {level: '5',title: 'rh st',word: 'whistle'},
+  {level: '5',title: 'rh st',word: 'castle'},
+  {level: '5',title: 'ture sure',word: 'piture'},
+  {level: '5',title: 'ture sure',word: 'nature'},
+  {level: '5',title: 'ture sure',word: 'treasure'},
+  {level: '5',title: 'ture sure',word: 'measure'},
+  {level: '5',title: 'tion sion',word: 'station'},
+  {level: '5',title: 'tion sion',word: 'competition'},
+  {level: '5',title: 'tion sion',word: 'television'},
+  {level: '5',title: 'tion sion',word: 'excursion'},
+  {level: '5',title: 'ous ful',word: 'famous'},
+  {level: '5',title: 'ous ful',word: 'dangerous'},
+  {level: '5',title: 'ous ful',word: 'beautiful'},
+  {level: '5',title: 'ous ful',word: 'helpful'
+  }
 ]
+
+function groupWordsByTitle(words) {
+  const groups = {}
+  words.forEach(word => {if (!groups[word.title]) {  groups[word.title] = {    title: word.title,    items: []  }}groups[word.title].items.push({  word: word.word,  image: `${ossBaseURL}Oxford/lv${word.level}/image/${word.word}.png`})
+  })
+  return Object.values(groups)
+}
+
+const groupedWords = groupWordsByTitle(words)
 </script>
 
 <!-- 单词列表 -->
 
-<div v-for="group in groupWordsByTitle(words)" :key="group.title">
-  <h2>{{group.title}}</h2>
-  <WordCardGrid :words="group.items" />
+## 目录
+
+<div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px;">
+  <a v-for="group in groupedWords" :key="group.title" :href="'#' + group.title"style="display: inline-block; padding: 6px 12px; background-color: var(--vp-c-bg-soft); border-radius: 4px; text-decoration: none; color: var(--vp-c-brand-1); font-weight: 500;"
+  >{{ group.title }}
+  </a>
 </div>
 
-<script>
-function groupWordsByTitle(words) {
-  const groups = {}
-  words.forEach(word => {
-    if (!groups[word.title]) {
-      groups[word.title] = {
-        title: word.title,
-        items: []
-      }
-    }
-    groups[word.title].items.push({
-      word: word.word,
-      image: `/images/Oxford/${word.word}.png`
-    })
-  })
-  return Object.values(groups)
-}
-</script>
+<div v-for="group in groupedWords" :key="group.title">
+  <h2 :id="group.title">{{group.title}}</h2>
+  <PhoneWordGrid :words="group.items" />
+</div>
