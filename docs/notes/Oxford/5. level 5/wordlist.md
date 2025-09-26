@@ -92,7 +92,7 @@ const words = [
   {level: '5',title: 'rh st',word: 'rhubarb'},
   {level: '5',title: 'rh st',word: 'whistle'},
   {level: '5',title: 'rh st',word: 'castle'},
-  {level: '5',title: 'ture sure',word: 'piture'},
+  {level: '5',title: 'ture sure',word: 'picture'},
   {level: '5',title: 'ture sure',word: 'nature'},
   {level: '5',title: 'ture sure',word: 'treasure'},
   {level: '5',title: 'ture sure',word: 'measure'},

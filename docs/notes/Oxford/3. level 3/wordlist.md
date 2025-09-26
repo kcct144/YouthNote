@@ -41,7 +41,7 @@ const words = [
   {level: '3',title: 'u_e',word: 'cute'},
   {level: '3',title: 'u_e',word: 'mule'},
   {level: '3',title: 'u_e',word: 'tube'},
-  {level: '3',title: 'u_e',word: 'june'},
+  {level: '3',title: 'u_e',word: 'June'},
   {level: '3',title: 'u_e',word: 'tune'},
   {level: '3',title: 'u_e',word: 'rule'},
   {level: '3',title: 'ai',word: 'rain'},
