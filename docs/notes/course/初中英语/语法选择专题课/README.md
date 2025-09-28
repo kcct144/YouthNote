@@ -1,7 +1,243 @@
 ---
-title: 语法选择学习指引
+title: 语法选择
 permalink: /course/语法选择/
-createTime: 2025/07/21 11:11:40
+createTime: 2025/07/21 11:14:00
 ---
 
-施工中 🏗️
+[[TOC]]
+
+基本思路：考点 → 思路
+
+## 1. 人称代词的各种形式
+
+- 主格：作主语（一般开头）
+- 宾格：作宾语（动词/介词后面）
+- 形物代：限定名词（名词或形容词前）
+- 名物代：代指某人的东西（作主/宾/表语）
+- 反身代词：搭配/表示自己（主语和宾语是同个人）
+
+| 主格 | 宾格 | 形物代 | 名物代 | 反身代词              |
+| ---- | ---- | ------ | ------ | --------------------- |
+| I    | me   | my     | mine   | myself                |
+| you  | you  | your   | yours  | yourself / yourselves |
+| he   | him  | his    | his    | himself               |
+| she  | her  | her    | hers   | herself               |
+| it   | it   | its    | its    | itself                |
+| we   | us   | our    | ours   | ourselves             |
+| they | them | their  | theirs | themselves            |
+
+## 2. 时态和语态
+
+1. 看标志词 ⭐
+2. 看其他谓语动词 ⭐
+3. 看句意
+4. 时间排除法（过去/现在/将来）
+5. 状态排除法（一般/进行/完成）
+
+::: tabs
+
+@tab 无被动语态
+| 时态 | 动词形式 | 例子 |
+| :--------: | :--------------------: | :--------------------------: |
+| 一般现在时 | 原形/第三人称单数 | play/plays |
+| 现在进行时 | be 动词+现在分词 | am/is/are playing |
+| 一般过去时 | 过去式 | played |
+| 一般将来时 | 将来助动词+原形 | will play / be going to play |
+| 过去进行时 | be 动词过去式+现在分词 | was/were playing |
+| 现在完成时 | have + 过去分词 | have/has played |
+
+@tab 有被动语态
+
+英语用 ==be 动词 + 过去分词== 形式表示“被”。这个语法点叫做被动语态。
+
+|    时态    |        动词形式        |             例子             |                被动语态                |
+| :--------: | :--------------------: | :--------------------------: | :------------------------------------: |
+| 一般现在时 |   原形/第三人称单数    |          play/plays          |            am/is/are played            |
+| 现在进行时 |    be 动词+现在分词    |      am/is/are playing       |         am/is/are being played         |
+| 一般过去时 |         过去式         |            played            |            was/were played             |
+| 一般将来时 |    将来助动词+原形     | will play / be going to play | will be played / be going to be played |
+| 过去进行时 | be 动词过去式+现在分词 |       was/were playing       |         was/were being played          |
+| 现在完成时 |    have + 过去分词     |       have/has played        |          have/has been played          |
+
+:::
+
+## 3. 非谓语动词
+
+- 看搭配
+- 看一般用法
+
+| 非谓语动词 | 一般用法                                              |
+| ---------- | ----------------------------------------------------- |
+| to do      | 1. 表目的<br>2. 疑问词+to do<br>3. 复合不定代词+to do |
+| -ing 分词  | 1. 动词作主语<br>2. 动词作形容词（修饰物）            |
+| -ed 分词   | 作形容词（修饰人）                                    |
+| 动词原形   | 情态动词+动词原形                                     |
+
+## 4. 连词
+
+看前后关系（句意）
+
+| 连词     | 意思      | 关系               |
+| -------- | --------- | ------------------ |
+| and      | 和        | 表连接、承接、并列 |
+| or       | 或        | 表选择             |
+| but      | 但是      | 表转折             |
+| so       | 所以      | 表结果             |
+| because  | 因为      | 表原因             |
+| if       | 如果      | 表条件             |
+| when     | 当...时   | 表时间             |
+| since    | 从...开始 | 表时间             |
+| although | 尽管      | 表让步             |
+
+## 5. 介词
+
+1. 看搭配
+2. 看一般用法 ↓
+
+| 时间介词         | 方位介词            | 其他介词               |
+| ---------------- | ------------------- | ---------------------- |
+| in + 年/季/月    | on 在…上            | with 用；有；和...一起 |
+| on + 具体某一天  | under 在…下         | without 没有           |
+| at + 具体几点    | in front of 在…前面 | by 乘；通过            |
+| before 在…之前   | behind 在…后面      | of 属于；...的         |
+| after 在…之后    | near 在…附近        | about 关于；对于       |
+| during 在...期间 | next to 在…旁边     | from 从；来自          |
+| since 从…        | around 在…周围      | for 为；给             |
+
+## 6. 冠词 a/an/the
+
+| 冠词 | 用法              |
+| ---- | ----------------- |
+| a    | 泛指+单数，辅音前 |
+| an   | 泛指+单数，元音前 |
+| the  | 特指              |
+| /    | 泛指，复数        |
+
+用 the 的特殊情况：
+
+1. 最高级/序数词前加 the
+2. 独一无二的事物前加 the (the sun, the moon, the world)
+3. play + ...
+
+- 球类不加 (play football)
+- 棋类不加 (play chess)
+- 乐器加 the (play the piano)
+
+## 7. 名词的单复数和所有格
+
+| 形式       | 例词        | 中文     | 用法示例        |
+| ---------- | ----------- | -------- | --------------- |
+| 单数       | classmate   | 同学     | 单数/不可数名词 |
+| 复数       | classmates  | 同学们   | 复数            |
+| 所有格     | classmate's | 同学的   | 限定名词        |
+| 复数所有格 | classmates' | 同学们的 | 限定名词        |
+
+## 8. 形容词和副词的比较
+
+原级：形容词和副词的原形
+比较级：more ... / -er （更...）
+最高级：the most ... / -est （最...）
+
+相关搭配：
+
+- 原级：
+  1. as + 原级 + as （一样...）
+  2. both/all ...（都）
+- 比较级（两者间比较）：
+  1. 比较级 + than （比...更...）
+  2. much + 比较级（...得多）
+  3. The + 比较级 ..., the + 比较级 ... （越...，越...）
+- 最高级（三者或以上比较）：
+  1. the + 最高级
+  2. one of + 最高级 （最...的之一）
+  3. the + 序数词 + 最高级 （第几...的）
+
+## 9. 词性
+
+| 词性   | 一般用法                 | 一般出现                        | 一般后缀                         |
+| ------ | ------------------------ | ------------------------------- | -------------------------------- |
+| 名词   | 主/宾语                  | 限定词后<br>形容词后            | sion, tion, ment, er, or, ity    |
+| 动词   | 谓语动词/搭配            | 主语后                          | en, ize, ate, ify                |
+| 形容词 | 修饰名词                 | 名词前<br>限后名前<br>be 动词后 | ful, less, ive, y, ing, ed, ible |
+| 副词   | 修饰动词<br>修饰整个句子 | 动词前后<br>句子开头或结尾      | ly                               |
+
+注意：
+
+1. ing 结尾的形容词表示“令人...的”，一般修饰物，例如：an exciting book
+2. ed 结尾的形容词表示“感觉...”，一般修饰人，例如：I am excited.
+
+## 10. 情态动词
+
+| 情态动词     | 意思           | 情态动词 | 意思                 |
+| ------------ | -------------- | -------- | -------------------- |
+| can / could  | 能；可以；可能 | can't    | 不能；不可以；不可能 |
+| may / might  | 可能           | should   | 应该                 |
+| will / would | 将；会         | have to  | 必须；不得不         |
+| must         | 必须；一定     | mustn't  | 禁止                 |
+| need         | 需要           | needn't  | 不必                 |
+
+## 11. 副词
+
+频度副词：
+
+- always 总是
+- usually 经常
+- often 经常
+- sometimes 有时
+- hardly ever 几乎不
+- seldom 几乎不
+- never 从不
+
+表示“也”的词：
+
+| 也      | 用法                      |
+| ------- | ------------------------- |
+| too     | 肯定句，句末，可以有逗号  |
+| either  | 否定句，句末，可以有逗号  |
+| also    | 句中，be 后或实义动词之前 |
+| as well | 肯定句，句末              |
+
+## 特殊疑问词（↓）
+
+单个词：
+
+- what 什么
+- who 谁
+- whom 谁
+- when 什么时候
+- where 在哪里
+- why 为什么
+- how 怎样；怎么；如何
+- whose 谁的
+- which 哪一个
+
+what 开头：
+
+- what size 什么尺寸；多大
+- what subject 什么学科
+- what color 什么颜色
+- what time 什么时候
+- what country 哪个国家
+
+how 开头：
+
+- how many 多少（问数量）
+- how much 多少；多少钱
+- how often 多久；多常（问频率）
+- how fast 多快
+- how big 多大
+- how tall 多高
+- how long 多长；多长时间
+- how old 多大；多少岁
+- how heavy 多重
+- how soon 多久；多久以后
+- how far 多远
+
+## 感叹句 （↓）
+
+- How + ==形容词== (+ 主谓)！
+  - How a ❌
+  - How ==beautiful== (the girl is)!
+- What + ==名词短语== (+ 主谓)！
+  - What ==a beautiful girl== (she is)!
+  - What ==beautiful girls== (they are)!

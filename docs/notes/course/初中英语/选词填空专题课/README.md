@@ -1,7 +1,23 @@
 ---
-title: 选词填空学习指引
+title: 选词填空
 permalink: /course/选词填空/
-createTime: 2025/07/21 11:11:40
+createTime: 2025/07/30 11:14:00
 ---
 
-施工中 🏗️
+基本思路：
+
+1. 看搭配
+2. 看词性
+3. 看句意
+
+| 词性         | 缺该词性的情况                                                                               | 例子                                                                        |
+| ------------ | -------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| 名词         | 形容词后<br>限定词后                                                                         | a good boy <br> a book                                                      |
+| 限定词       | 形容词前<br> 名词前                                                                          | a good boy <br> a book                                                      |
+| 形容词       | 名词前<br> 限定词后，名词前<br>系动词后（be 动词后）                                         | a good boy <br> a book<br>I am happy.                                       |
+| 动词         | 主语后<br>助动词后<br>含有非谓语动词的搭配                                                   | I see. <br> I can sing. <br> I want to go.                                  |
+| 连词         | 主语前<br>两个并列成分之间                                                                   | I am Mike, and she is Amy.                                                  |
+| 副词         | 动词前后，修饰动词<br>句子开头或结尾，修饰整个句子<br>形容词前，修饰形容词                   | jump happily<br> Luckily, he survived. <br> very happy                      |
+| 人称代词     | 主格：作主语（开头）<br>宾格：作宾语（动词或介词后）<br> 形物代：同限定词 <br>反代：主宾一致 | I can sing.<br>Mike saw me. <br> his book <br> You should look at yourself. |
+| 复合不定代词 | 形容词需要后置                                                                               | something beautiful                                                         |
+| 特殊疑问词   | 疑问句中，一般位于开头                                                                       | What's this?                                                                |
