@@ -1,5 +1,5 @@
 ---
-title: 人际关系
+title: 人际关系 🏗️
 createTime: 2025/09/20 08:29:49
 permalink: /Ttools/guide/social/
 ---

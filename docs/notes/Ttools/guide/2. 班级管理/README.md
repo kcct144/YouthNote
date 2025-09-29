@@ -1,7 +1,7 @@
 ---
 title: README
 createTime: 2025/09/20 08:29:49
-permalink: /Ttools/guide/management/
+permalink: /Ttools/guide/class/
 ---
 
 班级管理板块：从新手到熟手的全流程指南
