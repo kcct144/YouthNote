@@ -9,7 +9,7 @@ createTime: 2025/09/13 11:11:40
 <OxfordPhone
     level="1"
     letter="Aa"
-    sound="/a/"
+    sound="/æ/"
     :word="['ant', 'apple', 'alligator', 'ax']"
     video="A.mp4"
     letterAudio="A.mp3"
