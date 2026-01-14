@@ -1,10 +1,10 @@
 ---
-title: 凯凯的通俗英语语法课
+title: 课程说明
 permalink: /course/通俗英语语法/
 createTime: 2025/07/21 11:11:40
 ---
 
-# 📚 7天高中英语语法精讲课程
+# 📚 7天高中通俗英语语法课程
 
 <div style="text-align: center; padding: 20px; background: linear-gradient(135deg, #f5f7fa 0%, #e4edf5 100%); border-radius: 10px; margin: 20px 0;">
   <h2 style="color: #2c3e50;">高中英语语法课</h2>
