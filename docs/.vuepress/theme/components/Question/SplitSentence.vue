@@ -34,10 +34,14 @@ import { ref, computed } from 'vue';
 
 interface Props {
   sentence: string;
-  correctSplitIndex: number;
+  index?: number;
+  correctSplitIndex?: number;
 }
 
-const props = defineProps<Props>();
+const props = withDefaults(defineProps<Props>(), {
+  index: 0,
+  correctSplitIndex: 0
+});
 
 const splitPosition = ref<number | null>(null);
 const isCorrect = ref(false);
@@ -74,8 +78,10 @@ const handleButtonClick = (buttonIndex: number) => {
     }
   }
   
-  // 自动减1，使correctSplitIndex从1开始计数
-  const correctPosition = spaces[props.correctSplitIndex - 1];
+  // 优先使用新的 index 属性，保持向后兼容
+  const splitIndex = props.index > 0 ? props.index : props.correctSplitIndex;
+  // 自动减1，使索引从1开始计数
+  const correctPosition = spaces[splitIndex - 1];
   
   if (buttonIndex === correctPosition) {
     // 正确
@@ -109,7 +115,7 @@ defineExpose({
 <style scoped>
 .split-sentence-container {
   position: relative;
-  margin: 10px 0;
+  margin: 5px 0;
   padding: 5px 15px 5px 15px;
   border: 2px solid #eaeaea;
   border-radius: 8px;
@@ -122,7 +128,6 @@ defineExpose({
 }
 
 .sentence {
-  font-size: 18px;
   line-height: 1.5;
   display: flex;
   align-items: center;
@@ -171,7 +176,6 @@ defineExpose({
 .separator {
   color: #409eff;
   font-weight: bold;
-  font-size: 20px;
   margin: 0 2px;
   animation: fadeIn 0.3s ease;
 }

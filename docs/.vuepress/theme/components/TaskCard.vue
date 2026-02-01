@@ -47,7 +47,6 @@ const props = withDefaults(defineProps<Props>(), {
   display: flex;
   align-items: center;
   margin-bottom: 16px;
-  gap: 12px;
 }
 
 .task-icon {

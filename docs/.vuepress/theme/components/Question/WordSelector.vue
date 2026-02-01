@@ -27,27 +27,37 @@ import { ref, computed } from 'vue';
 
 interface Props {
   sentence: string;
-  correctWords: string[] | number[];
+  index?: string[] | number[];
+  correctWords?: string[] | number[];
 }
 
-const props = defineProps<Props>();
+const props = withDefaults(defineProps<Props>(), {
+  index: () => [],
+  correctWords: () => []
+});
 
 const words = computed(() => props.sentence.split(' '));
 const selectedWords = ref<number[]>([]);
 const isShaking = ref(false);
 
+const getCorrectWords = computed(() => {
+  // 优先使用新的 index 属性，保持向后兼容
+  return props.index.length > 0 ? props.index : props.correctWords;
+});
+
 const isCorrectWord = (index: number) => {
-  if (Array.isArray(props.correctWords) && typeof props.correctWords[0] === 'number') {
+  const correctWords = getCorrectWords.value;
+  if (Array.isArray(correctWords) && typeof correctWords[0] === 'number') {
     // 数字数组格式：自动减一，使索引从1开始计数
-    return props.correctWords.includes(index + 1);
+    return correctWords.includes(index + 1);
   } else {
     // 字符串数组格式：检查单词
-    return (props.correctWords as string[]).includes(words.value[index]);
+    return (correctWords as string[]).includes(words.value[index]);
   }
 };
 
 const correctWordsCount = computed(() => {
-  return props.correctWords.length;
+  return getCorrectWords.value.length;
 });
 
 const isAllCorrect = computed(() => {
@@ -90,7 +100,7 @@ defineExpose({
 
 <style scoped>
 .word-selector-container {
-  margin: 10px 0;
+  margin: 5px 0;
   padding: 5px;
   border-radius: 12px;
   background-color: #f8f9fa;
@@ -105,7 +115,6 @@ defineExpose({
 }
 
 .sentence {
-  font-size: 18px;
   line-height: 1.5;
   display: flex;
   flex-wrap: wrap;
@@ -158,10 +167,6 @@ defineExpose({
 @media (max-width: 768px) {
   .word-selector-container {
     padding: 10px;
-  }
-  
-  .sentence {
-    font-size: 16px;
   }
   
   .word {

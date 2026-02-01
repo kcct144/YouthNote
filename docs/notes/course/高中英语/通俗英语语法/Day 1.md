@@ -24,13 +24,18 @@ permalink: /grammar/day1/
 
 <TaskCard title="任务：试试将句子切分为两个部分？" >
 
-<SplitSentence sentence="She smiled" correctSplitIndex="1" />
-<SplitSentence sentence="He is a student" correctSplitIndex="1" />
-<SplitSentence sentence="We love English" correctSplitIndex="1" />
-<SplitSentence sentence="Mom gave me a gift" correctSplitIndex="1" />
-<SplitSentence sentence="The red apple tastes sweet" correctSplitIndex="3" />
-<SplitSentence sentence="My mother cooks dinner every day" correctSplitIndex="2" />
-<SplitSentence sentence="The girl in blue is singing a song" correctSplitIndex="4" />
+<SplitSentenceGroup 
+  :exercises="[
+    { sentence: 'She smiled', index: 1 },
+    { sentence: 'He is a student', index: 1 },
+    { sentence: 'We love English', index: 1 },
+    { sentence: 'Mom gave me a gift', index: 1 },
+    { sentence: 'The red apple tastes sweet', index: 3 },
+    { sentence: 'My mother cooks dinner every day', index: 2 },
+    { sentence: 'The girl in blue is singing a song', index: 4 }
+  ]"
+/>
+
 </TaskCard>
 
 <TaskCard title="【总结】匹配定义" >
@@ -45,29 +50,38 @@ permalink: /grammar/day1/
 
 <TaskCard title="任务：找出谓语动词" hint="点击句子中的谓语动词，正确时会显示蓝色！">
 
-<WordSelector 
-  :sentence="'She smiled'"
-  :correctWords="[2]"
+<WordSelectorGroup 
+  :exercises="[
+    { sentence: 'She smiled', index: [2] },
+    { sentence: 'She is happy', index: [2] },
+    { sentence: 'She likes cats', index: [2] },
+    { sentence: 'She gave me a gift', index: [2] },
+    { sentence: 'She makes me happy', index: [2] }
+  ]"
 />
 
-<WordSelector 
-  :sentence="'She is happy'"
-  :correctWords="[2]"
-/>
+</TaskCard>
 
-<WordSelector 
-  :sentence="'She likes cats'"
-  :correctWords="[2]"
-/>
+::: tip 思考
 
-<WordSelector 
-  :sentence="'She gave me a gift'"
-  :correctWords="[2]"
-/>
+- 谓语动词的作用？（整个谓语的核心，引出整个谓语）
+- 谓语动词的位置？（一般位于!!主语!!的!!后!!面）
+- 谓语动词的形态变化？（谓语动词常以不同的!!时态、语态!!出现）
 
-<WordSelector 
-  :sentence="'She makes me happy'"
-  :correctWords="[2]"
+:::
+
+<TaskCard title="更多练习：找出谓语动词" hint="谓语动词是一个动词短语，可能由多个词组成。">
+
+<WordSelectorGroup 
+  :exercises="[
+    { sentence: 'The sun rises in the east', index: [3] },
+    { sentence: 'She reads interesting novels every evening', index: [2] },
+    { sentence: 'The cat sleeps peacefully on the windowsill', index: [3] },
+    { sentence: 'He was playing football', index: [2, 3] },
+    { sentence: 'We can hire our bikes from the rental place', index: [2, 3] },
+    { sentence: 'The little girl has finished her homework', index: [4, 5] },
+    { sentence: 'I want to learn English well', index: [2] }
+  ]"
 />
 
 </TaskCard>
