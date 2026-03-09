@@ -23,4 +23,8 @@ config:
         icon: 🛠
         details: 分享教师常用工具
         link: /Ttools/
+      - title: 凯凯的中考英语笔记
+        icon: 📝
+        details: 中考英语学习笔记
+        link: /note/中考英语笔记/
 ---
