@@ -30,12 +30,11 @@ const PassageBlanking = defineNoteConfig({
   sidebar: "auto",
 });
 
-const MiddleEnglishNote = defineNoteConfig({
-  dir: "note/中考英语笔记/",
-  link: "/note/中考英语笔记/",
+const EnglishNote = defineNoteConfig({
+  dir: "english/",
+  link: "/english/",
   sidebar: "auto",
 });
-
 
 export const notes = defineNotesConfig({
   dir: "notes",
@@ -46,6 +45,6 @@ export const notes = defineNotesConfig({
     Oxford,
     Tguide,
     study,
-    MiddleEnglishNote,
+    EnglishNote,
   ],
 });
