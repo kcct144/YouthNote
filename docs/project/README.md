@@ -26,5 +26,5 @@ config:
       - title: 凯凯的中考英语笔记
         icon: 📝
         details: 中考英语学习笔记
-        link: /note/中考英语笔记/
+        link: /english/
 ---
