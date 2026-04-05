@@ -1,6 +1,76 @@
-import { defineThemeConfig } from "vuepress-theme-plume";
+import { defineThemeConfig, defineCollection, defineCollections } from "vuepress-theme-plume";
 import { navbar } from "./navbar";
-import { notes } from "./notes";
+
+const oxford = defineCollection({
+  type: 'doc',
+  dir: 'docs/Oxford',
+  linkPrefix: '/Oxford/',
+  title: 'Oxford 笔记',
+  sidebar: 'auto',
+});
+
+const ttools = defineCollection({
+  type: 'doc',
+  dir: 'docs/Ttools/guide',
+  linkPrefix: '/Ttools/guide/',
+  title: '教师工具指南',
+  sidebar: 'auto',
+});
+
+const study = defineCollection({
+  type: 'doc',
+  dir: 'docs/study',
+  linkPrefix: '/study/',
+  title: '学习笔记',
+  sidebar: 'auto',
+});
+
+const grammarSelection = defineCollection({
+  type: 'doc',
+  dir: 'docs/course/初中英语/语法选择专题课',
+  linkPrefix: '/course/语法选择/',
+  title: '语法选择专题课',
+  sidebar: 'auto',
+});
+
+const passageBlanking = defineCollection({
+  type: 'doc',
+  dir: 'docs/course/初中英语/选词填空专题课',
+  linkPrefix: '/course/选词填空/',
+  title: '选词填空专题课',
+  sidebar: 'auto',
+});
+
+const english = defineCollection({
+  type: 'doc',
+  dir: 'docs/english',
+  linkPrefix: '/english/',
+  title: '英语笔记',
+  sidebar: 'auto'
+});
+
+const blog = defineCollection({
+  type: 'post',
+  dir: 'blogs',
+  linkPrefix: '/article/',
+  title: '博客',
+  postList: true,
+  tags: true,
+  archives: true,
+  categories: true,
+  postCover: 'right',
+  pagination: 15,
+});
+
+const collections = defineCollections([
+  oxford,
+  ttools,
+  study,
+  grammarSelection,
+  passageBlanking,
+  english,
+  blog,
+]);
 
 /**
  * @see https://theme-plume.vuejs.press/config/basic/
@@ -44,7 +114,7 @@ export default defineThemeConfig({
   },
 
   navbar,
-  notes,
+  collections,
 
   /**
    * 公告板

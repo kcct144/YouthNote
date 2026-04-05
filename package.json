@@ -16,32 +16,32 @@
     "vp-update": "pnpm dlx vp-update"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.1.18",
-    "@vuepress/bundler-vite": "2.0.0-rc.24",
-    "autoprefixer": "^10.4.24",
+    "@tailwindcss/postcss": "^4.2.2",
+    "@vuepress/bundler-vite": "2.0.0-rc.28",
+    "autoprefixer": "^10.4.27",
     "http-server": "^14.1.1",
-    "postcss": "^8.5.6",
-    "sass-embedded": "^1.92.1",
-    "tailwindcss": "^4.1.18",
-    "typescript": "^5.9.2",
-    "vue": "^3.5.21",
-    "vuepress": "2.0.0-rc.24",
-    "vuepress-theme-plume": "1.0.0-rc.163"
+    "postcss": "^8.5.8",
+    "sass-embedded": "^1.99.0",
+    "tailwindcss": "^4.2.2",
+    "typescript": "^5.9.3",
+    "vue": "^3.5.32",
+    "vuepress": "2.0.0-rc.28",
+    "vuepress-theme-plume": "1.0.0-rc.193"
   },
   "dependencies": {
     "@alicloud/credentials": "^2.4.4",
     "@arco-design/web-vue": "^2.57.0",
     "@vueuse/core": "^13.9.0",
     "ali-oss": "^6.23.0",
-    "artplayer": "^5.3.0",
-    "element-plus": "^2.11.2",
-    "express": "^5.1.0",
+    "artplayer": "^5.4.0",
+    "element-plus": "^2.13.6",
+    "express": "^5.2.1",
     "markmap": "^0.6.1",
     "markmap-lib": "^0.18.12",
     "markmap-toolbar": "^0.18.12",
     "markmap-view": "^0.18.12",
-    "mermaid": "^11.11.0",
-    "pinia": "^3.0.3"
+    "mermaid": "^11.14.0",
+    "pinia": "^3.0.4"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
