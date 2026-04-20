@@ -24,6 +24,8 @@ import MultipleChoiceS from "./theme/components/Question/MultipleChoiceS.vue";
 import WordCardGrid from "./theme/components/WordCardGrid.vue";
 import WebsiteNav from "./theme/components/WebsiteNav/WebsiteNav.vue";
 import TaskCard from "./theme/components/TaskCard.vue";
+import SkillTree from "./theme/components/SkillTree.vue";
+import TestComponent from "./theme/components/TestComponent.vue";
 import { createPinia } from "pinia";
 
 export default defineClientConfig({
@@ -48,6 +50,8 @@ export default defineClientConfig({
     app.component("OxfordPhone", OxfordPhone);
     app.component("PhoneWordGrid", PhoneWordGrid);
     app.component("TaskCard", TaskCard);
+    app.component("SkillTree", SkillTree);
+    app.component("TestComponent", TestComponent);
 
     app.use(createPinia());
     app.use(ElementPlus);

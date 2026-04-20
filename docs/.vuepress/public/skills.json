@@ -1,0 +1,82 @@
+{
+  "categories": [
+    {
+      "name": "前端开发",
+      "level": 4,
+      "children": [
+        {
+          "name": "Vue.js",
+          "level": 5,
+          "description": "熟悉生态和源码"
+        },
+        {
+          "name": "React",
+          "level": 3,
+          "description": "基础使用和组件开发"
+        },
+        {
+          "name": "JavaScript",
+          "level": 4,
+          "description": "ES6+ 特性和异步编程"
+        },
+        {
+          "name": "TypeScript",
+          "level": 3,
+          "description": "类型系统和接口设计"
+        },
+        {
+          "name": "CSS",
+          "level": 4,
+          "description": "Flexbox、Grid 和响应式设计"
+        },
+        {
+          "name": "HTML",
+          "level": 4,
+          "description": "语义化标签和可访问性"
+        },
+        {
+          "name": "VuePress",
+          "level": 4,
+          "description": "博客搭建和主题定制"
+        }
+      ]
+    },
+    {
+      "name": "后端开发",
+      "level": 3,
+      "children": [
+        {
+          "name": "Node.js",
+          "level": 3,
+          "description": "Express 和 Koa 框架"
+        },
+        {
+          "name": "Python",
+          "level": 3,
+          "description": "基础语法和数据处理"
+        }
+      ]
+    },
+    {
+      "name": "工具与其他",
+      "level": 4,
+      "children": [
+        {
+          "name": "Git",
+          "level": 4,
+          "description": "版本控制和分支管理"
+        },
+        {
+          "name": "Docker",
+          "level": 2,
+          "description": "容器化和基本命令"
+        },
+        {
+          "name": "Tailwind CSS",
+          "level": 3,
+          "description": "实用工具类和响应式设计"
+        }
+      ]
+    }
+  ]
+}
