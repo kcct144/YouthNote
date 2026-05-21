@@ -25,4 +25,7 @@ config:
         - theme: alt
           text: 专题课程
           link: /course/
+        - theme: alt
+          text: 临时空间
+          link: /temp/
 ---
