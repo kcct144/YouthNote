@@ -30,6 +30,12 @@ const PassageBlanking = defineNoteConfig({
   sidebar: "auto",
 });
 
+const Phch = defineNoteConfig({
+  dir: "docs/phch",
+  link: "/phch/",
+  sidebar: "auto",
+});
+
 const EnglishNote = defineNoteConfig({
   dir: "english/",
   link: "/english/",
@@ -46,5 +52,6 @@ export const notes = defineNotesConfig({
     Tguide,
     study,
     EnglishNote,
+    Phch,
   ],
 });
