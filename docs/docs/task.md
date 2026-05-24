@@ -6,84 +6,86 @@ permalink: /tasks/
 笔记本如果有很多要加，加到**两张纸正反**那么多就够了。所有科目混在一起记，每天都开新页，写上日期、序号。
 
 每天都要背/复习
+
 - 当天的笔记
 - 昨天的笔记
 - 上周的笔记
 
-## 易混单词默写
+## re- 开头的单词
 
 :::tabs
 
 @tab 默写
 
-| 单词         | 中文               |
-| ------------ | ------------------ |
-| connect      | \_\_\_\_\_\_\_\_\_ |
-| collect      | \_\_\_\_\_\_\_\_\_ |
-| correct      | \_\_\_\_\_\_\_\_\_ |
-| consider     | \_\_\_\_\_\_\_\_\_ |
-| continue     | \_\_\_\_\_\_\_\_\_ |
-| control      | \_\_\_\_\_\_\_\_\_ |
-| condition    | \_\_\_\_\_\_\_\_\_ |
-| conversation | \_\_\_\_\_\_\_\_\_ |
-| confident    | \_\_\_\_\_\_\_\_\_ |
-| convenient   | \_\_\_\_\_\_\_\_\_ |
-| concert      | \_\_\_\_\_\_\_\_\_ |
-| complain     | \_\_\_\_\_\_\_\_\_ |
-| compare      | \_\_\_\_\_\_\_\_\_ |
-| compete      | \_\_\_\_\_\_\_\_\_ |
-| competition  | \_\_\_\_\_\_\_\_\_ |
+| 序号 | 英文     | 中文释义               |
+| :--: | -------- | ---------------------- |
+|  1   | return   | !!v. 返回；归还!!      |
+|  2   | repeat   | !!v. 重复!!            |
+|  3   | review   | !!v. & n. 复习；回顾!! |
+|  4   | recycle  | !!v. 回收利用!!        |
+|  5   | reuse    | !!v. 再使用!!          |
+|  6   | reply    | !!v. & n. 回复!!       |
+|  7   | remind   | !!v. 提醒!!            |
+|  8   | remember | !!v. 记住；想起!!      |
 
 @tab 答案
 
-| 单词         | 中文                 |
-| ------------ | -------------------- |
-| connect      | v. 连接              |
-| collect      | v. 收集              |
-| correct      | adj. 正确的；v. 纠正 |
-| consider     | v. 考虑              |
-| continue     | v. 继续              |
-| control      | v. & n. 控制         |
-| condition    | n. 条件；状况        |
-| conversation | n. 对话；交谈        |
-| confident    | adj. 自信的          |
-| convenient   | adj. 方便的          |
-| concert      | n. 音乐会            |
-| complain     | v. 抱怨              |
-| compare      | v. 比较              |
-| compete      | v. 竞争              |
-| competition  | n. 比赛；竞争        |
+re- 表示“重新、再次”的意思
+
+| 序号 | 英文                                                                      | 中文释义           | 易混提醒                                                                                                   |
+| :--: | ------------------------------------------------------------------------- | ------------------ | ---------------------------------------------------------------------------------------------------------- |
+|  1   | return @[audioReader](https://dict.youdao.com/dictvoice?audio=return)     | v. 返回；归还      | re（回）+ turn（转）→ 转回去 → 返回                                                                        |
+|  2   | repeat @[audioReader](https://dict.youdao.com/dictvoice?audio=repeat)     | v. 重复            | re（再次）+ peat（说）→ 再说一次                                                                           |
+|  3   | review @[audioReader](https://dict.youdao.com/dictvoice?audio=review)     | v. & n. 复习；回顾 | re（再次）+ view（看）→ 再看一遍                                                                           |
+|  4   | recycle @[audioReader](https://dict.youdao.com/dictvoice?audio=recycle)   | v. 回收利用        | re（再次）+ cycle（循环）→ 再循环                                                                          |
+|  5   | reuse @[audioReader](https://dict.youdao.com/dictvoice?audio=reuse)       | v. 再使用          | re（再次）+ use（使用）——和 recycle 区别：reuse 是原样再用，recycle 是加工再用                             |
+|  6   | reply @[audioReader](https://dict.youdao.com/dictvoice?audio=reply)       | v. & n. 回复       | re（回）+ ply（折）→ 折回去 → 回复。固定搭配：reply to sb                                                  |
+|  7   | remind @[audioReader](https://dict.youdao.com/dictvoice?audio=remind)     | v. 提醒            | re（再次）+ mind（心智）→ 再次进入心智 → 提醒。固定搭配：remind sb of sth                                  |
+|  8   | remember @[audioReader](https://dict.youdao.com/dictvoice?audio=remember) | v. 记住；想起      | re（再次）+ member（成员）→ 再次成为记忆的一员。固定搭配：remember doing（做过）/ remember to do（要去做） |
 
 :::
 
-## 含 other 的词辨析
+## qu- 开头的单词
 
 :::tabs
 
 @tab 默写
 
-| 单词       | 中文     | 词性     |
-| ---------- | -------- | -------- |
-| other      | ———————— | ———————— |
-| another    | ———————— | ———————— |
-| the other  | ———————— | ———————— |
-| others     | ———————— | ———————— |
-| the others | ———————— | ———————— |
+| 英文  | 中文               |
+| ----- | ------------------ |
+| quite | !!十分；相当（adv.）!! |
+| quiet | !!安静的（adj.）!!     |
+| quilt | !!被子（n.）!!         |
+| quick | !!快的（adj.）!!       |
 
 @tab 答案
 
-| 单词       | 中文                   | 词性                      |
-| ---------- | ---------------------- | ------------------------- |
-| other      | 其他的                 | 限定词（加名词复数）      |
-| another    | （三者或以上的）另一个 | 限定词/代词（加名词单数） |
-| the other  | （两者的）另外一个     | 限定词/代词（加名词单数） |
-| others     | 其他人                 | 代词                      |
-| the others | 剩下的人；剩余部分     | 代词                      |
+| 英文                                                             | 中文               | 口诀                                               |
+| ---------------------------------------------------------------- | ------------------ | -------------------------------------------------- |
+| quite @[audioReader](https://dict.youdao.com/dictvoice?audio=quite) | 十分；相当（adv.） | qu**ite** —— ite = "爱它" → 爱它就给它**十分**     |
+| quiet @[audioReader](https://dict.youdao.com/dictvoice?audio=quiet) | 安静的（adj.）     | qu**iet** —— iet = "挨饿他" → **安静**地挨饿       |
+| quilt @[audioReader](https://dict.youdao.com/dictvoice?audio=quilt) | 被子（n.）         | qu**ilt** —— ilt = "一榔头" → 用**被子**蒙头一榔头 |
+| quick @[audioReader](https://dict.youdao.com/dictvoice?audio=quick) | 快的（adj.）       | qu**ick** —— ick = ick 一下就过去了 → **快**       |
 
-- 限定词：限定名词的词（后接名词）
-- 代词：代指名词的词（后面不用接名词）
+:::
 
-以上记住中文就行，大概能推测出用法。
+## desert / dessert
+
+:::tabs
+
+@tab 默写
+
+| 英文    | 中文               |
+| ------- | ------------------ |
+| desert  | !!n. 沙漠；v. 抛弃!! |
+| dessert | !!n. 甜点!!          |
+
+@tab 答案
+
+| 英文                                                                   | 中文             | 口诀                                             |
+| ---------------------------------------------------------------------- | ---------------- | ------------------------------------------------ |
+| desert @[audioReader](https://dict.youdao.com/dictvoice?audio=desert)   | n. 沙漠；v. 抛弃 | 一个 s → **沙漠里水少，一个 s 就够了**           |
+| dessert @[audioReader](https://dict.youdao.com/dictvoice?audio=dessert) | n. 甜点          | 两个 s → **甜点太好吃，要 double s（两个 s）！** |
 
 :::
 
